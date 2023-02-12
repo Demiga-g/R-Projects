@@ -1,0 +1,42 @@
+---
+title: "Productivity Prediction of Garment Employees"
+author: "Midega George"
+format: pdf
+---
+
+# Data Set Information:
+
+The Garment Industry is one of the key examples of the industrial globalization of this modern era. It is a highly labour-intensive industry with lots of manual processes. Satisfying the huge global demand for garment products is mostly dependent on the production and delivery performance of the employees in the garment manufacturing companies. So, it is highly desirable among the decision makers in the garments industry to track, analyse and predict the productivity performance of the working teams in their factories. This dataset can be used for regression purpose by predicting the productivity range (0-1) or for classification purpose by transforming the productivity range (0-1) into different classes.
+
+Such prediction performance can indisputably help the manufacturers to set an accurate target, minimize the production loss and maximize the profit.
+
+# Attribute Information:
+
+| **Variable**          | **Interpretation**                                                                                             |
+|------------------|-----------------------------------------------------|
+| date                  | Date in MM-DD-YYYY                                                                                             |
+| day                   | Day of the Week                                                                                                |
+| quarter               |  A portion of the month. A month was divided into four quarters                                                |
+| department            | Associated department with the instance                                                                        |
+| team_no               | Associated team number with the instance                                                                       |
+| no_of_workers         |  Number of workers in each team                                                                                |
+| no_of_style_change    | Number of changes in the style of a particular product                                                         |
+| targeted_productivity | Targeted productivity set by the Authority for each team for each day                                          |
+| smv                   | Standard Minute Value, it is the allocated time for a task                                                     |
+| wip                   | Work in progress. Includes the number of unfinished items for products                                         |
+| over_time             | Represents the amount of overtime by each team in minutes                                                      |
+| incentive             | Represents the amount of financial incentive (in BDT) that enables or motivates a particular course of action. |
+| idle_time             | The amount of time when the production was interrupted due to several reasons                                  |
+| idle_men              | The number of workers who were idle due to production interruption                                             |
+| actual_productivity   | The actual % of productivity that was delivered by the workers. It ranges from 0-1                             |
+
+```{r}
+employees <- read.csv("garments_worker_productivity.csv")
+View(employees)
+```
+
+# Acknowledgement 
+
+\[1\] Imran, A. A., Amin, M. N., Islam Rifat, M. R., & Mehreen, S. (2019). Deep Neural Network Approach for Predicting the Productivity of Garment Employees. 2019 6th International Conference on Control, Decision and Information Technologies (CoDIT). \
+\
+\[2\] Rahim, M. S., Imran, A. A., & Ahmed, T. (2021). Mining the Productivity Data of Garment Industry. International Journal of Business Intelligence and Data Mining, 1(1), 1.
