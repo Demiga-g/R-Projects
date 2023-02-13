@@ -33,7 +33,17 @@ Such prediction performance can indisputably help the manufacturers to set an ac
 ```{r}
 employees <- read.csv("garments_worker_productivity.csv")
 View(employees)
+dim(employees)
+colSums(is.na(employees))
+names(which(colSums(is.na(employees)) > 0))
 ```
+
+## Checking for Missing Values
+
+The work in progress variable has about 506 missing entries
+
+
+
 
 # Acknowledgement 
 
