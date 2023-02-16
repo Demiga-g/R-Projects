@@ -3,6 +3,7 @@
 
 library(mice)
 library(Hmisc)
+library(scales)
 
 # Data Inspection
 
@@ -54,5 +55,14 @@ md.pattern(employees, rotate.names=TRUE)
 complete(mice(employees, method="pmm", seed=42), 2)
 qqnorm(scale(employees$wip))
 
-  
-trimws()
+      
+          # ------  Analysis ------ 
+
+## Pair Plot
+
+num_employees <- employees[sapply(employees, is.numeric)]
+pairs(num_employees, col=hue_pal()(3)[3], pch=20)
+
+##  Pair Plot for Numeric Variables
+num_employees <- employees[sapply(employees, is.numeric)]
+pairs(num_employees, col=hue_pal()(3)[3], pch=20)

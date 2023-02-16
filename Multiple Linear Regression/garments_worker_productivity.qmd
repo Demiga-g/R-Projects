@@ -38,8 +38,10 @@ The `garments_worker_productivity` dataset can be used for regression purpose by
 
 The dataset has 691 complete cases and 506 missing observations in the work in progress (`wip`) variable. Therefore, these values will be filled using the predictive mean matching method. Additionally, there are some trailing spaces and misspelling of values in the `department` variable which have to be corrected. The `date` variable is also removed because it is redundant in this analysis. The following observations $-$ `quarter, department`, and `day` $-$ are then converted to categorical variables.
 
-```{r, message=FALSE, eval=FALSE}
+```{r, message=FALSE, include=FALSE}
 library(mice)
+library(scales)
+
 employees <- read.csv("garments_worker_productivity.csv")
 employees$department <- trimws(employees$department, which=c("right"))
 employees$department[employees$department == "sweing"] <- "sewing"
@@ -47,6 +49,15 @@ employees <- complete(mice(employees, method="pmm", seed=42), 2, )
 employees <- employees[, -1]
 employees[,c(1:4, 12)] <- lapply(employees[,c(1:4, 12)], factor)
 ```
+
+# Analysis
+
+Preliminary results from the pair plot (not shown) reveals that there are no evidence of linear relationship between the variables and the outcome variable. However, there seems to be a positive linear relationship between `no_of_workers` and `overtime`.
+
+```{r}
+summary(lm(actual_productivity ~ ., data=employees))
+```
+
 
 # Acknowledgement
 
