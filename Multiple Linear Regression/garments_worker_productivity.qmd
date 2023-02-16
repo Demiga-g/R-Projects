@@ -36,16 +36,17 @@ The `garments_worker_productivity` dataset can be used for regression purpose by
 
 ## Data Inspection
 
-The dataset has 691 complete cases and 506 missing observations in the work in progress variable. Therefore, these values will be filled using the predictive mean matching method.
+The dataset has 691 complete cases and 506 missing observations in the work in progress (`wip`) variable. Therefore, these values will be filled using the predictive mean matching method. Additionally, there are some trailing spaces and misspelling of values in the `department` variable which have to be corrected. The `date` variable is also removed because it is redundant in this analysis. The following observations $-$ `quarter, department`, and `day` $-$ are then converted to categorical variables.
 
-```{r}
+```{r, message=FALSE, eval=FALSE}
 library(mice)
 employees <- read.csv("garments_worker_productivity.csv")
-
-md.pattern(employees, rotate.names=TRUE)
-employees <- complete(mice(employees, method="pmm", seed=42), 2)
+employees$department <- trimws(employees$department, which=c("right"))
+employees$department[employees$department == "sweing"] <- "sewing"
+employees <- complete(mice(employees, method="pmm", seed=42), 2, )
+employees <- employees[, -1]
+employees[,c(1:4, 12)] <- lapply(employees[,c(1:4, 12)], factor)
 ```
-
 
 # Acknowledgement
 
