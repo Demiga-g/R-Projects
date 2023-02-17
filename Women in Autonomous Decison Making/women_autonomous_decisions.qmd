@@ -1,0 +1,15 @@
+---
+title: "Women Making Autonomous Decisons"
+author: "Midega George"
+format: pdf
+editor: visual
+---
+
+```{r}
+library(tidyverse, quietly=TRUE)
+female <- read.csv("women_autonomous_decision.csv")
+female <- female[, c(1, 4, 7)]
+colnames(female) <- c("name", "country", "values")
+head(female)
+```
+

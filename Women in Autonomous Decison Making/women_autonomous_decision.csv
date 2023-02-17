@@ -1,0 +1,790 @@
+Series Name,Series Code,Country Name,Country Code,2019 [YR2019],2020 [YR2020],2021 [YR2021]
+A woman can apply for a passport in the same way as a man (1=yes; 0=no),SG.APL.PSPT.EQ,Kenya,KEN,1,1,1
+A woman can apply for a passport in the same way as a man (1=yes; 0=no),SG.APL.PSPT.EQ,Tanzania,TZA,1,1,1
+A woman can apply for a passport in the same way as a man (1=yes; 0=no),SG.APL.PSPT.EQ,Uganda,UGA,0,0,0
+A woman can apply for a passport in the same way as a man (1=yes; 0=no),SG.APL.PSPT.EQ,Rwanda,RWA,1,1,1
+A woman can apply for a passport in the same way as a man (1=yes; 0=no),SG.APL.PSPT.EQ,Burundi,BDI,1,1,1
+A woman can apply for a passport in the same way as a man (1=yes; 0=no),SG.APL.PSPT.EQ,South Sudan,SSD,1,1,1
+A woman can apply for a passport in the same way as a man (1=yes; 0=no),SG.APL.PSPT.EQ,Somalia,SOM,0,0,0
+A woman can apply for a passport in the same way as a man (1=yes; 0=no),SG.APL.PSPT.EQ,"Congo, Dem. Rep.",COD,1,1,1
+A woman can be head of household in the same way as a man (1=yes; 0=no),SG.HLD.HEAD.EQ,Kenya,KEN,1,1,1
+A woman can be head of household in the same way as a man (1=yes; 0=no),SG.HLD.HEAD.EQ,Tanzania,TZA,1,1,1
+A woman can be head of household in the same way as a man (1=yes; 0=no),SG.HLD.HEAD.EQ,Uganda,UGA,1,1,1
+A woman can be head of household in the same way as a man (1=yes; 0=no),SG.HLD.HEAD.EQ,Rwanda,RWA,1,1,1
+A woman can be head of household in the same way as a man (1=yes; 0=no),SG.HLD.HEAD.EQ,Burundi,BDI,0,0,0
+A woman can be head of household in the same way as a man (1=yes; 0=no),SG.HLD.HEAD.EQ,South Sudan,SSD,1,1,1
+A woman can be head of household in the same way as a man (1=yes; 0=no),SG.HLD.HEAD.EQ,Somalia,SOM,0,0,0
+A woman can be head of household in the same way as a man (1=yes; 0=no),SG.HLD.HEAD.EQ,"Congo, Dem. Rep.",COD,0,0,0
+A woman can choose where to live in the same way as a man (1=yes; 0=no),SG.LOC.LIVE.EQ,Kenya,KEN,1,1,1
+A woman can choose where to live in the same way as a man (1=yes; 0=no),SG.LOC.LIVE.EQ,Tanzania,TZA,1,1,1
+A woman can choose where to live in the same way as a man (1=yes; 0=no),SG.LOC.LIVE.EQ,Uganda,UGA,1,1,1
+A woman can choose where to live in the same way as a man (1=yes; 0=no),SG.LOC.LIVE.EQ,Rwanda,RWA,1,1,1
+A woman can choose where to live in the same way as a man (1=yes; 0=no),SG.LOC.LIVE.EQ,Burundi,BDI,1,1,1
+A woman can choose where to live in the same way as a man (1=yes; 0=no),SG.LOC.LIVE.EQ,South Sudan,SSD,1,1,1
+A woman can choose where to live in the same way as a man (1=yes; 0=no),SG.LOC.LIVE.EQ,Somalia,SOM,1,1,1
+A woman can choose where to live in the same way as a man (1=yes; 0=no),SG.LOC.LIVE.EQ,"Congo, Dem. Rep.",COD,1,1,1
+A woman can get a job in the same way as a man (1=yes; 0=no),SG.GET.JOBS.EQ,Kenya,KEN,1,1,1
+A woman can get a job in the same way as a man (1=yes; 0=no),SG.GET.JOBS.EQ,Tanzania,TZA,1,1,1
+A woman can get a job in the same way as a man (1=yes; 0=no),SG.GET.JOBS.EQ,Uganda,UGA,1,1,1
+A woman can get a job in the same way as a man (1=yes; 0=no),SG.GET.JOBS.EQ,Rwanda,RWA,1,1,1
+A woman can get a job in the same way as a man (1=yes; 0=no),SG.GET.JOBS.EQ,Burundi,BDI,1,1,1
+A woman can get a job in the same way as a man (1=yes; 0=no),SG.GET.JOBS.EQ,South Sudan,SSD,1,1,1
+A woman can get a job in the same way as a man (1=yes; 0=no),SG.GET.JOBS.EQ,Somalia,SOM,1,1,1
+A woman can get a job in the same way as a man (1=yes; 0=no),SG.GET.JOBS.EQ,"Congo, Dem. Rep.",COD,1,1,1
+A woman can obtain a judgment of divorce in the same way as a man (1=yes; 0=no),SG.OBT.DVRC.EQ,Kenya,KEN,1,1,1
+A woman can obtain a judgment of divorce in the same way as a man (1=yes; 0=no),SG.OBT.DVRC.EQ,Tanzania,TZA,1,1,1
+A woman can obtain a judgment of divorce in the same way as a man (1=yes; 0=no),SG.OBT.DVRC.EQ,Uganda,UGA,0,0,0
+A woman can obtain a judgment of divorce in the same way as a man (1=yes; 0=no),SG.OBT.DVRC.EQ,Rwanda,RWA,1,1,1
+A woman can obtain a judgment of divorce in the same way as a man (1=yes; 0=no),SG.OBT.DVRC.EQ,Burundi,BDI,1,1,1
+A woman can obtain a judgment of divorce in the same way as a man (1=yes; 0=no),SG.OBT.DVRC.EQ,South Sudan,SSD,1,1,1
+A woman can obtain a judgment of divorce in the same way as a man (1=yes; 0=no),SG.OBT.DVRC.EQ,Somalia,SOM,0,0,0
+A woman can obtain a judgment of divorce in the same way as a man (1=yes; 0=no),SG.OBT.DVRC.EQ,"Congo, Dem. Rep.",COD,1,1,1
+A woman can open a bank account in the same way as a man (1=yes; 0=no),SG.OPN.BANK.EQ,Kenya,KEN,0,0,0
+A woman can open a bank account in the same way as a man (1=yes; 0=no),SG.OPN.BANK.EQ,Tanzania,TZA,1,1,1
+A woman can open a bank account in the same way as a man (1=yes; 0=no),SG.OPN.BANK.EQ,Uganda,UGA,1,1,1
+A woman can open a bank account in the same way as a man (1=yes; 0=no),SG.OPN.BANK.EQ,Rwanda,RWA,1,1,1
+A woman can open a bank account in the same way as a man (1=yes; 0=no),SG.OPN.BANK.EQ,Burundi,BDI,1,1,1
+A woman can open a bank account in the same way as a man (1=yes; 0=no),SG.OPN.BANK.EQ,South Sudan,SSD,1,1,1
+A woman can open a bank account in the same way as a man (1=yes; 0=no),SG.OPN.BANK.EQ,Somalia,SOM,1,1,1
+A woman can open a bank account in the same way as a man (1=yes; 0=no),SG.OPN.BANK.EQ,"Congo, Dem. Rep.",COD,1,1,1
+A woman can register a business in the same way as a man (1=yes; 0=no),SG.BUS.REGT.EQ,Kenya,KEN,1,1,1
+A woman can register a business in the same way as a man (1=yes; 0=no),SG.BUS.REGT.EQ,Tanzania,TZA,1,1,1
+A woman can register a business in the same way as a man (1=yes; 0=no),SG.BUS.REGT.EQ,Uganda,UGA,1,1,1
+A woman can register a business in the same way as a man (1=yes; 0=no),SG.BUS.REGT.EQ,Rwanda,RWA,1,1,1
+A woman can register a business in the same way as a man (1=yes; 0=no),SG.BUS.REGT.EQ,Burundi,BDI,1,1,1
+A woman can register a business in the same way as a man (1=yes; 0=no),SG.BUS.REGT.EQ,South Sudan,SSD,1,1,1
+A woman can register a business in the same way as a man (1=yes; 0=no),SG.BUS.REGT.EQ,Somalia,SOM,1,1,1
+A woman can register a business in the same way as a man (1=yes; 0=no),SG.BUS.REGT.EQ,"Congo, Dem. Rep.",COD,1,1,1
+A woman can sign a contract in the same way as a man (1=yes; 0=no),SG.CNT.SIGN.EQ,Kenya,KEN,0,0,0
+A woman can sign a contract in the same way as a man (1=yes; 0=no),SG.CNT.SIGN.EQ,Tanzania,TZA,0,0,0
+A woman can sign a contract in the same way as a man (1=yes; 0=no),SG.CNT.SIGN.EQ,Uganda,UGA,0,0,0
+A woman can sign a contract in the same way as a man (1=yes; 0=no),SG.CNT.SIGN.EQ,Rwanda,RWA,0,0,0
+A woman can sign a contract in the same way as a man (1=yes; 0=no),SG.CNT.SIGN.EQ,Burundi,BDI,0,0,0
+A woman can sign a contract in the same way as a man (1=yes; 0=no),SG.CNT.SIGN.EQ,South Sudan,SSD,0,0,0
+A woman can sign a contract in the same way as a man (1=yes; 0=no),SG.CNT.SIGN.EQ,Somalia,SOM,0,0,0
+A woman can sign a contract in the same way as a man (1=yes; 0=no),SG.CNT.SIGN.EQ,"Congo, Dem. Rep.",COD,1,1,1
+A woman can travel outside her home in the same way as a man (1=yes; 0=no),SG.HME.TRVL.EQ,Kenya,KEN,1,1,1
+A woman can travel outside her home in the same way as a man (1=yes; 0=no),SG.HME.TRVL.EQ,Tanzania,TZA,1,1,1
+A woman can travel outside her home in the same way as a man (1=yes; 0=no),SG.HME.TRVL.EQ,Uganda,UGA,1,1,1
+A woman can travel outside her home in the same way as a man (1=yes; 0=no),SG.HME.TRVL.EQ,Rwanda,RWA,1,1,1
+A woman can travel outside her home in the same way as a man (1=yes; 0=no),SG.HME.TRVL.EQ,Burundi,BDI,1,1,1
+A woman can travel outside her home in the same way as a man (1=yes; 0=no),SG.HME.TRVL.EQ,South Sudan,SSD,1,1,1
+A woman can travel outside her home in the same way as a man (1=yes; 0=no),SG.HME.TRVL.EQ,Somalia,SOM,1,1,1
+A woman can travel outside her home in the same way as a man (1=yes; 0=no),SG.HME.TRVL.EQ,"Congo, Dem. Rep.",COD,1,1,1
+A woman can travel outside the country in the same way as a man (1=yes; 0=no),SG.CTR.TRVL.EQ,Kenya,KEN,1,1,1
+A woman can travel outside the country in the same way as a man (1=yes; 0=no),SG.CTR.TRVL.EQ,Tanzania,TZA,1,1,1
+A woman can travel outside the country in the same way as a man (1=yes; 0=no),SG.CTR.TRVL.EQ,Uganda,UGA,1,1,1
+A woman can travel outside the country in the same way as a man (1=yes; 0=no),SG.CTR.TRVL.EQ,Rwanda,RWA,1,1,1
+A woman can travel outside the country in the same way as a man (1=yes; 0=no),SG.CTR.TRVL.EQ,Burundi,BDI,1,1,1
+A woman can travel outside the country in the same way as a man (1=yes; 0=no),SG.CTR.TRVL.EQ,South Sudan,SSD,1,1,1
+A woman can travel outside the country in the same way as a man (1=yes; 0=no),SG.CTR.TRVL.EQ,Somalia,SOM,1,1,1
+A woman can travel outside the country in the same way as a man (1=yes; 0=no),SG.CTR.TRVL.EQ,"Congo, Dem. Rep.",COD,1,1,1
+A woman can work at night in the same way as a man (1=yes; 0=no),SG.NGT.WORK.EQ,Kenya,KEN,1,1,1
+A woman can work at night in the same way as a man (1=yes; 0=no),SG.NGT.WORK.EQ,Tanzania,TZA,1,1,1
+A woman can work at night in the same way as a man (1=yes; 0=no),SG.NGT.WORK.EQ,Uganda,UGA,1,1,1
+A woman can work at night in the same way as a man (1=yes; 0=no),SG.NGT.WORK.EQ,Rwanda,RWA,1,1,1
+A woman can work at night in the same way as a man (1=yes; 0=no),SG.NGT.WORK.EQ,Burundi,BDI,1,1,1
+A woman can work at night in the same way as a man (1=yes; 0=no),SG.NGT.WORK.EQ,South Sudan,SSD,1,1,1
+A woman can work at night in the same way as a man (1=yes; 0=no),SG.NGT.WORK.EQ,Somalia,SOM,0,0,0
+A woman can work at night in the same way as a man (1=yes; 0=no),SG.NGT.WORK.EQ,"Congo, Dem. Rep.",COD,1,1,1
+A woman can work in a job deemed dangerous in the same way as a man (1=yes; 0=no),SG.DNG.WORK.DN.EQ,Kenya,KEN,1,1,1
+A woman can work in a job deemed dangerous in the same way as a man (1=yes; 0=no),SG.DNG.WORK.DN.EQ,Tanzania,TZA,1,1,1
+A woman can work in a job deemed dangerous in the same way as a man (1=yes; 0=no),SG.DNG.WORK.DN.EQ,Uganda,UGA,1,1,1
+A woman can work in a job deemed dangerous in the same way as a man (1=yes; 0=no),SG.DNG.WORK.DN.EQ,Rwanda,RWA,1,1,1
+A woman can work in a job deemed dangerous in the same way as a man (1=yes; 0=no),SG.DNG.WORK.DN.EQ,Burundi,BDI,1,1,1
+A woman can work in a job deemed dangerous in the same way as a man (1=yes; 0=no),SG.DNG.WORK.DN.EQ,South Sudan,SSD,1,1,1
+A woman can work in a job deemed dangerous in the same way as a man (1=yes; 0=no),SG.DNG.WORK.DN.EQ,Somalia,SOM,1,1,1
+A woman can work in a job deemed dangerous in the same way as a man (1=yes; 0=no),SG.DNG.WORK.DN.EQ,"Congo, Dem. Rep.",COD,0,0,0
+A woman can work in an industrial job in the same way as a man (1=yes; 0=no),SG.IND.WORK.EQ,Kenya,KEN,1,1,1
+A woman can work in an industrial job in the same way as a man (1=yes; 0=no),SG.IND.WORK.EQ,Tanzania,TZA,1,1,1
+A woman can work in an industrial job in the same way as a man (1=yes; 0=no),SG.IND.WORK.EQ,Uganda,UGA,1,1,1
+A woman can work in an industrial job in the same way as a man (1=yes; 0=no),SG.IND.WORK.EQ,Rwanda,RWA,1,1,1
+A woman can work in an industrial job in the same way as a man (1=yes; 0=no),SG.IND.WORK.EQ,Burundi,BDI,1,1,1
+A woman can work in an industrial job in the same way as a man (1=yes; 0=no),SG.IND.WORK.EQ,South Sudan,SSD,1,1,1
+A woman can work in an industrial job in the same way as a man (1=yes; 0=no),SG.IND.WORK.EQ,Somalia,SOM,0,0,0
+A woman can work in an industrial job in the same way as a man (1=yes; 0=no),SG.IND.WORK.EQ,"Congo, Dem. Rep.",COD,1,1,1
+A woman has the same rights to remarry as a man (1=yes; 0=no),SG.REM.RIGT.EQ,Kenya,KEN,1,1,1
+A woman has the same rights to remarry as a man (1=yes; 0=no),SG.REM.RIGT.EQ,Tanzania,TZA,1,1,1
+A woman has the same rights to remarry as a man (1=yes; 0=no),SG.REM.RIGT.EQ,Uganda,UGA,1,1,1
+A woman has the same rights to remarry as a man (1=yes; 0=no),SG.REM.RIGT.EQ,Rwanda,RWA,0,1,1
+A woman has the same rights to remarry as a man (1=yes; 0=no),SG.REM.RIGT.EQ,Burundi,BDI,0,0,0
+A woman has the same rights to remarry as a man (1=yes; 0=no),SG.REM.RIGT.EQ,South Sudan,SSD,1,1,1
+A woman has the same rights to remarry as a man (1=yes; 0=no),SG.REM.RIGT.EQ,Somalia,SOM,0,0,0
+A woman has the same rights to remarry as a man (1=yes; 0=no),SG.REM.RIGT.EQ,"Congo, Dem. Rep.",COD,0,0,0
+"Access to anti-retroviral drugs, female (%)",SH.HIV.ARTC.FE.ZS,Kenya,KEN,86,91,..
+"Access to anti-retroviral drugs, female (%)",SH.HIV.ARTC.FE.ZS,Tanzania,TZA,82,90,..
+"Access to anti-retroviral drugs, female (%)",SH.HIV.ARTC.FE.ZS,Uganda,UGA,93,96,..
+"Access to anti-retroviral drugs, female (%)",SH.HIV.ARTC.FE.ZS,Rwanda,RWA,93,96,..
+"Access to anti-retroviral drugs, female (%)",SH.HIV.ARTC.FE.ZS,Burundi,BDI,98,98,..
+"Access to anti-retroviral drugs, female (%)",SH.HIV.ARTC.FE.ZS,South Sudan,SSD,22,25,..
+"Access to anti-retroviral drugs, female (%)",SH.HIV.ARTC.FE.ZS,Somalia,SOM,49,53,..
+"Access to anti-retroviral drugs, female (%)",SH.HIV.ARTC.FE.ZS,"Congo, Dem. Rep.",COD,63,74,..
+"Access to anti-retroviral drugs, male (%)",SH.HIV.ARTC.MA.ZS,Kenya,KEN,72,77,..
+"Access to anti-retroviral drugs, male (%)",SH.HIV.ARTC.MA.ZS,Tanzania,TZA,66,74,..
+"Access to anti-retroviral drugs, male (%)",SH.HIV.ARTC.MA.ZS,Uganda,UGA,82,86,..
+"Access to anti-retroviral drugs, male (%)",SH.HIV.ARTC.MA.ZS,Rwanda,RWA,89,92,..
+"Access to anti-retroviral drugs, male (%)",SH.HIV.ARTC.MA.ZS,Burundi,BDI,79,82,..
+"Access to anti-retroviral drugs, male (%)",SH.HIV.ARTC.MA.ZS,South Sudan,SSD,19,23,..
+"Access to anti-retroviral drugs, male (%)",SH.HIV.ARTC.MA.ZS,Somalia,SOM,35,39,..
+"Access to anti-retroviral drugs, male (%)",SH.HIV.ARTC.MA.ZS,"Congo, Dem. Rep.",COD,83,98,..
+"Cost of business start-up procedures, female (% of GNI per capita)",IC.REG.COST.PC.FE.ZS,Kenya,KEN,22.4,..,..
+"Cost of business start-up procedures, female (% of GNI per capita)",IC.REG.COST.PC.FE.ZS,Tanzania,TZA,40.6,..,..
+"Cost of business start-up procedures, female (% of GNI per capita)",IC.REG.COST.PC.FE.ZS,Uganda,UGA,40.5,..,..
+"Cost of business start-up procedures, female (% of GNI per capita)",IC.REG.COST.PC.FE.ZS,Rwanda,RWA,0,..,..
+"Cost of business start-up procedures, female (% of GNI per capita)",IC.REG.COST.PC.FE.ZS,Burundi,BDI,12.3,..,..
+"Cost of business start-up procedures, female (% of GNI per capita)",IC.REG.COST.PC.FE.ZS,South Sudan,SSD,77.4,..,..
+"Cost of business start-up procedures, female (% of GNI per capita)",IC.REG.COST.PC.FE.ZS,Somalia,SOM,198.2,..,..
+"Cost of business start-up procedures, female (% of GNI per capita)",IC.REG.COST.PC.FE.ZS,"Congo, Dem. Rep.",COD,16.3,..,..
+"Cost of business start-up procedures, male (% of GNI per capita)",IC.REG.COST.PC.MA.ZS,Kenya,KEN,22.4,..,..
+"Cost of business start-up procedures, male (% of GNI per capita)",IC.REG.COST.PC.MA.ZS,Tanzania,TZA,40.6,..,..
+"Cost of business start-up procedures, male (% of GNI per capita)",IC.REG.COST.PC.MA.ZS,Uganda,UGA,40.5,..,..
+"Cost of business start-up procedures, male (% of GNI per capita)",IC.REG.COST.PC.MA.ZS,Rwanda,RWA,0,..,..
+"Cost of business start-up procedures, male (% of GNI per capita)",IC.REG.COST.PC.MA.ZS,Burundi,BDI,12.3,..,..
+"Cost of business start-up procedures, male (% of GNI per capita)",IC.REG.COST.PC.MA.ZS,South Sudan,SSD,77.4,..,..
+"Cost of business start-up procedures, male (% of GNI per capita)",IC.REG.COST.PC.MA.ZS,Somalia,SOM,198.2,..,..
+"Cost of business start-up procedures, male (% of GNI per capita)",IC.REG.COST.PC.MA.ZS,"Congo, Dem. Rep.",COD,16.3,..,..
+"Credit card ownership, female  (% age 15+)",fin7.t.a.2,Kenya,KEN,..,..,..
+"Credit card ownership, female  (% age 15+)",fin7.t.a.2,Tanzania,TZA,..,..,..
+"Credit card ownership, female  (% age 15+)",fin7.t.a.2,Uganda,UGA,..,..,..
+"Credit card ownership, female  (% age 15+)",fin7.t.a.2,Rwanda,RWA,..,..,..
+"Credit card ownership, female  (% age 15+)",fin7.t.a.2,Burundi,BDI,..,..,..
+"Credit card ownership, female  (% age 15+)",fin7.t.a.2,South Sudan,SSD,..,..,..
+"Credit card ownership, female  (% age 15+)",fin7.t.a.2,Somalia,SOM,..,..,..
+"Credit card ownership, female  (% age 15+)",fin7.t.a.2,"Congo, Dem. Rep.",COD,..,..,..
+Credit card ownership (% age 15+),fin7.t.a,Kenya,KEN,..,..,..
+Credit card ownership (% age 15+),fin7.t.a,Tanzania,TZA,..,..,..
+Credit card ownership (% age 15+),fin7.t.a,Uganda,UGA,..,..,..
+Credit card ownership (% age 15+),fin7.t.a,Rwanda,RWA,..,..,..
+Credit card ownership (% age 15+),fin7.t.a,Burundi,BDI,..,..,..
+Credit card ownership (% age 15+),fin7.t.a,South Sudan,SSD,..,..,..
+Credit card ownership (% age 15+),fin7.t.a,Somalia,SOM,..,..,..
+Credit card ownership (% age 15+),fin7.t.a,"Congo, Dem. Rep.",COD,..,..,..
+"Credit card ownership, male (% age 15+)",fin7.t.a.1,Kenya,KEN,..,..,..
+"Credit card ownership, male (% age 15+)",fin7.t.a.1,Tanzania,TZA,..,..,..
+"Credit card ownership, male (% age 15+)",fin7.t.a.1,Uganda,UGA,..,..,..
+"Credit card ownership, male (% age 15+)",fin7.t.a.1,Rwanda,RWA,..,..,..
+"Credit card ownership, male (% age 15+)",fin7.t.a.1,Burundi,BDI,..,..,..
+"Credit card ownership, male (% age 15+)",fin7.t.a.1,South Sudan,SSD,..,..,..
+"Credit card ownership, male (% age 15+)",fin7.t.a.1,Somalia,SOM,..,..,..
+"Credit card ownership, male (% age 15+)",fin7.t.a.1,"Congo, Dem. Rep.",COD,..,..,..
+Debit card ownership (% age 15+),fin2.t.a,Kenya,KEN,..,..,..
+Debit card ownership (% age 15+),fin2.t.a,Tanzania,TZA,..,..,..
+Debit card ownership (% age 15+),fin2.t.a,Uganda,UGA,..,..,..
+Debit card ownership (% age 15+),fin2.t.a,Rwanda,RWA,..,..,..
+Debit card ownership (% age 15+),fin2.t.a,Burundi,BDI,..,..,..
+Debit card ownership (% age 15+),fin2.t.a,South Sudan,SSD,..,..,..
+Debit card ownership (% age 15+),fin2.t.a,Somalia,SOM,..,..,..
+Debit card ownership (% age 15+),fin2.t.a,"Congo, Dem. Rep.",COD,..,..,..
+"Debit card ownership, female (% age 15+)",fin2.t.a.2,Kenya,KEN,..,..,..
+"Debit card ownership, female (% age 15+)",fin2.t.a.2,Tanzania,TZA,..,..,..
+"Debit card ownership, female (% age 15+)",fin2.t.a.2,Uganda,UGA,..,..,..
+"Debit card ownership, female (% age 15+)",fin2.t.a.2,Rwanda,RWA,..,..,..
+"Debit card ownership, female (% age 15+)",fin2.t.a.2,Burundi,BDI,..,..,..
+"Debit card ownership, female (% age 15+)",fin2.t.a.2,South Sudan,SSD,..,..,..
+"Debit card ownership, female (% age 15+)",fin2.t.a.2,Somalia,SOM,..,..,..
+"Debit card ownership, female (% age 15+)",fin2.t.a.2,"Congo, Dem. Rep.",COD,..,..,..
+"Debit card ownership, male  (% age 15+)",fin2.t.a.1,Kenya,KEN,..,..,..
+"Debit card ownership, male  (% age 15+)",fin2.t.a.1,Tanzania,TZA,..,..,..
+"Debit card ownership, male  (% age 15+)",fin2.t.a.1,Uganda,UGA,..,..,..
+"Debit card ownership, male  (% age 15+)",fin2.t.a.1,Rwanda,RWA,..,..,..
+"Debit card ownership, male  (% age 15+)",fin2.t.a.1,Burundi,BDI,..,..,..
+"Debit card ownership, male  (% age 15+)",fin2.t.a.1,South Sudan,SSD,..,..,..
+"Debit card ownership, male  (% age 15+)",fin2.t.a.1,Somalia,SOM,..,..,..
+"Debit card ownership, male  (% age 15+)",fin2.t.a.1,"Congo, Dem. Rep.",COD,..,..,..
+Decision maker about a woman's own health care: mainly husband (% of women age 15-49),SG.DMK.HLTH.HB.ZS,Kenya,KEN,..,..,..
+Decision maker about a woman's own health care: mainly husband (% of women age 15-49),SG.DMK.HLTH.HB.ZS,Tanzania,TZA,..,..,..
+Decision maker about a woman's own health care: mainly husband (% of women age 15-49),SG.DMK.HLTH.HB.ZS,Uganda,UGA,..,..,..
+Decision maker about a woman's own health care: mainly husband (% of women age 15-49),SG.DMK.HLTH.HB.ZS,Rwanda,RWA,..,17.5,..
+Decision maker about a woman's own health care: mainly husband (% of women age 15-49),SG.DMK.HLTH.HB.ZS,Burundi,BDI,..,..,..
+Decision maker about a woman's own health care: mainly husband (% of women age 15-49),SG.DMK.HLTH.HB.ZS,South Sudan,SSD,..,..,..
+Decision maker about a woman's own health care: mainly husband (% of women age 15-49),SG.DMK.HLTH.HB.ZS,Somalia,SOM,..,..,..
+Decision maker about a woman's own health care: mainly husband (% of women age 15-49),SG.DMK.HLTH.HB.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Decision maker about a woman's own health care: mainly wife (% of women age 15-49),SG.DMK.HLTH.WF.ZS,Kenya,KEN,..,..,..
+Decision maker about a woman's own health care: mainly wife (% of women age 15-49),SG.DMK.HLTH.WF.ZS,Tanzania,TZA,..,..,..
+Decision maker about a woman's own health care: mainly wife (% of women age 15-49),SG.DMK.HLTH.WF.ZS,Uganda,UGA,..,..,..
+Decision maker about a woman's own health care: mainly wife (% of women age 15-49),SG.DMK.HLTH.WF.ZS,Rwanda,RWA,..,29.4,..
+Decision maker about a woman's own health care: mainly wife (% of women age 15-49),SG.DMK.HLTH.WF.ZS,Burundi,BDI,..,..,..
+Decision maker about a woman's own health care: mainly wife (% of women age 15-49),SG.DMK.HLTH.WF.ZS,South Sudan,SSD,..,..,..
+Decision maker about a woman's own health care: mainly wife (% of women age 15-49),SG.DMK.HLTH.WF.ZS,Somalia,SOM,..,..,..
+Decision maker about a woman's own health care: mainly wife (% of women age 15-49),SG.DMK.HLTH.WF.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Decision maker about a woman's own health care: wife and husband jointly (% of women age 15-49),SG.DMK.HLTH.WH.ZS,Kenya,KEN,..,..,..
+Decision maker about a woman's own health care: wife and husband jointly (% of women age 15-49),SG.DMK.HLTH.WH.ZS,Tanzania,TZA,..,..,..
+Decision maker about a woman's own health care: wife and husband jointly (% of women age 15-49),SG.DMK.HLTH.WH.ZS,Uganda,UGA,..,..,..
+Decision maker about a woman's own health care: wife and husband jointly (% of women age 15-49),SG.DMK.HLTH.WH.ZS,Rwanda,RWA,..,52.9,..
+Decision maker about a woman's own health care: wife and husband jointly (% of women age 15-49),SG.DMK.HLTH.WH.ZS,Burundi,BDI,..,..,..
+Decision maker about a woman's own health care: wife and husband jointly (% of women age 15-49),SG.DMK.HLTH.WH.ZS,South Sudan,SSD,..,..,..
+Decision maker about a woman's own health care: wife and husband jointly (% of women age 15-49),SG.DMK.HLTH.WH.ZS,Somalia,SOM,..,..,..
+Decision maker about a woman's own health care: wife and husband jointly (% of women age 15-49),SG.DMK.HLTH.WH.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Decision maker about a woman's own health care: someone else (% of women age 15-49),SG.DMK.HLTH.SE.ZS,Kenya,KEN,..,..,..
+Decision maker about a woman's own health care: someone else (% of women age 15-49),SG.DMK.HLTH.SE.ZS,Tanzania,TZA,..,..,..
+Decision maker about a woman's own health care: someone else (% of women age 15-49),SG.DMK.HLTH.SE.ZS,Uganda,UGA,..,..,..
+Decision maker about a woman's own health care: someone else (% of women age 15-49),SG.DMK.HLTH.SE.ZS,Rwanda,RWA,..,0.2,..
+Decision maker about a woman's own health care: someone else (% of women age 15-49),SG.DMK.HLTH.SE.ZS,Burundi,BDI,..,..,..
+Decision maker about a woman's own health care: someone else (% of women age 15-49),SG.DMK.HLTH.SE.ZS,South Sudan,SSD,..,..,..
+Decision maker about a woman's own health care: someone else (% of women age 15-49),SG.DMK.HLTH.SE.ZS,Somalia,SOM,..,..,..
+Decision maker about a woman's own health care: someone else (% of women age 15-49),SG.DMK.HLTH.SE.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Decision maker about a woman's own health care: other (% of women age 15-49),SG.DMK.HLTH.OT.ZS,Kenya,KEN,..,..,..
+Decision maker about a woman's own health care: other (% of women age 15-49),SG.DMK.HLTH.OT.ZS,Tanzania,TZA,..,..,..
+Decision maker about a woman's own health care: other (% of women age 15-49),SG.DMK.HLTH.OT.ZS,Uganda,UGA,..,..,..
+Decision maker about a woman's own health care: other (% of women age 15-49),SG.DMK.HLTH.OT.ZS,Rwanda,RWA,..,0,..
+Decision maker about a woman's own health care: other (% of women age 15-49),SG.DMK.HLTH.OT.ZS,Burundi,BDI,..,..,..
+Decision maker about a woman's own health care: other (% of women age 15-49),SG.DMK.HLTH.OT.ZS,South Sudan,SSD,..,..,..
+Decision maker about a woman's own health care: other (% of women age 15-49),SG.DMK.HLTH.OT.ZS,Somalia,SOM,..,..,..
+Decision maker about a woman's own health care: other (% of women age 15-49),SG.DMK.HLTH.OT.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Decision maker about a woman's visits to her family or relatives: mainly husband (% of women age 15-49),SG.DMK.VISI.HB.ZS,Kenya,KEN,..,..,..
+Decision maker about a woman's visits to her family or relatives: mainly husband (% of women age 15-49),SG.DMK.VISI.HB.ZS,Tanzania,TZA,..,..,..
+Decision maker about a woman's visits to her family or relatives: mainly husband (% of women age 15-49),SG.DMK.VISI.HB.ZS,Uganda,UGA,..,..,..
+Decision maker about a woman's visits to her family or relatives: mainly husband (% of women age 15-49),SG.DMK.VISI.HB.ZS,Rwanda,RWA,..,12.9,..
+Decision maker about a woman's visits to her family or relatives: mainly husband (% of women age 15-49),SG.DMK.VISI.HB.ZS,Burundi,BDI,..,..,..
+Decision maker about a woman's visits to her family or relatives: mainly husband (% of women age 15-49),SG.DMK.VISI.HB.ZS,South Sudan,SSD,..,..,..
+Decision maker about a woman's visits to her family or relatives: mainly husband (% of women age 15-49),SG.DMK.VISI.HB.ZS,Somalia,SOM,..,..,..
+Decision maker about a woman's visits to her family or relatives: mainly husband (% of women age 15-49),SG.DMK.VISI.HB.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Decision maker about a woman's visits to her family or relatives: mainly wife (% of women age 15-49),SG.DMK.VISI.WF.ZS,Kenya,KEN,..,..,..
+Decision maker about a woman's visits to her family or relatives: mainly wife (% of women age 15-49),SG.DMK.VISI.WF.ZS,Tanzania,TZA,..,..,..
+Decision maker about a woman's visits to her family or relatives: mainly wife (% of women age 15-49),SG.DMK.VISI.WF.ZS,Uganda,UGA,..,..,..
+Decision maker about a woman's visits to her family or relatives: mainly wife (% of women age 15-49),SG.DMK.VISI.WF.ZS,Rwanda,RWA,..,18.6,..
+Decision maker about a woman's visits to her family or relatives: mainly wife (% of women age 15-49),SG.DMK.VISI.WF.ZS,Burundi,BDI,..,..,..
+Decision maker about a woman's visits to her family or relatives: mainly wife (% of women age 15-49),SG.DMK.VISI.WF.ZS,South Sudan,SSD,..,..,..
+Decision maker about a woman's visits to her family or relatives: mainly wife (% of women age 15-49),SG.DMK.VISI.WF.ZS,Somalia,SOM,..,..,..
+Decision maker about a woman's visits to her family or relatives: mainly wife (% of women age 15-49),SG.DMK.VISI.WF.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Decision maker about a woman's visits to her family or relatives: other (% of women age 15-49),SG.DMK.VISI.OT.ZS,Kenya,KEN,..,..,..
+Decision maker about a woman's visits to her family or relatives: other (% of women age 15-49),SG.DMK.VISI.OT.ZS,Tanzania,TZA,..,..,..
+Decision maker about a woman's visits to her family or relatives: other (% of women age 15-49),SG.DMK.VISI.OT.ZS,Uganda,UGA,..,..,..
+Decision maker about a woman's visits to her family or relatives: other (% of women age 15-49),SG.DMK.VISI.OT.ZS,Rwanda,RWA,..,0,..
+Decision maker about a woman's visits to her family or relatives: other (% of women age 15-49),SG.DMK.VISI.OT.ZS,Burundi,BDI,..,..,..
+Decision maker about a woman's visits to her family or relatives: other (% of women age 15-49),SG.DMK.VISI.OT.ZS,South Sudan,SSD,..,..,..
+Decision maker about a woman's visits to her family or relatives: other (% of women age 15-49),SG.DMK.VISI.OT.ZS,Somalia,SOM,..,..,..
+Decision maker about a woman's visits to her family or relatives: other (% of women age 15-49),SG.DMK.VISI.OT.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Decision maker about a woman's visits to her family or relatives: someone else (% of women age 15-49),SG.DMK.VISI.SE.ZS,Kenya,KEN,..,..,..
+Decision maker about a woman's visits to her family or relatives: someone else (% of women age 15-49),SG.DMK.VISI.SE.ZS,Tanzania,TZA,..,..,..
+Decision maker about a woman's visits to her family or relatives: someone else (% of women age 15-49),SG.DMK.VISI.SE.ZS,Uganda,UGA,..,..,..
+Decision maker about a woman's visits to her family or relatives: someone else (% of women age 15-49),SG.DMK.VISI.SE.ZS,Rwanda,RWA,..,0.1,..
+Decision maker about a woman's visits to her family or relatives: someone else (% of women age 15-49),SG.DMK.VISI.SE.ZS,Burundi,BDI,..,..,..
+Decision maker about a woman's visits to her family or relatives: someone else (% of women age 15-49),SG.DMK.VISI.SE.ZS,South Sudan,SSD,..,..,..
+Decision maker about a woman's visits to her family or relatives: someone else (% of women age 15-49),SG.DMK.VISI.SE.ZS,Somalia,SOM,..,..,..
+Decision maker about a woman's visits to her family or relatives: someone else (% of women age 15-49),SG.DMK.VISI.SE.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Decision maker about major household purchases: mainly husband (% of women age 15-49),SG.DMK.PRCH.HB.ZS,Kenya,KEN,..,..,..
+Decision maker about major household purchases: mainly husband (% of women age 15-49),SG.DMK.PRCH.HB.ZS,Tanzania,TZA,..,..,..
+Decision maker about major household purchases: mainly husband (% of women age 15-49),SG.DMK.PRCH.HB.ZS,Uganda,UGA,..,..,..
+Decision maker about major household purchases: mainly husband (% of women age 15-49),SG.DMK.PRCH.HB.ZS,Rwanda,RWA,..,21.9,..
+Decision maker about major household purchases: mainly husband (% of women age 15-49),SG.DMK.PRCH.HB.ZS,Burundi,BDI,..,..,..
+Decision maker about major household purchases: mainly husband (% of women age 15-49),SG.DMK.PRCH.HB.ZS,South Sudan,SSD,..,..,..
+Decision maker about major household purchases: mainly husband (% of women age 15-49),SG.DMK.PRCH.HB.ZS,Somalia,SOM,..,..,..
+Decision maker about major household purchases: mainly husband (% of women age 15-49),SG.DMK.PRCH.HB.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Decision maker about major household purchases: mainly wife (% of women age 15-49),SG.DMK.PRCH.WF.ZS,Kenya,KEN,..,..,..
+Decision maker about major household purchases: mainly wife (% of women age 15-49),SG.DMK.PRCH.WF.ZS,Tanzania,TZA,..,..,..
+Decision maker about major household purchases: mainly wife (% of women age 15-49),SG.DMK.PRCH.WF.ZS,Uganda,UGA,..,..,..
+Decision maker about major household purchases: mainly wife (% of women age 15-49),SG.DMK.PRCH.WF.ZS,Rwanda,RWA,..,8.3,..
+Decision maker about major household purchases: mainly wife (% of women age 15-49),SG.DMK.PRCH.WF.ZS,Burundi,BDI,..,..,..
+Decision maker about major household purchases: mainly wife (% of women age 15-49),SG.DMK.PRCH.WF.ZS,South Sudan,SSD,..,..,..
+Decision maker about major household purchases: mainly wife (% of women age 15-49),SG.DMK.PRCH.WF.ZS,Somalia,SOM,..,..,..
+Decision maker about major household purchases: mainly wife (% of women age 15-49),SG.DMK.PRCH.WF.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Decision maker about major household purchases: other (% of women age 15-49),SG.DMK.PRCH.OT.ZS,Kenya,KEN,..,..,..
+Decision maker about major household purchases: other (% of women age 15-49),SG.DMK.PRCH.OT.ZS,Tanzania,TZA,..,..,..
+Decision maker about major household purchases: other (% of women age 15-49),SG.DMK.PRCH.OT.ZS,Uganda,UGA,..,..,..
+Decision maker about major household purchases: other (% of women age 15-49),SG.DMK.PRCH.OT.ZS,Rwanda,RWA,..,0.1,..
+Decision maker about major household purchases: other (% of women age 15-49),SG.DMK.PRCH.OT.ZS,Burundi,BDI,..,..,..
+Decision maker about major household purchases: other (% of women age 15-49),SG.DMK.PRCH.OT.ZS,South Sudan,SSD,..,..,..
+Decision maker about major household purchases: other (% of women age 15-49),SG.DMK.PRCH.OT.ZS,Somalia,SOM,..,..,..
+Decision maker about major household purchases: other (% of women age 15-49),SG.DMK.PRCH.OT.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Decision maker about major household purchases: someone else (% of women age 15-49),SG.DMK.PRCH.SE.ZS,Kenya,KEN,..,..,..
+Decision maker about major household purchases: someone else (% of women age 15-49),SG.DMK.PRCH.SE.ZS,Tanzania,TZA,..,..,..
+Decision maker about major household purchases: someone else (% of women age 15-49),SG.DMK.PRCH.SE.ZS,Uganda,UGA,..,..,..
+Decision maker about major household purchases: someone else (% of women age 15-49),SG.DMK.PRCH.SE.ZS,Rwanda,RWA,..,0.1,..
+Decision maker about major household purchases: someone else (% of women age 15-49),SG.DMK.PRCH.SE.ZS,Burundi,BDI,..,..,..
+Decision maker about major household purchases: someone else (% of women age 15-49),SG.DMK.PRCH.SE.ZS,South Sudan,SSD,..,..,..
+Decision maker about major household purchases: someone else (% of women age 15-49),SG.DMK.PRCH.SE.ZS,Somalia,SOM,..,..,..
+Decision maker about major household purchases: someone else (% of women age 15-49),SG.DMK.PRCH.SE.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Female headed households (% of households with a female head),SP.HOU.FEMA.ZS,Kenya,KEN,..,31,..
+Female headed households (% of households with a female head),SP.HOU.FEMA.ZS,Tanzania,TZA,..,..,..
+Female headed households (% of households with a female head),SP.HOU.FEMA.ZS,Uganda,UGA,28.3,..,..
+Female headed households (% of households with a female head),SP.HOU.FEMA.ZS,Rwanda,RWA,..,31.9,..
+Female headed households (% of households with a female head),SP.HOU.FEMA.ZS,Burundi,BDI,..,..,..
+Female headed households (% of households with a female head),SP.HOU.FEMA.ZS,South Sudan,SSD,..,..,..
+Female headed households (% of households with a female head),SP.HOU.FEMA.ZS,Somalia,SOM,..,..,..
+Female headed households (% of households with a female head),SP.HOU.FEMA.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Female professional and technical workers (% of total),SG.GEN.TECH.ZS,Kenya,KEN,..,..,..
+Female professional and technical workers (% of total),SG.GEN.TECH.ZS,Tanzania,TZA,..,..,..
+Female professional and technical workers (% of total),SG.GEN.TECH.ZS,Uganda,UGA,..,..,..
+Female professional and technical workers (% of total),SG.GEN.TECH.ZS,Rwanda,RWA,..,..,..
+Female professional and technical workers (% of total),SG.GEN.TECH.ZS,Burundi,BDI,..,..,..
+Female professional and technical workers (% of total),SG.GEN.TECH.ZS,South Sudan,SSD,..,..,..
+Female professional and technical workers (% of total),SG.GEN.TECH.ZS,Somalia,SOM,..,..,..
+Female professional and technical workers (% of total),SG.GEN.TECH.ZS,"Congo, Dem. Rep.",COD,..,..,..
+"Financial institution account,female(% age 15+)",fin1.t.a.2,Kenya,KEN,..,..,..
+"Financial institution account,female(% age 15+)",fin1.t.a.2,Tanzania,TZA,..,..,..
+"Financial institution account,female(% age 15+)",fin1.t.a.2,Uganda,UGA,..,..,..
+"Financial institution account,female(% age 15+)",fin1.t.a.2,Rwanda,RWA,..,..,..
+"Financial institution account,female(% age 15+)",fin1.t.a.2,Burundi,BDI,..,..,..
+"Financial institution account,female(% age 15+)",fin1.t.a.2,South Sudan,SSD,..,..,..
+"Financial institution account,female(% age 15+)",fin1.t.a.2,Somalia,SOM,..,..,..
+"Financial institution account,female(% age 15+)",fin1.t.a.2,"Congo, Dem. Rep.",COD,..,..,..
+Firms with female top manager (% of firms),IC.FRM.FEMM.ZS,Kenya,KEN,..,..,..
+Firms with female top manager (% of firms),IC.FRM.FEMM.ZS,Tanzania,TZA,..,..,..
+Firms with female top manager (% of firms),IC.FRM.FEMM.ZS,Uganda,UGA,..,..,..
+Firms with female top manager (% of firms),IC.FRM.FEMM.ZS,Rwanda,RWA,21.8,..,..
+Firms with female top manager (% of firms),IC.FRM.FEMM.ZS,Burundi,BDI,..,..,..
+Firms with female top manager (% of firms),IC.FRM.FEMM.ZS,South Sudan,SSD,..,..,..
+Firms with female top manager (% of firms),IC.FRM.FEMM.ZS,Somalia,SOM,..,..,..
+Firms with female top manager (% of firms),IC.FRM.FEMM.ZS,"Congo, Dem. Rep.",COD,..,..,..
+"Population, female",SP.POP.TOTL.FE.IN,Kenya,KEN,25679257,26205082,26726429
+"Population, female",SP.POP.TOTL.FE.IN,Tanzania,TZA,30309141,31229064,32170681
+"Population, female",SP.POP.TOTL.FE.IN,Uganda,UGA,21707475,22431520,23153140
+"Population, female",SP.POP.TOTL.FE.IN,Rwanda,RWA,6568936,6723217,6879649
+"Population, female",SP.POP.TOTL.FE.IN,Burundi,BDI,5980560,6153627,6319427
+"Population, female",SP.POP.TOTL.FE.IN,South Sudan,SSD,5280526,5358155,5427688
+"Population, female",SP.POP.TOTL.FE.IN,Somalia,SOM,7969926,8246544,8509953
+"Population, female",SP.POP.TOTL.FE.IN,"Congo, Dem. Rep.",COD,45306478,46787187,48319268
+Proportion of women in ministerial level positions (%),SG.GEN.MNST.ZS,Kenya,KEN,26.0869565217391,30.4347826086957,..
+Proportion of women in ministerial level positions (%),SG.GEN.MNST.ZS,Tanzania,TZA,21.7391304347826,18.1818181818182,..
+Proportion of women in ministerial level positions (%),SG.GEN.MNST.ZS,Uganda,UGA,33.3333333333333,34.4827586206897,..
+Proportion of women in ministerial level positions (%),SG.GEN.MNST.ZS,Rwanda,RWA,53.5714285714285,54.8387096774194,..
+Proportion of women in ministerial level positions (%),SG.GEN.MNST.ZS,Burundi,BDI,26.0869565217391,37.5,..
+Proportion of women in ministerial level positions (%),SG.GEN.MNST.ZS,South Sudan,SSD,15.625,33.3333333333333,..
+Proportion of women in ministerial level positions (%),SG.GEN.MNST.ZS,Somalia,SOM,18.5185185185185,18.5185185185185,..
+Proportion of women in ministerial level positions (%),SG.GEN.MNST.ZS,"Congo, Dem. Rep.",COD,17.391304347826,17.7777777777778,..
+"Self-employed, female (% of female employment) (modeled ILO estimate)",SL.EMP.SELF.FE.ZS,Kenya,KEN,57.2299995422363,..,..
+"Self-employed, female (% of female employment) (modeled ILO estimate)",SL.EMP.SELF.FE.ZS,Tanzania,TZA,87.3499984741211,..,..
+"Self-employed, female (% of female employment) (modeled ILO estimate)",SL.EMP.SELF.FE.ZS,Uganda,UGA,83.1800003051758,..,..
+"Self-employed, female (% of female employment) (modeled ILO estimate)",SL.EMP.SELF.FE.ZS,Rwanda,RWA,76.3300018310547,..,..
+"Self-employed, female (% of female employment) (modeled ILO estimate)",SL.EMP.SELF.FE.ZS,Burundi,BDI,90.4300003051758,..,..
+"Self-employed, female (% of female employment) (modeled ILO estimate)",SL.EMP.SELF.FE.ZS,South Sudan,SSD,95.620002746582,..,..
+"Self-employed, female (% of female employment) (modeled ILO estimate)",SL.EMP.SELF.FE.ZS,Somalia,SOM,96.9100036621094,..,..
+"Self-employed, female (% of female employment) (modeled ILO estimate)",SL.EMP.SELF.FE.ZS,"Congo, Dem. Rep.",COD,89.4599990844727,..,..
+"Self-employed, male (% of male employment) (modeled ILO estimate)",SL.EMP.SELF.MA.ZS,Kenya,KEN,41.6300010681152,..,..
+"Self-employed, male (% of male employment) (modeled ILO estimate)",SL.EMP.SELF.MA.ZS,Tanzania,TZA,80.3000030517578,..,..
+"Self-employed, male (% of male employment) (modeled ILO estimate)",SL.EMP.SELF.MA.ZS,Uganda,UGA,71.6600036621094,..,..
+"Self-employed, male (% of male employment) (modeled ILO estimate)",SL.EMP.SELF.MA.ZS,Rwanda,RWA,55.560001373291,..,..
+"Self-employed, male (% of male employment) (modeled ILO estimate)",SL.EMP.SELF.MA.ZS,Burundi,BDI,80.7699966430664,..,..
+"Self-employed, male (% of male employment) (modeled ILO estimate)",SL.EMP.SELF.MA.ZS,South Sudan,SSD,87.7200012207031,..,..
+"Self-employed, male (% of male employment) (modeled ILO estimate)",SL.EMP.SELF.MA.ZS,Somalia,SOM,90.0999984741211,..,..
+"Self-employed, male (% of male employment) (modeled ILO estimate)",SL.EMP.SELF.MA.ZS,"Congo, Dem. Rep.",COD,69.9800033569336,..,..
+"Self-employed, total (% of total employment) (modeled ILO estimate)",SL.EMP.SELF.ZS,Kenya,KEN,49.2700004577637,..,..
+"Self-employed, total (% of total employment) (modeled ILO estimate)",SL.EMP.SELF.ZS,Tanzania,TZA,83.6800003051758,..,..
+"Self-employed, total (% of total employment) (modeled ILO estimate)",SL.EMP.SELF.ZS,Uganda,UGA,77.3199996948242,..,..
+"Self-employed, total (% of total employment) (modeled ILO estimate)",SL.EMP.SELF.ZS,Rwanda,RWA,66.2900009155273,..,..
+"Self-employed, total (% of total employment) (modeled ILO estimate)",SL.EMP.SELF.ZS,Burundi,BDI,85.8000030517578,..,..
+"Self-employed, total (% of total employment) (modeled ILO estimate)",SL.EMP.SELF.ZS,South Sudan,SSD,91.5699996948242,..,..
+"Self-employed, total (% of total employment) (modeled ILO estimate)",SL.EMP.SELF.ZS,Somalia,SOM,91.6699981689453,..,..
+"Self-employed, total (% of total employment) (modeled ILO estimate)",SL.EMP.SELF.ZS,"Congo, Dem. Rep.",COD,79.4800033569336,..,..
+"Sent domestic remittances in the past year, male (% age 15+)",fin28.t.a.1,Kenya,KEN,..,..,..
+"Sent domestic remittances in the past year, male (% age 15+)",fin28.t.a.1,Tanzania,TZA,..,..,..
+"Sent domestic remittances in the past year, male (% age 15+)",fin28.t.a.1,Uganda,UGA,..,..,..
+"Sent domestic remittances in the past year, male (% age 15+)",fin28.t.a.1,Rwanda,RWA,..,..,..
+"Sent domestic remittances in the past year, male (% age 15+)",fin28.t.a.1,Burundi,BDI,..,..,..
+"Sent domestic remittances in the past year, male (% age 15+)",fin28.t.a.1,South Sudan,SSD,..,..,..
+"Sent domestic remittances in the past year, male (% age 15+)",fin28.t.a.1,Somalia,SOM,..,..,..
+"Sent domestic remittances in the past year, male (% age 15+)",fin28.t.a.1,"Congo, Dem. Rep.",COD,..,..,..
+"Sent domestic remittances in the past year, female  (% age 15+)",fin28.t.a.2,Kenya,KEN,..,..,..
+"Sent domestic remittances in the past year, female  (% age 15+)",fin28.t.a.2,Tanzania,TZA,..,..,..
+"Sent domestic remittances in the past year, female  (% age 15+)",fin28.t.a.2,Uganda,UGA,..,..,..
+"Sent domestic remittances in the past year, female  (% age 15+)",fin28.t.a.2,Rwanda,RWA,..,..,..
+"Sent domestic remittances in the past year, female  (% age 15+)",fin28.t.a.2,Burundi,BDI,..,..,..
+"Sent domestic remittances in the past year, female  (% age 15+)",fin28.t.a.2,South Sudan,SSD,..,..,..
+"Sent domestic remittances in the past year, female  (% age 15+)",fin28.t.a.2,Somalia,SOM,..,..,..
+"Sent domestic remittances in the past year, female  (% age 15+)",fin28.t.a.2,"Congo, Dem. Rep.",COD,..,..,..
+Sent domestic remittances in the past year (% age 15+),fin28.t.a,Kenya,KEN,..,..,..
+Sent domestic remittances in the past year (% age 15+),fin28.t.a,Tanzania,TZA,..,..,..
+Sent domestic remittances in the past year (% age 15+),fin28.t.a,Uganda,UGA,..,..,..
+Sent domestic remittances in the past year (% age 15+),fin28.t.a,Rwanda,RWA,..,..,..
+Sent domestic remittances in the past year (% age 15+),fin28.t.a,Burundi,BDI,..,..,..
+Sent domestic remittances in the past year (% age 15+),fin28.t.a,South Sudan,SSD,..,..,..
+Sent domestic remittances in the past year (% age 15+),fin28.t.a,Somalia,SOM,..,..,..
+Sent domestic remittances in the past year (% age 15+),fin28.t.a,"Congo, Dem. Rep.",COD,..,..,..
+Share of female business owners (% of total business owners),IC.WEF.LLCO.FE.ZS,Kenya,KEN,..,..,..
+Share of female business owners (% of total business owners),IC.WEF.LLCO.FE.ZS,Tanzania,TZA,..,..,..
+Share of female business owners (% of total business owners),IC.WEF.LLCO.FE.ZS,Uganda,UGA,..,..,..
+Share of female business owners (% of total business owners),IC.WEF.LLCO.FE.ZS,Rwanda,RWA,..,..,..
+Share of female business owners (% of total business owners),IC.WEF.LLCO.FE.ZS,Burundi,BDI,..,..,..
+Share of female business owners (% of total business owners),IC.WEF.LLCO.FE.ZS,South Sudan,SSD,..,..,..
+Share of female business owners (% of total business owners),IC.WEF.LLCO.FE.ZS,Somalia,SOM,..,..,..
+Share of female business owners (% of total business owners),IC.WEF.LLCO.FE.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Share of female directors (% of total directors),IC.WEF.LLCD.FE.ZS,Kenya,KEN,..,..,..
+Share of female directors (% of total directors),IC.WEF.LLCD.FE.ZS,Tanzania,TZA,..,..,..
+Share of female directors (% of total directors),IC.WEF.LLCD.FE.ZS,Uganda,UGA,..,..,..
+Share of female directors (% of total directors),IC.WEF.LLCD.FE.ZS,Rwanda,RWA,..,..,..
+Share of female directors (% of total directors),IC.WEF.LLCD.FE.ZS,Burundi,BDI,..,..,..
+Share of female directors (% of total directors),IC.WEF.LLCD.FE.ZS,South Sudan,SSD,..,..,..
+Share of female directors (% of total directors),IC.WEF.LLCD.FE.ZS,Somalia,SOM,..,..,..
+Share of female directors (% of total directors),IC.WEF.LLCD.FE.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Share of female sole proprietors  (% of sole proprietors),IC.WEF.SOLO.FE.ZS,Kenya,KEN,..,..,..
+Share of female sole proprietors  (% of sole proprietors),IC.WEF.SOLO.FE.ZS,Tanzania,TZA,..,..,..
+Share of female sole proprietors  (% of sole proprietors),IC.WEF.SOLO.FE.ZS,Uganda,UGA,..,..,..
+Share of female sole proprietors  (% of sole proprietors),IC.WEF.SOLO.FE.ZS,Rwanda,RWA,..,..,..
+Share of female sole proprietors  (% of sole proprietors),IC.WEF.SOLO.FE.ZS,Burundi,BDI,..,..,..
+Share of female sole proprietors  (% of sole proprietors),IC.WEF.SOLO.FE.ZS,South Sudan,SSD,..,..,..
+Share of female sole proprietors  (% of sole proprietors),IC.WEF.SOLO.FE.ZS,Somalia,SOM,..,..,..
+Share of female sole proprietors  (% of sole proprietors),IC.WEF.SOLO.FE.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Start-up procedures to register a business (number),IC.REG.PROC,Kenya,KEN,7,..,..
+Start-up procedures to register a business (number),IC.REG.PROC,Tanzania,TZA,10,..,..
+Start-up procedures to register a business (number),IC.REG.PROC,Uganda,UGA,13,..,..
+Start-up procedures to register a business (number),IC.REG.PROC,Rwanda,RWA,5,..,..
+Start-up procedures to register a business (number),IC.REG.PROC,Burundi,BDI,4,..,..
+Start-up procedures to register a business (number),IC.REG.PROC,South Sudan,SSD,12,..,..
+Start-up procedures to register a business (number),IC.REG.PROC,Somalia,SOM,9,..,..
+Start-up procedures to register a business (number),IC.REG.PROC,"Congo, Dem. Rep.",COD,4,..,..
+"Start-up procedures to register a business, female (number)",IC.REG.PROC.FE,Kenya,KEN,7,..,..
+"Start-up procedures to register a business, female (number)",IC.REG.PROC.FE,Tanzania,TZA,10,..,..
+"Start-up procedures to register a business, female (number)",IC.REG.PROC.FE,Uganda,UGA,13,..,..
+"Start-up procedures to register a business, female (number)",IC.REG.PROC.FE,Rwanda,RWA,5,..,..
+"Start-up procedures to register a business, female (number)",IC.REG.PROC.FE,Burundi,BDI,4,..,..
+"Start-up procedures to register a business, female (number)",IC.REG.PROC.FE,South Sudan,SSD,12,..,..
+"Start-up procedures to register a business, female (number)",IC.REG.PROC.FE,Somalia,SOM,9,..,..
+"Start-up procedures to register a business, female (number)",IC.REG.PROC.FE,"Congo, Dem. Rep.",COD,4,..,..
+"Start-up procedures to register a business, male (number)",IC.REG.PROC.MA,Kenya,KEN,7,..,..
+"Start-up procedures to register a business, male (number)",IC.REG.PROC.MA,Tanzania,TZA,10,..,..
+"Start-up procedures to register a business, male (number)",IC.REG.PROC.MA,Uganda,UGA,13,..,..
+"Start-up procedures to register a business, male (number)",IC.REG.PROC.MA,Rwanda,RWA,5,..,..
+"Start-up procedures to register a business, male (number)",IC.REG.PROC.MA,Burundi,BDI,4,..,..
+"Start-up procedures to register a business, male (number)",IC.REG.PROC.MA,South Sudan,SSD,12,..,..
+"Start-up procedures to register a business, male (number)",IC.REG.PROC.MA,Somalia,SOM,9,..,..
+"Start-up procedures to register a business, male (number)",IC.REG.PROC.MA,"Congo, Dem. Rep.",COD,4,..,..
+"Used the internet to buy something online in the past year, female(% age 15+)",fin14b.a.2,Kenya,KEN,..,..,..
+"Used the internet to buy something online in the past year, female(% age 15+)",fin14b.a.2,Tanzania,TZA,..,..,..
+"Used the internet to buy something online in the past year, female(% age 15+)",fin14b.a.2,Uganda,UGA,..,..,..
+"Used the internet to buy something online in the past year, female(% age 15+)",fin14b.a.2,Rwanda,RWA,..,..,..
+"Used the internet to buy something online in the past year, female(% age 15+)",fin14b.a.2,Burundi,BDI,..,..,..
+"Used the internet to buy something online in the past year, female(% age 15+)",fin14b.a.2,South Sudan,SSD,..,..,..
+"Used the internet to buy something online in the past year, female(% age 15+)",fin14b.a.2,Somalia,SOM,..,..,..
+"Used the internet to buy something online in the past year, female(% age 15+)",fin14b.a.2,"Congo, Dem. Rep.",COD,..,..,..
+Used the internet to buy something online in the past year(% age 15+),fin14b.a,Kenya,KEN,..,..,..
+Used the internet to buy something online in the past year(% age 15+),fin14b.a,Tanzania,TZA,..,..,..
+Used the internet to buy something online in the past year(% age 15+),fin14b.a,Uganda,UGA,..,..,..
+Used the internet to buy something online in the past year(% age 15+),fin14b.a,Rwanda,RWA,..,..,..
+Used the internet to buy something online in the past year(% age 15+),fin14b.a,Burundi,BDI,..,..,..
+Used the internet to buy something online in the past year(% age 15+),fin14b.a,South Sudan,SSD,..,..,..
+Used the internet to buy something online in the past year(% age 15+),fin14b.a,Somalia,SOM,..,..,..
+Used the internet to buy something online in the past year(% age 15+),fin14b.a,"Congo, Dem. Rep.",COD,..,..,..
+"Used the internet to buy something online in the past year, male(% age 15+)",fin14b.a.1,Kenya,KEN,..,..,..
+"Used the internet to buy something online in the past year, male(% age 15+)",fin14b.a.1,Tanzania,TZA,..,..,..
+"Used the internet to buy something online in the past year, male(% age 15+)",fin14b.a.1,Uganda,UGA,..,..,..
+"Used the internet to buy something online in the past year, male(% age 15+)",fin14b.a.1,Rwanda,RWA,..,..,..
+"Used the internet to buy something online in the past year, male(% age 15+)",fin14b.a.1,Burundi,BDI,..,..,..
+"Used the internet to buy something online in the past year, male(% age 15+)",fin14b.a.1,South Sudan,SSD,..,..,..
+"Used the internet to buy something online in the past year, male(% age 15+)",fin14b.a.1,Somalia,SOM,..,..,..
+"Used the internet to buy something online in the past year, male(% age 15+)",fin14b.a.1,"Congo, Dem. Rep.",COD,..,..,..
+Used the internet to pay bills in the past year (% age 15+),fin14a.a,Kenya,KEN,..,..,..
+Used the internet to pay bills in the past year (% age 15+),fin14a.a,Tanzania,TZA,..,..,..
+Used the internet to pay bills in the past year (% age 15+),fin14a.a,Uganda,UGA,..,..,..
+Used the internet to pay bills in the past year (% age 15+),fin14a.a,Rwanda,RWA,..,..,..
+Used the internet to pay bills in the past year (% age 15+),fin14a.a,Burundi,BDI,..,..,..
+Used the internet to pay bills in the past year (% age 15+),fin14a.a,South Sudan,SSD,..,..,..
+Used the internet to pay bills in the past year (% age 15+),fin14a.a,Somalia,SOM,..,..,..
+Used the internet to pay bills in the past year (% age 15+),fin14a.a,"Congo, Dem. Rep.",COD,..,..,..
+"Used the internet to pay bills in the past year , female(% age 15+)",fin14a.a.2,Kenya,KEN,..,..,..
+"Used the internet to pay bills in the past year , female(% age 15+)",fin14a.a.2,Tanzania,TZA,..,..,..
+"Used the internet to pay bills in the past year , female(% age 15+)",fin14a.a.2,Uganda,UGA,..,..,..
+"Used the internet to pay bills in the past year , female(% age 15+)",fin14a.a.2,Rwanda,RWA,..,..,..
+"Used the internet to pay bills in the past year , female(% age 15+)",fin14a.a.2,Burundi,BDI,..,..,..
+"Used the internet to pay bills in the past year , female(% age 15+)",fin14a.a.2,South Sudan,SSD,..,..,..
+"Used the internet to pay bills in the past year , female(% age 15+)",fin14a.a.2,Somalia,SOM,..,..,..
+"Used the internet to pay bills in the past year , female(% age 15+)",fin14a.a.2,"Congo, Dem. Rep.",COD,..,..,..
+"Used the internet to pay bills in the past year, male (% age 15+)",fin14a.a.1,Kenya,KEN,..,..,..
+"Used the internet to pay bills in the past year, male (% age 15+)",fin14a.a.1,Tanzania,TZA,..,..,..
+"Used the internet to pay bills in the past year, male (% age 15+)",fin14a.a.1,Uganda,UGA,..,..,..
+"Used the internet to pay bills in the past year, male (% age 15+)",fin14a.a.1,Rwanda,RWA,..,..,..
+"Used the internet to pay bills in the past year, male (% age 15+)",fin14a.a.1,Burundi,BDI,..,..,..
+"Used the internet to pay bills in the past year, male (% age 15+)",fin14a.a.1,South Sudan,SSD,..,..,..
+"Used the internet to pay bills in the past year, male (% age 15+)",fin14a.a.1,Somalia,SOM,..,..,..
+"Used the internet to pay bills in the past year, male (% age 15+)",fin14a.a.1,"Congo, Dem. Rep.",COD,..,..,..
+Used the internet to pay bills or to buy something online in the past year (% age 15+),fin14abca.t.d,Kenya,KEN,..,..,..
+Used the internet to pay bills or to buy something online in the past year (% age 15+),fin14abca.t.d,Tanzania,TZA,..,..,..
+Used the internet to pay bills or to buy something online in the past year (% age 15+),fin14abca.t.d,Uganda,UGA,..,..,..
+Used the internet to pay bills or to buy something online in the past year (% age 15+),fin14abca.t.d,Rwanda,RWA,..,..,..
+Used the internet to pay bills or to buy something online in the past year (% age 15+),fin14abca.t.d,Burundi,BDI,..,..,..
+Used the internet to pay bills or to buy something online in the past year (% age 15+),fin14abca.t.d,South Sudan,SSD,..,..,..
+Used the internet to pay bills or to buy something online in the past year (% age 15+),fin14abca.t.d,Somalia,SOM,..,..,..
+Used the internet to pay bills or to buy something online in the past year (% age 15+),fin14abca.t.d,"Congo, Dem. Rep.",COD,..,..,..
+"Used the internet to pay bills or to buy something online in the past year, female (% age 15+)",fin14abca.t.d.2,Kenya,KEN,..,..,..
+"Used the internet to pay bills or to buy something online in the past year, female (% age 15+)",fin14abca.t.d.2,Tanzania,TZA,..,..,..
+"Used the internet to pay bills or to buy something online in the past year, female (% age 15+)",fin14abca.t.d.2,Uganda,UGA,..,..,..
+"Used the internet to pay bills or to buy something online in the past year, female (% age 15+)",fin14abca.t.d.2,Rwanda,RWA,..,..,..
+"Used the internet to pay bills or to buy something online in the past year, female (% age 15+)",fin14abca.t.d.2,Burundi,BDI,..,..,..
+"Used the internet to pay bills or to buy something online in the past year, female (% age 15+)",fin14abca.t.d.2,South Sudan,SSD,..,..,..
+"Used the internet to pay bills or to buy something online in the past year, female (% age 15+)",fin14abca.t.d.2,Somalia,SOM,..,..,..
+"Used the internet to pay bills or to buy something online in the past year, female (% age 15+)",fin14abca.t.d.2,"Congo, Dem. Rep.",COD,..,..,..
+"Used the internet to pay bills or to buy something online in the past year, male (% age 15+)",fin14abca.t.d.1,Kenya,KEN,..,..,..
+"Used the internet to pay bills or to buy something online in the past year, male (% age 15+)",fin14abca.t.d.1,Tanzania,TZA,..,..,..
+"Used the internet to pay bills or to buy something online in the past year, male (% age 15+)",fin14abca.t.d.1,Uganda,UGA,..,..,..
+"Used the internet to pay bills or to buy something online in the past year, male (% age 15+)",fin14abca.t.d.1,Rwanda,RWA,..,..,..
+"Used the internet to pay bills or to buy something online in the past year, male (% age 15+)",fin14abca.t.d.1,Burundi,BDI,..,..,..
+"Used the internet to pay bills or to buy something online in the past year, male (% age 15+)",fin14abca.t.d.1,South Sudan,SSD,..,..,..
+"Used the internet to pay bills or to buy something online in the past year, male (% age 15+)",fin14abca.t.d.1,Somalia,SOM,..,..,..
+"Used the internet to pay bills or to buy something online in the past year, male (% age 15+)",fin14abca.t.d.1,"Congo, Dem. Rep.",COD,..,..,..
+"Vocational and Technical enrolment (% of total secondary enrolment), female",SE.SEC.ENRL.FE.VO.ZS,Kenya,KEN,..,..,..
+"Vocational and Technical enrolment (% of total secondary enrolment), female",SE.SEC.ENRL.FE.VO.ZS,Tanzania,TZA,..,..,..
+"Vocational and Technical enrolment (% of total secondary enrolment), female",SE.SEC.ENRL.FE.VO.ZS,Uganda,UGA,..,..,..
+"Vocational and Technical enrolment (% of total secondary enrolment), female",SE.SEC.ENRL.FE.VO.ZS,Rwanda,RWA,..,..,..
+"Vocational and Technical enrolment (% of total secondary enrolment), female",SE.SEC.ENRL.FE.VO.ZS,Burundi,BDI,..,..,..
+"Vocational and Technical enrolment (% of total secondary enrolment), female",SE.SEC.ENRL.FE.VO.ZS,South Sudan,SSD,..,..,..
+"Vocational and Technical enrolment (% of total secondary enrolment), female",SE.SEC.ENRL.FE.VO.ZS,Somalia,SOM,..,..,..
+"Vocational and Technical enrolment (% of total secondary enrolment), female",SE.SEC.ENRL.FE.VO.ZS,"Congo, Dem. Rep.",COD,..,..,..
+"Vocational and Technical enrolment (% of total secondary enrolment), total",SE.SEC.ENRL.VO.ZS,Kenya,KEN,..,..,..
+"Vocational and Technical enrolment (% of total secondary enrolment), total",SE.SEC.ENRL.VO.ZS,Tanzania,TZA,0.382860004901886,0.404850006103516,0.506699979305267
+"Vocational and Technical enrolment (% of total secondary enrolment), total",SE.SEC.ENRL.VO.ZS,Uganda,UGA,..,..,..
+"Vocational and Technical enrolment (% of total secondary enrolment), total",SE.SEC.ENRL.VO.ZS,Rwanda,RWA,12.6316795349121,..,12.7665004730225
+"Vocational and Technical enrolment (% of total secondary enrolment), total",SE.SEC.ENRL.VO.ZS,Burundi,BDI,9.38150024414063,8.92669010162354,..
+"Vocational and Technical enrolment (% of total secondary enrolment), total",SE.SEC.ENRL.VO.ZS,South Sudan,SSD,..,..,..
+"Vocational and Technical enrolment (% of total secondary enrolment), total",SE.SEC.ENRL.VO.ZS,Somalia,SOM,..,..,2.12586283683777
+"Vocational and Technical enrolment (% of total secondary enrolment), total",SE.SEC.ENRL.VO.ZS,"Congo, Dem. Rep.",COD,..,..,..
+"Women making their own informed decisions regarding sexual relations, contraceptive use and reproductive health care  (% of women age 15-49)",SG.DMK.SRCR.FN.ZS,Kenya,KEN,..,..,..
+"Women making their own informed decisions regarding sexual relations, contraceptive use and reproductive health care  (% of women age 15-49)",SG.DMK.SRCR.FN.ZS,Tanzania,TZA,..,..,..
+"Women making their own informed decisions regarding sexual relations, contraceptive use and reproductive health care  (% of women age 15-49)",SG.DMK.SRCR.FN.ZS,Uganda,UGA,..,..,..
+"Women making their own informed decisions regarding sexual relations, contraceptive use and reproductive health care  (% of women age 15-49)",SG.DMK.SRCR.FN.ZS,Rwanda,RWA,..,..,..
+"Women making their own informed decisions regarding sexual relations, contraceptive use and reproductive health care  (% of women age 15-49)",SG.DMK.SRCR.FN.ZS,Burundi,BDI,..,..,..
+"Women making their own informed decisions regarding sexual relations, contraceptive use and reproductive health care  (% of women age 15-49)",SG.DMK.SRCR.FN.ZS,South Sudan,SSD,..,..,..
+"Women making their own informed decisions regarding sexual relations, contraceptive use and reproductive health care  (% of women age 15-49)",SG.DMK.SRCR.FN.ZS,Somalia,SOM,..,..,..
+"Women making their own informed decisions regarding sexual relations, contraceptive use and reproductive health care  (% of women age 15-49)",SG.DMK.SRCR.FN.ZS,"Congo, Dem. Rep.",COD,..,..,..
+"Women participating in decision of visits to family, relatives, friends (% of women age 15-49)",SG.DMK.VISI.FN.ZS,Kenya,KEN,..,..,..
+"Women participating in decision of visits to family, relatives, friends (% of women age 15-49)",SG.DMK.VISI.FN.ZS,Tanzania,TZA,..,..,..
+"Women participating in decision of visits to family, relatives, friends (% of women age 15-49)",SG.DMK.VISI.FN.ZS,Uganda,UGA,..,..,..
+"Women participating in decision of visits to family, relatives, friends (% of women age 15-49)",SG.DMK.VISI.FN.ZS,Rwanda,RWA,..,86.9,..
+"Women participating in decision of visits to family, relatives, friends (% of women age 15-49)",SG.DMK.VISI.FN.ZS,Burundi,BDI,..,..,..
+"Women participating in decision of visits to family, relatives, friends (% of women age 15-49)",SG.DMK.VISI.FN.ZS,South Sudan,SSD,..,..,..
+"Women participating in decision of visits to family, relatives, friends (% of women age 15-49)",SG.DMK.VISI.FN.ZS,Somalia,SOM,..,..,..
+"Women participating in decision of visits to family, relatives, friends (% of women age 15-49)",SG.DMK.VISI.FN.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Women participating in decision of what food to cook daily (% of women age 15-49),SG.DMK.FOOD.FN.ZS,Kenya,KEN,..,..,..
+Women participating in decision of what food to cook daily (% of women age 15-49),SG.DMK.FOOD.FN.ZS,Tanzania,TZA,..,..,..
+Women participating in decision of what food to cook daily (% of women age 15-49),SG.DMK.FOOD.FN.ZS,Uganda,UGA,..,..,..
+Women participating in decision of what food to cook daily (% of women age 15-49),SG.DMK.FOOD.FN.ZS,Rwanda,RWA,..,..,..
+Women participating in decision of what food to cook daily (% of women age 15-49),SG.DMK.FOOD.FN.ZS,Burundi,BDI,..,..,..
+Women participating in decision of what food to cook daily (% of women age 15-49),SG.DMK.FOOD.FN.ZS,South Sudan,SSD,..,..,..
+Women participating in decision of what food to cook daily (% of women age 15-49),SG.DMK.FOOD.FN.ZS,Somalia,SOM,..,..,..
+Women participating in decision of what food to cook daily (% of women age 15-49),SG.DMK.FOOD.FN.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Women participating in making daily purchase decisions (% of women age 15-49),SG.DMK.DPCH.FN.ZS,Kenya,KEN,..,..,..
+Women participating in making daily purchase decisions (% of women age 15-49),SG.DMK.DPCH.FN.ZS,Tanzania,TZA,..,..,..
+Women participating in making daily purchase decisions (% of women age 15-49),SG.DMK.DPCH.FN.ZS,Uganda,UGA,..,..,..
+Women participating in making daily purchase decisions (% of women age 15-49),SG.DMK.DPCH.FN.ZS,Rwanda,RWA,..,..,..
+Women participating in making daily purchase decisions (% of women age 15-49),SG.DMK.DPCH.FN.ZS,Burundi,BDI,..,..,..
+Women participating in making daily purchase decisions (% of women age 15-49),SG.DMK.DPCH.FN.ZS,South Sudan,SSD,..,..,..
+Women participating in making daily purchase decisions (% of women age 15-49),SG.DMK.DPCH.FN.ZS,Somalia,SOM,..,..,..
+Women participating in making daily purchase decisions (% of women age 15-49),SG.DMK.DPCH.FN.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Women participating in making major household purchase decisions (% of women age 15-49),SG.DMK.PRCH.FN.ZS,Kenya,KEN,..,..,..
+Women participating in making major household purchase decisions (% of women age 15-49),SG.DMK.PRCH.FN.ZS,Tanzania,TZA,..,..,..
+Women participating in making major household purchase decisions (% of women age 15-49),SG.DMK.PRCH.FN.ZS,Uganda,UGA,..,..,..
+Women participating in making major household purchase decisions (% of women age 15-49),SG.DMK.PRCH.FN.ZS,Rwanda,RWA,..,78,..
+Women participating in making major household purchase decisions (% of women age 15-49),SG.DMK.PRCH.FN.ZS,Burundi,BDI,..,..,..
+Women participating in making major household purchase decisions (% of women age 15-49),SG.DMK.PRCH.FN.ZS,South Sudan,SSD,..,..,..
+Women participating in making major household purchase decisions (% of women age 15-49),SG.DMK.PRCH.FN.ZS,Somalia,SOM,..,..,..
+Women participating in making major household purchase decisions (% of women age 15-49),SG.DMK.PRCH.FN.ZS,"Congo, Dem. Rep.",COD,..,..,..
+"Women participating in none of the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.NONE.FN.ZS,Kenya,KEN,..,..,..
+"Women participating in none of the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.NONE.FN.ZS,Tanzania,TZA,..,..,..
+"Women participating in none of the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.NONE.FN.ZS,Uganda,UGA,..,..,..
+"Women participating in none of the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.NONE.FN.ZS,Rwanda,RWA,..,6,..
+"Women participating in none of the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.NONE.FN.ZS,Burundi,BDI,..,..,..
+"Women participating in none of the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.NONE.FN.ZS,South Sudan,SSD,..,..,..
+"Women participating in none of the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.NONE.FN.ZS,Somalia,SOM,..,..,..
+"Women participating in none of the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.NONE.FN.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Women participating in own health care decisions (% of women age 15-49),SG.DMK.HLTH.FN.ZS,Kenya,KEN,..,..,..
+Women participating in own health care decisions (% of women age 15-49),SG.DMK.HLTH.FN.ZS,Tanzania,TZA,..,..,..
+Women participating in own health care decisions (% of women age 15-49),SG.DMK.HLTH.FN.ZS,Uganda,UGA,..,..,..
+Women participating in own health care decisions (% of women age 15-49),SG.DMK.HLTH.FN.ZS,Rwanda,RWA,..,82.3,..
+Women participating in own health care decisions (% of women age 15-49),SG.DMK.HLTH.FN.ZS,Burundi,BDI,..,..,..
+Women participating in own health care decisions (% of women age 15-49),SG.DMK.HLTH.FN.ZS,South Sudan,SSD,..,..,..
+Women participating in own health care decisions (% of women age 15-49),SG.DMK.HLTH.FN.ZS,Somalia,SOM,..,..,..
+Women participating in own health care decisions (% of women age 15-49),SG.DMK.HLTH.FN.ZS,"Congo, Dem. Rep.",COD,..,..,..
+"Women participating in the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.ALLD.FN.ZS,Kenya,KEN,..,..,..
+"Women participating in the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.ALLD.FN.ZS,Tanzania,TZA,..,..,..
+"Women participating in the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.ALLD.FN.ZS,Uganda,UGA,..,..,..
+"Women participating in the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.ALLD.FN.ZS,Rwanda,RWA,..,68.1,..
+"Women participating in the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.ALLD.FN.ZS,Burundi,BDI,..,..,..
+"Women participating in the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.ALLD.FN.ZS,South Sudan,SSD,..,..,..
+"Women participating in the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.ALLD.FN.ZS,Somalia,SOM,..,..,..
+"Women participating in the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.ALLD.FN.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Women who believe a husband is justified in beating his wife (any of five reasons) (%),SG.VAW.REAS.ZS,Kenya,KEN,..,..,..
+Women who believe a husband is justified in beating his wife (any of five reasons) (%),SG.VAW.REAS.ZS,Tanzania,TZA,..,..,..
+Women who believe a husband is justified in beating his wife (any of five reasons) (%),SG.VAW.REAS.ZS,Uganda,UGA,..,..,..
+Women who believe a husband is justified in beating his wife (any of five reasons) (%),SG.VAW.REAS.ZS,Rwanda,RWA,..,..,..
+Women who believe a husband is justified in beating his wife (any of five reasons) (%),SG.VAW.REAS.ZS,Burundi,BDI,..,..,..
+Women who believe a husband is justified in beating his wife (any of five reasons) (%),SG.VAW.REAS.ZS,South Sudan,SSD,..,..,..
+Women who believe a husband is justified in beating his wife (any of five reasons) (%),SG.VAW.REAS.ZS,Somalia,SOM,..,..,..
+Women who believe a husband is justified in beating his wife (any of five reasons) (%),SG.VAW.REAS.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Women who believe a husband is justified in beating his wife when she argues with him (%),SG.VAW.ARGU.ZS,Kenya,KEN,..,..,..
+Women who believe a husband is justified in beating his wife when she argues with him (%),SG.VAW.ARGU.ZS,Tanzania,TZA,..,..,..
+Women who believe a husband is justified in beating his wife when she argues with him (%),SG.VAW.ARGU.ZS,Uganda,UGA,..,..,..
+Women who believe a husband is justified in beating his wife when she argues with him (%),SG.VAW.ARGU.ZS,Rwanda,RWA,..,..,..
+Women who believe a husband is justified in beating his wife when she argues with him (%),SG.VAW.ARGU.ZS,Burundi,BDI,..,..,..
+Women who believe a husband is justified in beating his wife when she argues with him (%),SG.VAW.ARGU.ZS,South Sudan,SSD,..,..,..
+Women who believe a husband is justified in beating his wife when she argues with him (%),SG.VAW.ARGU.ZS,Somalia,SOM,..,..,..
+Women who believe a husband is justified in beating his wife when she argues with him (%),SG.VAW.ARGU.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Women who believe a husband is justified in beating his wife when she burns the food (%),SG.VAW.BURN.ZS,Kenya,KEN,..,..,..
+Women who believe a husband is justified in beating his wife when she burns the food (%),SG.VAW.BURN.ZS,Tanzania,TZA,..,..,..
+Women who believe a husband is justified in beating his wife when she burns the food (%),SG.VAW.BURN.ZS,Uganda,UGA,..,..,..
+Women who believe a husband is justified in beating his wife when she burns the food (%),SG.VAW.BURN.ZS,Rwanda,RWA,..,..,..
+Women who believe a husband is justified in beating his wife when she burns the food (%),SG.VAW.BURN.ZS,Burundi,BDI,..,..,..
+Women who believe a husband is justified in beating his wife when she burns the food (%),SG.VAW.BURN.ZS,South Sudan,SSD,..,..,..
+Women who believe a husband is justified in beating his wife when she burns the food (%),SG.VAW.BURN.ZS,Somalia,SOM,..,..,..
+Women who believe a husband is justified in beating his wife when she burns the food (%),SG.VAW.BURN.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Women who believe a husband is justified in beating his wife when she goes out without telling him (%),SG.VAW.GOES.ZS,Kenya,KEN,..,..,..
+Women who believe a husband is justified in beating his wife when she goes out without telling him (%),SG.VAW.GOES.ZS,Tanzania,TZA,..,..,..
+Women who believe a husband is justified in beating his wife when she goes out without telling him (%),SG.VAW.GOES.ZS,Uganda,UGA,..,..,..
+Women who believe a husband is justified in beating his wife when she goes out without telling him (%),SG.VAW.GOES.ZS,Rwanda,RWA,..,..,..
+Women who believe a husband is justified in beating his wife when she goes out without telling him (%),SG.VAW.GOES.ZS,Burundi,BDI,..,..,..
+Women who believe a husband is justified in beating his wife when she goes out without telling him (%),SG.VAW.GOES.ZS,South Sudan,SSD,..,..,..
+Women who believe a husband is justified in beating his wife when she goes out without telling him (%),SG.VAW.GOES.ZS,Somalia,SOM,..,..,..
+Women who believe a husband is justified in beating his wife when she goes out without telling him (%),SG.VAW.GOES.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Women who believe a husband is justified in beating his wife when she neglects the children (%),SG.VAW.NEGL.ZS,Kenya,KEN,..,..,..
+Women who believe a husband is justified in beating his wife when she neglects the children (%),SG.VAW.NEGL.ZS,Tanzania,TZA,..,..,..
+Women who believe a husband is justified in beating his wife when she neglects the children (%),SG.VAW.NEGL.ZS,Uganda,UGA,..,..,..
+Women who believe a husband is justified in beating his wife when she neglects the children (%),SG.VAW.NEGL.ZS,Rwanda,RWA,..,..,..
+Women who believe a husband is justified in beating his wife when she neglects the children (%),SG.VAW.NEGL.ZS,Burundi,BDI,..,..,..
+Women who believe a husband is justified in beating his wife when she neglects the children (%),SG.VAW.NEGL.ZS,South Sudan,SSD,..,..,..
+Women who believe a husband is justified in beating his wife when she neglects the children (%),SG.VAW.NEGL.ZS,Somalia,SOM,..,..,..
+Women who believe a husband is justified in beating his wife when she neglects the children (%),SG.VAW.NEGL.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Women who believe a husband is justified in beating his wife when she refuses sex with him (%),SG.VAW.REFU.ZS,Kenya,KEN,..,..,..
+Women who believe a husband is justified in beating his wife when she refuses sex with him (%),SG.VAW.REFU.ZS,Tanzania,TZA,..,..,..
+Women who believe a husband is justified in beating his wife when she refuses sex with him (%),SG.VAW.REFU.ZS,Uganda,UGA,..,..,..
+Women who believe a husband is justified in beating his wife when she refuses sex with him (%),SG.VAW.REFU.ZS,Rwanda,RWA,..,..,..
+Women who believe a husband is justified in beating his wife when she refuses sex with him (%),SG.VAW.REFU.ZS,Burundi,BDI,..,..,..
+Women who believe a husband is justified in beating his wife when she refuses sex with him (%),SG.VAW.REFU.ZS,South Sudan,SSD,..,..,..
+Women who believe a husband is justified in beating his wife when she refuses sex with him (%),SG.VAW.REFU.ZS,Somalia,SOM,..,..,..
+Women who believe a husband is justified in beating his wife when she refuses sex with him (%),SG.VAW.REFU.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Women who believe a wife is justified refusing sex with her husband for all of the reasons (%),SG.RSX.REAS.ZS,Kenya,KEN,..,..,..
+Women who believe a wife is justified refusing sex with her husband for all of the reasons (%),SG.RSX.REAS.ZS,Tanzania,TZA,..,..,..
+Women who believe a wife is justified refusing sex with her husband for all of the reasons (%),SG.RSX.REAS.ZS,Uganda,UGA,..,..,..
+Women who believe a wife is justified refusing sex with her husband for all of the reasons (%),SG.RSX.REAS.ZS,Rwanda,RWA,..,..,..
+Women who believe a wife is justified refusing sex with her husband for all of the reasons (%),SG.RSX.REAS.ZS,Burundi,BDI,..,..,..
+Women who believe a wife is justified refusing sex with her husband for all of the reasons (%),SG.RSX.REAS.ZS,South Sudan,SSD,..,..,..
+Women who believe a wife is justified refusing sex with her husband for all of the reasons (%),SG.RSX.REAS.ZS,Somalia,SOM,..,..,..
+Women who believe a wife is justified refusing sex with her husband for all of the reasons (%),SG.RSX.REAS.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Women who believe a wife is justified refusing sex with her husband for none of the reasons (%),SG.RSX.NORS.ZS,Kenya,KEN,..,..,..
+Women who believe a wife is justified refusing sex with her husband for none of the reasons (%),SG.RSX.NORS.ZS,Tanzania,TZA,..,..,..
+Women who believe a wife is justified refusing sex with her husband for none of the reasons (%),SG.RSX.NORS.ZS,Uganda,UGA,..,..,..
+Women who believe a wife is justified refusing sex with her husband for none of the reasons (%),SG.RSX.NORS.ZS,Rwanda,RWA,..,..,..
+Women who believe a wife is justified refusing sex with her husband for none of the reasons (%),SG.RSX.NORS.ZS,Burundi,BDI,..,..,..
+Women who believe a wife is justified refusing sex with her husband for none of the reasons (%),SG.RSX.NORS.ZS,South Sudan,SSD,..,..,..
+Women who believe a wife is justified refusing sex with her husband for none of the reasons (%),SG.RSX.NORS.ZS,Somalia,SOM,..,..,..
+Women who believe a wife is justified refusing sex with her husband for none of the reasons (%),SG.RSX.NORS.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%),SG.RSX.BRTH.ZS,Kenya,KEN,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%),SG.RSX.BRTH.ZS,Tanzania,TZA,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%),SG.RSX.BRTH.ZS,Uganda,UGA,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%),SG.RSX.BRTH.ZS,Rwanda,RWA,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%),SG.RSX.BRTH.ZS,Burundi,BDI,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%),SG.RSX.BRTH.ZS,South Sudan,SSD,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%),SG.RSX.BRTH.ZS,Somalia,SOM,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she has recently given birth (%),SG.RSX.BRTH.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she is tired or not in the mood (%),SG.RSX.TIRD.ZS,Kenya,KEN,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she is tired or not in the mood (%),SG.RSX.TIRD.ZS,Tanzania,TZA,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she is tired or not in the mood (%),SG.RSX.TIRD.ZS,Uganda,UGA,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she is tired or not in the mood (%),SG.RSX.TIRD.ZS,Rwanda,RWA,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she is tired or not in the mood (%),SG.RSX.TIRD.ZS,Burundi,BDI,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she is tired or not in the mood (%),SG.RSX.TIRD.ZS,South Sudan,SSD,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she is tired or not in the mood (%),SG.RSX.TIRD.ZS,Somalia,SOM,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she is tired or not in the mood (%),SG.RSX.TIRD.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she knows he has sex with other women (%),SG.RSX.SXOT.ZS,Kenya,KEN,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she knows he has sex with other women (%),SG.RSX.SXOT.ZS,Tanzania,TZA,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she knows he has sex with other women (%),SG.RSX.SXOT.ZS,Uganda,UGA,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she knows he has sex with other women (%),SG.RSX.SXOT.ZS,Rwanda,RWA,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she knows he has sex with other women (%),SG.RSX.SXOT.ZS,Burundi,BDI,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she knows he has sex with other women (%),SG.RSX.SXOT.ZS,South Sudan,SSD,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she knows he has sex with other women (%),SG.RSX.SXOT.ZS,Somalia,SOM,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she knows he has sex with other women (%),SG.RSX.SXOT.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease (%),SG.RSX.TMDS.ZS,Kenya,KEN,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease (%),SG.RSX.TMDS.ZS,Tanzania,TZA,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease (%),SG.RSX.TMDS.ZS,Uganda,UGA,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease (%),SG.RSX.TMDS.ZS,Rwanda,RWA,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease (%),SG.RSX.TMDS.ZS,Burundi,BDI,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease (%),SG.RSX.TMDS.ZS,South Sudan,SSD,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease (%),SG.RSX.TMDS.ZS,Somalia,SOM,..,..,..
+Women who believe a wife is justified refusing sex with her husband if she knows he has sexually transmitted disease (%),SG.RSX.TMDS.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Women who believe religion requires female genital mutilation (% of women ages 15-49 who have heard about FGM),SH.STA.FGMO.RE.FE.ZS,Kenya,KEN,..,..,..
+Women who believe religion requires female genital mutilation (% of women ages 15-49 who have heard about FGM),SH.STA.FGMO.RE.FE.ZS,Tanzania,TZA,..,..,..
+Women who believe religion requires female genital mutilation (% of women ages 15-49 who have heard about FGM),SH.STA.FGMO.RE.FE.ZS,Uganda,UGA,..,..,..
+Women who believe religion requires female genital mutilation (% of women ages 15-49 who have heard about FGM),SH.STA.FGMO.RE.FE.ZS,Rwanda,RWA,..,..,..
+Women who believe religion requires female genital mutilation (% of women ages 15-49 who have heard about FGM),SH.STA.FGMO.RE.FE.ZS,Burundi,BDI,..,..,..
+Women who believe religion requires female genital mutilation (% of women ages 15-49 who have heard about FGM),SH.STA.FGMO.RE.FE.ZS,South Sudan,SSD,..,..,..
+Women who believe religion requires female genital mutilation (% of women ages 15-49 who have heard about FGM),SH.STA.FGMO.RE.FE.ZS,Somalia,SOM,..,..,..
+Women who believe religion requires female genital mutilation (% of women ages 15-49 who have heard about FGM),SH.STA.FGMO.RE.FE.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Women who initiated sexual intercourse before age 15 (% of women ages 15-19),SG.SXL.SX15.YG.FE.ZS,Kenya,KEN,..,..,..
+Women who initiated sexual intercourse before age 15 (% of women ages 15-19),SG.SXL.SX15.YG.FE.ZS,Tanzania,TZA,..,..,..
+Women who initiated sexual intercourse before age 15 (% of women ages 15-19),SG.SXL.SX15.YG.FE.ZS,Uganda,UGA,..,..,..
+Women who initiated sexual intercourse before age 15 (% of women ages 15-19),SG.SXL.SX15.YG.FE.ZS,Rwanda,RWA,..,4.5,..
+Women who initiated sexual intercourse before age 15 (% of women ages 15-19),SG.SXL.SX15.YG.FE.ZS,Burundi,BDI,..,..,..
+Women who initiated sexual intercourse before age 15 (% of women ages 15-19),SG.SXL.SX15.YG.FE.ZS,South Sudan,SSD,..,..,..
+Women who initiated sexual intercourse before age 15 (% of women ages 15-19),SG.SXL.SX15.YG.FE.ZS,Somalia,SOM,..,..,..
+Women who initiated sexual intercourse before age 15 (% of women ages 15-19),SG.SXL.SX15.YG.FE.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Women who initiated sexual intercourse by age 15 (% of women ages 20-24),SG.SXL.SX15.OL.FE.ZS,Kenya,KEN,..,..,..
+Women who initiated sexual intercourse by age 15 (% of women ages 20-24),SG.SXL.SX15.OL.FE.ZS,Tanzania,TZA,..,..,..
+Women who initiated sexual intercourse by age 15 (% of women ages 20-24),SG.SXL.SX15.OL.FE.ZS,Uganda,UGA,..,..,..
+Women who initiated sexual intercourse by age 15 (% of women ages 20-24),SG.SXL.SX15.OL.FE.ZS,Rwanda,RWA,..,2.9,..
+Women who initiated sexual intercourse by age 15 (% of women ages 20-24),SG.SXL.SX15.OL.FE.ZS,Burundi,BDI,..,..,..
+Women who initiated sexual intercourse by age 15 (% of women ages 20-24),SG.SXL.SX15.OL.FE.ZS,South Sudan,SSD,..,..,..
+Women who initiated sexual intercourse by age 15 (% of women ages 20-24),SG.SXL.SX15.OL.FE.ZS,Somalia,SOM,..,..,..
+Women who initiated sexual intercourse by age 15 (% of women ages 20-24),SG.SXL.SX15.OL.FE.ZS,"Congo, Dem. Rep.",COD,..,..,..
+"Women who never sought help to stop violence, and never told anyone  (% of ever-married women ages 15-49 who have ever experienced any physical or sexual violence)",SG.VAW.HLPV.NV.ZS,Kenya,KEN,..,..,..
+"Women who never sought help to stop violence, and never told anyone  (% of ever-married women ages 15-49 who have ever experienced any physical or sexual violence)",SG.VAW.HLPV.NV.ZS,Tanzania,TZA,..,..,..
+"Women who never sought help to stop violence, and never told anyone  (% of ever-married women ages 15-49 who have ever experienced any physical or sexual violence)",SG.VAW.HLPV.NV.ZS,Uganda,UGA,..,..,..
+"Women who never sought help to stop violence, and never told anyone  (% of ever-married women ages 15-49 who have ever experienced any physical or sexual violence)",SG.VAW.HLPV.NV.ZS,Rwanda,RWA,..,39.7,..
+"Women who never sought help to stop violence, and never told anyone  (% of ever-married women ages 15-49 who have ever experienced any physical or sexual violence)",SG.VAW.HLPV.NV.ZS,Burundi,BDI,..,..,..
+"Women who never sought help to stop violence, and never told anyone  (% of ever-married women ages 15-49 who have ever experienced any physical or sexual violence)",SG.VAW.HLPV.NV.ZS,South Sudan,SSD,..,..,..
+"Women who never sought help to stop violence, and never told anyone  (% of ever-married women ages 15-49 who have ever experienced any physical or sexual violence)",SG.VAW.HLPV.NV.ZS,Somalia,SOM,..,..,..
+"Women who never sought help to stop violence, and never told anyone  (% of ever-married women ages 15-49 who have ever experienced any physical or sexual violence)",SG.VAW.HLPV.NV.ZS,"Congo, Dem. Rep.",COD,..,..,..
+"Women who never sought help to stop violence, but told someone (% of ever-married women ages 15-49 who have ever experienced any physical or sexual violence)",SG.VAW.HLPV.TD.ZS,Kenya,KEN,..,..,..
+"Women who never sought help to stop violence, but told someone (% of ever-married women ages 15-49 who have ever experienced any physical or sexual violence)",SG.VAW.HLPV.TD.ZS,Tanzania,TZA,..,..,..
+"Women who never sought help to stop violence, but told someone (% of ever-married women ages 15-49 who have ever experienced any physical or sexual violence)",SG.VAW.HLPV.TD.ZS,Uganda,UGA,..,..,..
+"Women who never sought help to stop violence, but told someone (% of ever-married women ages 15-49 who have ever experienced any physical or sexual violence)",SG.VAW.HLPV.TD.ZS,Rwanda,RWA,..,17.5,..
+"Women who never sought help to stop violence, but told someone (% of ever-married women ages 15-49 who have ever experienced any physical or sexual violence)",SG.VAW.HLPV.TD.ZS,Burundi,BDI,..,..,..
+"Women who never sought help to stop violence, but told someone (% of ever-married women ages 15-49 who have ever experienced any physical or sexual violence)",SG.VAW.HLPV.TD.ZS,South Sudan,SSD,..,..,..
+"Women who never sought help to stop violence, but told someone (% of ever-married women ages 15-49 who have ever experienced any physical or sexual violence)",SG.VAW.HLPV.TD.ZS,Somalia,SOM,..,..,..
+"Women who never sought help to stop violence, but told someone (% of ever-married women ages 15-49 who have ever experienced any physical or sexual violence)",SG.VAW.HLPV.TD.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Women who own a house alone (% of women age 15-49),SG.OWN.HSAL.FE.ZS,Kenya,KEN,..,..,..
+Women who own a house alone (% of women age 15-49),SG.OWN.HSAL.FE.ZS,Tanzania,TZA,..,..,..
+Women who own a house alone (% of women age 15-49),SG.OWN.HSAL.FE.ZS,Uganda,UGA,..,..,..
+Women who own a house alone (% of women age 15-49),SG.OWN.HSAL.FE.ZS,Rwanda,RWA,..,5,..
+Women who own a house alone (% of women age 15-49),SG.OWN.HSAL.FE.ZS,Burundi,BDI,..,..,..
+Women who own a house alone (% of women age 15-49),SG.OWN.HSAL.FE.ZS,South Sudan,SSD,..,..,..
+Women who own a house alone (% of women age 15-49),SG.OWN.HSAL.FE.ZS,Somalia,SOM,..,..,..
+Women who own a house alone (% of women age 15-49),SG.OWN.HSAL.FE.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Women who own land alone (% of women age 15-49),SG.OWN.LDAL.FE.ZS,Kenya,KEN,..,..,..
+Women who own land alone (% of women age 15-49),SG.OWN.LDAL.FE.ZS,Tanzania,TZA,..,..,..
+Women who own land alone (% of women age 15-49),SG.OWN.LDAL.FE.ZS,Uganda,UGA,..,..,..
+Women who own land alone (% of women age 15-49),SG.OWN.LDAL.FE.ZS,Rwanda,RWA,..,5.7,..
+Women who own land alone (% of women age 15-49),SG.OWN.LDAL.FE.ZS,Burundi,BDI,..,..,..
+Women who own land alone (% of women age 15-49),SG.OWN.LDAL.FE.ZS,South Sudan,SSD,..,..,..
+Women who own land alone (% of women age 15-49),SG.OWN.LDAL.FE.ZS,Somalia,SOM,..,..,..
+Women who own land alone (% of women age 15-49),SG.OWN.LDAL.FE.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Women who were first married by age 15 (% of women ages 20-24),SP.M15.2024.FE.ZS,Kenya,KEN,..,..,..
+Women who were first married by age 15 (% of women ages 20-24),SP.M15.2024.FE.ZS,Tanzania,TZA,..,..,..
+Women who were first married by age 15 (% of women ages 20-24),SP.M15.2024.FE.ZS,Uganda,UGA,..,..,..
+Women who were first married by age 15 (% of women ages 20-24),SP.M15.2024.FE.ZS,Rwanda,RWA,..,0.3,..
+Women who were first married by age 15 (% of women ages 20-24),SP.M15.2024.FE.ZS,Burundi,BDI,..,..,..
+Women who were first married by age 15 (% of women ages 20-24),SP.M15.2024.FE.ZS,South Sudan,SSD,..,..,..
+Women who were first married by age 15 (% of women ages 20-24),SP.M15.2024.FE.ZS,Somalia,SOM,..,16.8,..
+Women who were first married by age 15 (% of women ages 20-24),SP.M15.2024.FE.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Women who were first married by age 18 (% of women ages 20-24),SP.M18.2024.FE.ZS,Kenya,KEN,..,..,..
+Women who were first married by age 18 (% of women ages 20-24),SP.M18.2024.FE.ZS,Tanzania,TZA,..,..,..
+Women who were first married by age 18 (% of women ages 20-24),SP.M18.2024.FE.ZS,Uganda,UGA,..,..,..
+Women who were first married by age 18 (% of women ages 20-24),SP.M18.2024.FE.ZS,Rwanda,RWA,..,5.5,..
+Women who were first married by age 18 (% of women ages 20-24),SP.M18.2024.FE.ZS,Burundi,BDI,..,..,..
+Women who were first married by age 18 (% of women ages 20-24),SP.M18.2024.FE.ZS,South Sudan,SSD,..,..,..
+Women who were first married by age 18 (% of women ages 20-24),SP.M18.2024.FE.ZS,Somalia,SOM,..,35.5,..
+Women who were first married by age 18 (% of women ages 20-24),SP.M18.2024.FE.ZS,"Congo, Dem. Rep.",COD,..,..,..
+Women with a national identity card or equivalent foundational identity document (% of women ages 15+),SG.REG.NLID.FE.ZS,Kenya,KEN,..,..,..
+Women with a national identity card or equivalent foundational identity document (% of women ages 15+),SG.REG.NLID.FE.ZS,Tanzania,TZA,..,..,..
+Women with a national identity card or equivalent foundational identity document (% of women ages 15+),SG.REG.NLID.FE.ZS,Uganda,UGA,..,..,..
+Women with a national identity card or equivalent foundational identity document (% of women ages 15+),SG.REG.NLID.FE.ZS,Rwanda,RWA,..,..,..
+Women with a national identity card or equivalent foundational identity document (% of women ages 15+),SG.REG.NLID.FE.ZS,Burundi,BDI,..,..,..
+Women with a national identity card or equivalent foundational identity document (% of women ages 15+),SG.REG.NLID.FE.ZS,South Sudan,SSD,..,..,..
+Women with a national identity card or equivalent foundational identity document (% of women ages 15+),SG.REG.NLID.FE.ZS,Somalia,SOM,..,..,..
+Women with a national identity card or equivalent foundational identity document (% of women ages 15+),SG.REG.NLID.FE.ZS,"Congo, Dem. Rep.",COD,..,..,..
+"Women, Business and the Law: Assets Indicator Score (scale 1-100)",SG.LAW.INDX.AS,Kenya,KEN,80,80,80
+"Women, Business and the Law: Assets Indicator Score (scale 1-100)",SG.LAW.INDX.AS,Tanzania,TZA,60,60,60
+"Women, Business and the Law: Assets Indicator Score (scale 1-100)",SG.LAW.INDX.AS,Uganda,UGA,40,40,40
+"Women, Business and the Law: Assets Indicator Score (scale 1-100)",SG.LAW.INDX.AS,Rwanda,RWA,100,100,100
+"Women, Business and the Law: Assets Indicator Score (scale 1-100)",SG.LAW.INDX.AS,Burundi,BDI,60,60,60
+"Women, Business and the Law: Assets Indicator Score (scale 1-100)",SG.LAW.INDX.AS,South Sudan,SSD,20,20,20
+"Women, Business and the Law: Assets Indicator Score (scale 1-100)",SG.LAW.INDX.AS,Somalia,SOM,40,40,40
+"Women, Business and the Law: Assets Indicator Score (scale 1-100)",SG.LAW.INDX.AS,"Congo, Dem. Rep.",COD,60,60,60
+"Women, Business and the Law: Entrepreneurship Indicator Score (scale 1-100)",SG.LAW.INDX.EN,Kenya,KEN,50,50,50
+"Women, Business and the Law: Entrepreneurship Indicator Score (scale 1-100)",SG.LAW.INDX.EN,Tanzania,TZA,75,75,75
+"Women, Business and the Law: Entrepreneurship Indicator Score (scale 1-100)",SG.LAW.INDX.EN,Uganda,UGA,75,75,75
+"Women, Business and the Law: Entrepreneurship Indicator Score (scale 1-100)",SG.LAW.INDX.EN,Rwanda,RWA,75,75,75
+"Women, Business and the Law: Entrepreneurship Indicator Score (scale 1-100)",SG.LAW.INDX.EN,Burundi,BDI,75,75,75
+"Women, Business and the Law: Entrepreneurship Indicator Score (scale 1-100)",SG.LAW.INDX.EN,South Sudan,SSD,75,75,75
+"Women, Business and the Law: Entrepreneurship Indicator Score (scale 1-100)",SG.LAW.INDX.EN,Somalia,SOM,75,75,75
+"Women, Business and the Law: Entrepreneurship Indicator Score (scale 1-100)",SG.LAW.INDX.EN,"Congo, Dem. Rep.",COD,100,100,100
+,,,,,,
+,,,,,,
+,,,,,,
+Data from database: Gender Statistics,,,,,,
+Last Updated: 01/31/2023,,,,,,
