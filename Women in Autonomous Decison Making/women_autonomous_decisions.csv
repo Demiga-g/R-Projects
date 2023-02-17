@@ -335,38 +335,38 @@ Firms with female top manager (% of firms),IC.FRM.FEMM.ZS,"Congo, Dem. Rep.",COD
 "Population, female",SP.POP.TOTL.FE.IN,South Sudan,SSD,5280526,5358155,5427688
 "Population, female",SP.POP.TOTL.FE.IN,Somalia,SOM,7969926,8246544,8509953
 "Population, female",SP.POP.TOTL.FE.IN,"Congo, Dem. Rep.",COD,45306478,46787187,48319268
-Proportion of women in ministerial level positions (%),SG.GEN.MNST.ZS,Kenya,KEN,26.0869565217391,30.4347826086957,..
-Proportion of women in ministerial level positions (%),SG.GEN.MNST.ZS,Tanzania,TZA,21.7391304347826,18.1818181818182,..
-Proportion of women in ministerial level positions (%),SG.GEN.MNST.ZS,Uganda,UGA,33.3333333333333,34.4827586206897,..
-Proportion of women in ministerial level positions (%),SG.GEN.MNST.ZS,Rwanda,RWA,53.5714285714285,54.8387096774194,..
-Proportion of women in ministerial level positions (%),SG.GEN.MNST.ZS,Burundi,BDI,26.0869565217391,37.5,..
-Proportion of women in ministerial level positions (%),SG.GEN.MNST.ZS,South Sudan,SSD,15.625,33.3333333333333,..
-Proportion of women in ministerial level positions (%),SG.GEN.MNST.ZS,Somalia,SOM,18.5185185185185,18.5185185185185,..
-Proportion of women in ministerial level positions (%),SG.GEN.MNST.ZS,"Congo, Dem. Rep.",COD,17.391304347826,17.7777777777778,..
-"Self-employed, female (% of female employment) (modeled ILO estimate)",SL.EMP.SELF.FE.ZS,Kenya,KEN,57.2299995422363,..,..
-"Self-employed, female (% of female employment) (modeled ILO estimate)",SL.EMP.SELF.FE.ZS,Tanzania,TZA,87.3499984741211,..,..
-"Self-employed, female (% of female employment) (modeled ILO estimate)",SL.EMP.SELF.FE.ZS,Uganda,UGA,83.1800003051758,..,..
-"Self-employed, female (% of female employment) (modeled ILO estimate)",SL.EMP.SELF.FE.ZS,Rwanda,RWA,76.3300018310547,..,..
-"Self-employed, female (% of female employment) (modeled ILO estimate)",SL.EMP.SELF.FE.ZS,Burundi,BDI,90.4300003051758,..,..
-"Self-employed, female (% of female employment) (modeled ILO estimate)",SL.EMP.SELF.FE.ZS,South Sudan,SSD,95.620002746582,..,..
-"Self-employed, female (% of female employment) (modeled ILO estimate)",SL.EMP.SELF.FE.ZS,Somalia,SOM,96.9100036621094,..,..
-"Self-employed, female (% of female employment) (modeled ILO estimate)",SL.EMP.SELF.FE.ZS,"Congo, Dem. Rep.",COD,89.4599990844727,..,..
-"Self-employed, male (% of male employment) (modeled ILO estimate)",SL.EMP.SELF.MA.ZS,Kenya,KEN,41.6300010681152,..,..
-"Self-employed, male (% of male employment) (modeled ILO estimate)",SL.EMP.SELF.MA.ZS,Tanzania,TZA,80.3000030517578,..,..
-"Self-employed, male (% of male employment) (modeled ILO estimate)",SL.EMP.SELF.MA.ZS,Uganda,UGA,71.6600036621094,..,..
-"Self-employed, male (% of male employment) (modeled ILO estimate)",SL.EMP.SELF.MA.ZS,Rwanda,RWA,55.560001373291,..,..
-"Self-employed, male (% of male employment) (modeled ILO estimate)",SL.EMP.SELF.MA.ZS,Burundi,BDI,80.7699966430664,..,..
-"Self-employed, male (% of male employment) (modeled ILO estimate)",SL.EMP.SELF.MA.ZS,South Sudan,SSD,87.7200012207031,..,..
-"Self-employed, male (% of male employment) (modeled ILO estimate)",SL.EMP.SELF.MA.ZS,Somalia,SOM,90.0999984741211,..,..
-"Self-employed, male (% of male employment) (modeled ILO estimate)",SL.EMP.SELF.MA.ZS,"Congo, Dem. Rep.",COD,69.9800033569336,..,..
-"Self-employed, total (% of total employment) (modeled ILO estimate)",SL.EMP.SELF.ZS,Kenya,KEN,49.2700004577637,..,..
-"Self-employed, total (% of total employment) (modeled ILO estimate)",SL.EMP.SELF.ZS,Tanzania,TZA,83.6800003051758,..,..
-"Self-employed, total (% of total employment) (modeled ILO estimate)",SL.EMP.SELF.ZS,Uganda,UGA,77.3199996948242,..,..
-"Self-employed, total (% of total employment) (modeled ILO estimate)",SL.EMP.SELF.ZS,Rwanda,RWA,66.2900009155273,..,..
-"Self-employed, total (% of total employment) (modeled ILO estimate)",SL.EMP.SELF.ZS,Burundi,BDI,85.8000030517578,..,..
-"Self-employed, total (% of total employment) (modeled ILO estimate)",SL.EMP.SELF.ZS,South Sudan,SSD,91.5699996948242,..,..
-"Self-employed, total (% of total employment) (modeled ILO estimate)",SL.EMP.SELF.ZS,Somalia,SOM,91.6699981689453,..,..
-"Self-employed, total (% of total employment) (modeled ILO estimate)",SL.EMP.SELF.ZS,"Congo, Dem. Rep.",COD,79.4800033569336,..,..
+Proportion of women in ministerial level positions (%),SG.GEN.MNST.ZS,Kenya,KEN,26.08695652,30.43478261,..
+Proportion of women in ministerial level positions (%),SG.GEN.MNST.ZS,Tanzania,TZA,21.73913043,18.18181818,..
+Proportion of women in ministerial level positions (%),SG.GEN.MNST.ZS,Uganda,UGA,33.33333333,34.48275862,..
+Proportion of women in ministerial level positions (%),SG.GEN.MNST.ZS,Rwanda,RWA,53.57142857,54.83870968,..
+Proportion of women in ministerial level positions (%),SG.GEN.MNST.ZS,Burundi,BDI,26.08695652,37.5,..
+Proportion of women in ministerial level positions (%),SG.GEN.MNST.ZS,South Sudan,SSD,15.625,33.33333333,..
+Proportion of women in ministerial level positions (%),SG.GEN.MNST.ZS,Somalia,SOM,18.51851852,18.51851852,..
+Proportion of women in ministerial level positions (%),SG.GEN.MNST.ZS,"Congo, Dem. Rep.",COD,17.39130435,17.77777778,..
+"Self-employed, female (% of female employment) (modeled ILO estimate)",SL.EMP.SELF.FE.ZS,Kenya,KEN,57.22999954,..,..
+"Self-employed, female (% of female employment) (modeled ILO estimate)",SL.EMP.SELF.FE.ZS,Tanzania,TZA,87.34999847,..,..
+"Self-employed, female (% of female employment) (modeled ILO estimate)",SL.EMP.SELF.FE.ZS,Uganda,UGA,83.18000031,..,..
+"Self-employed, female (% of female employment) (modeled ILO estimate)",SL.EMP.SELF.FE.ZS,Rwanda,RWA,76.33000183,..,..
+"Self-employed, female (% of female employment) (modeled ILO estimate)",SL.EMP.SELF.FE.ZS,Burundi,BDI,90.43000031,..,..
+"Self-employed, female (% of female employment) (modeled ILO estimate)",SL.EMP.SELF.FE.ZS,South Sudan,SSD,95.62000275,..,..
+"Self-employed, female (% of female employment) (modeled ILO estimate)",SL.EMP.SELF.FE.ZS,Somalia,SOM,96.91000366,..,..
+"Self-employed, female (% of female employment) (modeled ILO estimate)",SL.EMP.SELF.FE.ZS,"Congo, Dem. Rep.",COD,89.45999908,..,..
+"Self-employed, male (% of male employment) (modeled ILO estimate)",SL.EMP.SELF.MA.ZS,Kenya,KEN,41.63000107,..,..
+"Self-employed, male (% of male employment) (modeled ILO estimate)",SL.EMP.SELF.MA.ZS,Tanzania,TZA,80.30000305,..,..
+"Self-employed, male (% of male employment) (modeled ILO estimate)",SL.EMP.SELF.MA.ZS,Uganda,UGA,71.66000366,..,..
+"Self-employed, male (% of male employment) (modeled ILO estimate)",SL.EMP.SELF.MA.ZS,Rwanda,RWA,55.56000137,..,..
+"Self-employed, male (% of male employment) (modeled ILO estimate)",SL.EMP.SELF.MA.ZS,Burundi,BDI,80.76999664,..,..
+"Self-employed, male (% of male employment) (modeled ILO estimate)",SL.EMP.SELF.MA.ZS,South Sudan,SSD,87.72000122,..,..
+"Self-employed, male (% of male employment) (modeled ILO estimate)",SL.EMP.SELF.MA.ZS,Somalia,SOM,90.09999847,..,..
+"Self-employed, male (% of male employment) (modeled ILO estimate)",SL.EMP.SELF.MA.ZS,"Congo, Dem. Rep.",COD,69.98000336,..,..
+"Self-employed, total (% of total employment) (modeled ILO estimate)",SL.EMP.SELF.ZS,Kenya,KEN,49.27000046,..,..
+"Self-employed, total (% of total employment) (modeled ILO estimate)",SL.EMP.SELF.ZS,Tanzania,TZA,83.68000031,..,..
+"Self-employed, total (% of total employment) (modeled ILO estimate)",SL.EMP.SELF.ZS,Uganda,UGA,77.31999969,..,..
+"Self-employed, total (% of total employment) (modeled ILO estimate)",SL.EMP.SELF.ZS,Rwanda,RWA,66.29000092,..,..
+"Self-employed, total (% of total employment) (modeled ILO estimate)",SL.EMP.SELF.ZS,Burundi,BDI,85.80000305,..,..
+"Self-employed, total (% of total employment) (modeled ILO estimate)",SL.EMP.SELF.ZS,South Sudan,SSD,91.56999969,..,..
+"Self-employed, total (% of total employment) (modeled ILO estimate)",SL.EMP.SELF.ZS,Somalia,SOM,91.66999817,..,..
+"Self-employed, total (% of total employment) (modeled ILO estimate)",SL.EMP.SELF.ZS,"Congo, Dem. Rep.",COD,79.48000336,..,..
 "Sent domestic remittances in the past year, male (% age 15+)",fin28.t.a.1,Kenya,KEN,..,..,..
 "Sent domestic remittances in the past year, male (% age 15+)",fin28.t.a.1,Tanzania,TZA,..,..,..
 "Sent domestic remittances in the past year, male (% age 15+)",fin28.t.a.1,Uganda,UGA,..,..,..
@@ -520,12 +520,12 @@ Used the internet to pay bills or to buy something online in the past year (% ag
 "Vocational and Technical enrolment (% of total secondary enrolment), female",SE.SEC.ENRL.FE.VO.ZS,Somalia,SOM,..,..,..
 "Vocational and Technical enrolment (% of total secondary enrolment), female",SE.SEC.ENRL.FE.VO.ZS,"Congo, Dem. Rep.",COD,..,..,..
 "Vocational and Technical enrolment (% of total secondary enrolment), total",SE.SEC.ENRL.VO.ZS,Kenya,KEN,..,..,..
-"Vocational and Technical enrolment (% of total secondary enrolment), total",SE.SEC.ENRL.VO.ZS,Tanzania,TZA,0.382860004901886,0.404850006103516,0.506699979305267
+"Vocational and Technical enrolment (% of total secondary enrolment), total",SE.SEC.ENRL.VO.ZS,Tanzania,TZA,0.382860005,0.404850006,0.506699979
 "Vocational and Technical enrolment (% of total secondary enrolment), total",SE.SEC.ENRL.VO.ZS,Uganda,UGA,..,..,..
-"Vocational and Technical enrolment (% of total secondary enrolment), total",SE.SEC.ENRL.VO.ZS,Rwanda,RWA,12.6316795349121,..,12.7665004730225
-"Vocational and Technical enrolment (% of total secondary enrolment), total",SE.SEC.ENRL.VO.ZS,Burundi,BDI,9.38150024414063,8.92669010162354,..
+"Vocational and Technical enrolment (% of total secondary enrolment), total",SE.SEC.ENRL.VO.ZS,Rwanda,RWA,12.63167953,..,12.76650047
+"Vocational and Technical enrolment (% of total secondary enrolment), total",SE.SEC.ENRL.VO.ZS,Burundi,BDI,9.381500244,8.926690102,..
 "Vocational and Technical enrolment (% of total secondary enrolment), total",SE.SEC.ENRL.VO.ZS,South Sudan,SSD,..,..,..
-"Vocational and Technical enrolment (% of total secondary enrolment), total",SE.SEC.ENRL.VO.ZS,Somalia,SOM,..,..,2.12586283683777
+"Vocational and Technical enrolment (% of total secondary enrolment), total",SE.SEC.ENRL.VO.ZS,Somalia,SOM,..,..,2.125862837
 "Vocational and Technical enrolment (% of total secondary enrolment), total",SE.SEC.ENRL.VO.ZS,"Congo, Dem. Rep.",COD,..,..,..
 "Women making their own informed decisions regarding sexual relations, contraceptive use and reproductive health care  (% of women age 15-49)",SG.DMK.SRCR.FN.ZS,Kenya,KEN,..,..,..
 "Women making their own informed decisions regarding sexual relations, contraceptive use and reproductive health care  (% of women age 15-49)",SG.DMK.SRCR.FN.ZS,Tanzania,TZA,..,..,..
@@ -783,8 +783,3 @@ Women with a national identity card or equivalent foundational identity document
 "Women, Business and the Law: Entrepreneurship Indicator Score (scale 1-100)",SG.LAW.INDX.EN,South Sudan,SSD,75,75,75
 "Women, Business and the Law: Entrepreneurship Indicator Score (scale 1-100)",SG.LAW.INDX.EN,Somalia,SOM,75,75,75
 "Women, Business and the Law: Entrepreneurship Indicator Score (scale 1-100)",SG.LAW.INDX.EN,"Congo, Dem. Rep.",COD,100,100,100
-,,,,,,
-,,,,,,
-,,,,,,
-Data from database: Gender Statistics,,,,,,
-Last Updated: 01/31/2023,,,,,,
