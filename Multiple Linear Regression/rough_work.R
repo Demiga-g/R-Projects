@@ -60,9 +60,10 @@ qqnorm(scale(employees$wip))
 
 ## Pair Plot
 
-num_employees <- employees[sapply(employees, is.numeric)]
-pairs(num_employees, col=hue_pal()(3)[3], pch=20)
-
+pairs(employees, panel=function(x, y){
+  points(x, y, col=hue_pal()(3)[2], pch=20)
+  lines(lowess(x, y), col=hue_pal()(3)[1])
+})
 ##  Pair Plot for Numeric Variables
 num_employees <- employees[sapply(employees, is.numeric)]
 pairs(num_employees, col=hue_pal()(3)[3], pch=20)
