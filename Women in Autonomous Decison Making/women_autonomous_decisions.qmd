@@ -7,9 +7,17 @@ editor: visual
 
 ```{r}
 library(tidyverse, quietly=TRUE)
-female <- read.csv("women_autonomous_decision.csv")
-female <- female[, c(1, 4, 7)]
-colnames(female) <- c("name", "country", "values")
-head(female)
-```
+library(leaflet)
 
+females <- read.csv("women_autonomous_decisions.csv", na.strings="..")
+females_narrower <- females[, c(1, 4, 7)]
+colnames(females_narrower) <- c("name", "country", "values")
+females_wider <- pivot_wider(females_narrower, names_from=name, 
+                             values_from=values)
+
+women_vs_men <- females_wider[, c(1:15)]
+colnames(women_vs_men) <- c("country", paste0("Q_", 1:14))
+
+leaflet(data=women_vs_men) %>%
+  setView(lat=a)
+```
