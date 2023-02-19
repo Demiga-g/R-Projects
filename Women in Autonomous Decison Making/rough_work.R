@@ -3,7 +3,7 @@
 
 library(surveydata, quietly=TRUE)
 library(likert)
-
+require(maps)
 
 women_vs_men <- females_wider[, c(1:15)] 
 questions <- colnames(women_vs_men)
@@ -19,3 +19,7 @@ women_vs_men
 membersurvey
 as.surveydata(females_wider)
 survey_plot_yes_no(as.surveydata(females_wider), `A woman can apply for a passport in the same way as a man (1=yes; 0=no)`)
+
+
+map(database="world", region="Democratic Republic of the Congo")
+map(database="world", region=c("Republic of Congo"))
