@@ -23,3 +23,47 @@ survey_plot_yes_no(as.surveydata(females_wider), `A woman can apply for a passpo
 
 map(database="world", region="Democratic Republic of the Congo")
 map(database="world", region=c("Republic of Congo"))
+
+
+females <- read.csv("women_autonomous_decisions.csv", na.strings="..")
+
+females_narrower <- females[, c(1, 3, 4, 7)]
+colnames(females_narrower) <- c("name", "region", "code", "response")
+females_narrower$region[females_narrower$region == "Congo, Dem. Rep."] <- 
+  "Democratic Republic of the Congo"
+
+females_wider <- pivot_wider(females_narrower, names_from=name, 
+                             values_from=response)
+
+women_vs_men <- females_wider[, c(1:16)]
+colnames(women_vs_men) <- c("region", "code", paste0("Q_", 1:15))
+women_vs_men[, ] <- lapply(women_vs_men[,], factor)
+
+east_africa <- map_data("world", region=unique(women_vs_men$region))
+east_data <- left_join(women_vs_men, east_africa, by=c("region"))
+
+labels <- east_data %>%
+  group_by(code, group) %>%
+  summarise(long=mean(long), lat=mean(lat)) %>%
+  distinct(code, group, .keep_all=TRUE)
+
+labels <- labels[-c(3,6,9:11), ]
+
+ggplot(east_data, aes(x=long, y=lat, group=group))+
+  coord_fixed(1.5)+
+  geom_polygon(aes(fill=Q_1), color="#ffefdb")+
+  scale_fill_manual(values=c("#0b84a5", "#f17853"), labels=(c("No", "Yes")), 
+                    name="Equality in Passport Application")+
+  ggrepel::geom_label_repel(aes(label= code), data= labels, 
+                            size=2.5, max.overlaps = 50, label.size=0, 
+                            arrow=arrow(length=unit(0.1, 'cm'))) +
+  labs(caption=paste0("Data Source: World Bank\n", "Author: Midega George Last Update 2023/01/31"))+
+  theme(axis.text=element_blank(),
+        axis.ticks=element_blank(),
+        axis.title=element_blank(),
+        rect=element_blank(),
+        axis.line = element_blank(),
+        panel.border = element_blank(),
+        panel.grid = element_blank(),
+        panel.background = element_rect(fill = "antiquewhite2"),
+        legend.position="bottom", legend.title=element_text(size=10))
