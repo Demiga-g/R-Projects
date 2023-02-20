@@ -35,7 +35,9 @@ labels <- east_data %>%
 ggplot(east_data, aes(x=long, y=lat, group=group))+
   coord_fixed(1.5)+
   geom_polygon(aes(fill=Q_1), color="red")+
-  scale_fill_manual(values=c("blue", "yellow"))+
+  #scale_fill_manual(values=c("blue", "yellow"))+
+  geom_label(aes(label=region), data=labels)
+
   ggrepel::geom_label_repel(aes(label= region), data= labels, 
                             size=2.5, max.overlaps = 50, label.size=0, 
                             arrow=arrow(length=unit(0.1, 'cm')))
