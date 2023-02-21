@@ -67,3 +67,38 @@ ggplot(east_data, aes(x=long, y=lat, group=group))+
         panel.grid = element_blank(),
         panel.background = element_rect(fill = "antiquewhite2"),
         legend.position="bottom", legend.title=element_text(size=10))
+
+
+library(maps)
+
+world <- map_data("world")
+continents <- read.csv("countries-continents.csv")
+
+continents %>%
+  filter(Continent == "Africa") %>%
+  left_join(world, by=c("Country"="region")) %>%
+  distinct(Country, .keep_all=TRUE)
+
+
+unique_av <- world %>%
+  group_by(region) %>%
+  distinct(region, .keep_all=TRUE)
+
+
+
+#coords <- read.csv("countries_coordinates.csv")
+#labels <- left_join(world, coords, by=c("region"="country"))[, -c(1, 2)]
+#labels <- left_join(equality, labels, by=c("Region"="region"))
+
+#labels <- labels %>%
+# rename(lat=latitude, long=longitude) %>%
+# group_by(`Region code`, group) %>%
+# distinct(`Region code`, group, .keep_all=TRUE)
+
+
+coords <- read.csv("countries_coordinates.csv")
+
+a <- continents %>%
+  left_join(coords, by=c("Country"="country"))
+
+#write.csv(a, "africa_clean_coords.csv", row.names=FALSE)

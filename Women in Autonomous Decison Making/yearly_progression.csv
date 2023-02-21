@@ -147,43 +147,43 @@ Burundi,BDI,Women participating in making major household purchase decisions (% 
 Burundi,BDI,"Women participating in none of the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.NONE.FN.ZS,NA,NA,NA,NA,NA,NA,10.7,NA,NA
 Burundi,BDI,Women participating in own health care decisions (% of women age 15-49),SG.DMK.HLTH.FN.ZS,NA,NA,NA,NA,NA,NA,77.2,NA,NA
 Burundi,BDI,"Women participating in the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.ALLD.FN.ZS,NA,NA,NA,NA,NA,NA,49.6,NA,NA
-Cabo Verde,CPV,A woman can apply for a passport in the same way as a man (1=yes; 0=no),SG.APL.PSPT.EQ,NA,0,0,0,1,1,1,1,1
-Cabo Verde,CPV,A woman can be head of household in the same way as a man (1=yes; 0=no),SG.HLD.HEAD.EQ,NA,0,0,0,1,1,1,1,1
-Cabo Verde,CPV,A woman can choose where to live in the same way as a man (1=yes; 0=no),SG.LOC.LIVE.EQ,NA,1,1,1,1,1,1,1,1
-Cabo Verde,CPV,A woman can get a job in the same way as a man (1=yes; 0=no),SG.GET.JOBS.EQ,NA,0,0,0,1,1,1,1,1
-Cabo Verde,CPV,A woman can obtain a judgment of divorce in the same way as a man (1=yes; 0=no),SG.OBT.DVRC.EQ,NA,1,1,1,1,1,1,1,1
-Cabo Verde,CPV,A woman can open a bank account in the same way as a man (1=yes; 0=no),SG.OPN.BANK.EQ,NA,0,0,0,1,1,1,1,1
-Cabo Verde,CPV,A woman can register a business in the same way as a man (1=yes; 0=no),SG.BUS.REGT.EQ,NA,0,0,0,1,1,1,1,1
-Cabo Verde,CPV,A woman can sign a contract in the same way as a man (1=yes; 0=no),SG.CNT.SIGN.EQ,NA,0,0,0,0,0,1,1,1
-Cabo Verde,CPV,A woman can travel outside her home in the same way as a man (1=yes; 0=no),SG.HME.TRVL.EQ,NA,1,1,1,1,1,1,1,1
-Cabo Verde,CPV,A woman can travel outside the country in the same way as a man (1=yes; 0=no),SG.CTR.TRVL.EQ,NA,1,1,1,1,1,1,1,1
-Cabo Verde,CPV,A woman can work at night in the same way as a man (1=yes; 0=no),SG.NGT.WORK.EQ,NA,1,1,1,1,1,1,1,1
-Cabo Verde,CPV,A woman can work in a job deemed dangerous in the same way as a man (1=yes; 0=no),SG.DNG.WORK.DN.EQ,NA,1,1,1,1,1,1,1,1
-Cabo Verde,CPV,A woman can work in an industrial job in the same way as a man (1=yes; 0=no),SG.IND.WORK.EQ,NA,1,1,1,1,1,1,1,1
-Cabo Verde,CPV,A woman has the same rights to remarry as a man (1=yes; 0=no),SG.REM.RIGT.EQ,NA,0,0,0,0,1,1,1,1
-Cabo Verde,CPV,Decision maker about a woman's own health care: mainly husband (% of women age 15-49),SG.DMK.HLTH.HB.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Cabo Verde,CPV,Decision maker about a woman's own health care: mainly wife (% of women age 15-49),SG.DMK.HLTH.WF.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Cabo Verde,CPV,Decision maker about a woman's own health care: other (% of women age 15-49),SG.DMK.HLTH.OT.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Cabo Verde,CPV,Decision maker about a woman's own health care: someone else (% of women age 15-49),SG.DMK.HLTH.SE.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Cabo Verde,CPV,Decision maker about a woman's own health care: wife and husband jointly (% of women age 15-49),SG.DMK.HLTH.WH.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Cabo Verde,CPV,Decision maker about a woman's visits to her family or relatives: mainly husband (% of women age 15-49),SG.DMK.VISI.HB.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Cabo Verde,CPV,Decision maker about a woman's visits to her family or relatives: mainly wife (% of women age 15-49),SG.DMK.VISI.WF.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Cabo Verde,CPV,Decision maker about a woman's visits to her family or relatives: other (% of women age 15-49),SG.DMK.VISI.OT.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Cabo Verde,CPV,Decision maker about a woman's visits to her family or relatives: someone else (% of women age 15-49),SG.DMK.VISI.SE.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Cabo Verde,CPV,Decision maker about major household purchases: mainly husband (% of women age 15-49),SG.DMK.PRCH.HB.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Cabo Verde,CPV,Decision maker about major household purchases: mainly wife (% of women age 15-49),SG.DMK.PRCH.WF.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Cabo Verde,CPV,Decision maker about major household purchases: other (% of women age 15-49),SG.DMK.PRCH.OT.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Cabo Verde,CPV,Decision maker about major household purchases: someone else (% of women age 15-49),SG.DMK.PRCH.SE.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Cabo Verde,CPV,Decision maker about major household purchases: wife and husband jointly (% of women age 15-49),SG.DMK.PRCH.WH.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Cabo Verde,CPV,Decision maker about Visits to her family or relatives: wife and husband jointly (% of women age 15-49),SG.DMK.VISI.WH.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Cabo Verde,CPV,"Women making their own informed decisions regarding sexual relations, contraceptive use and reproductive health care  (% of women age 15-49)",SG.DMK.SRCR.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Cabo Verde,CPV,"Women participating in decision of visits to family, relatives, friends (% of women age 15-49)",SG.DMK.VISI.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Cabo Verde,CPV,Women participating in decision of what food to cook daily (% of women age 15-49),SG.DMK.FOOD.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Cabo Verde,CPV,Women participating in making daily purchase decisions (% of women age 15-49),SG.DMK.DPCH.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Cabo Verde,CPV,Women participating in making major household purchase decisions (% of women age 15-49),SG.DMK.PRCH.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Cabo Verde,CPV,"Women participating in none of the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.NONE.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Cabo Verde,CPV,Women participating in own health care decisions (% of women age 15-49),SG.DMK.HLTH.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-Cabo Verde,CPV,"Women participating in the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.ALLD.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cape Verde,CPV,A woman can apply for a passport in the same way as a man (1=yes; 0=no),SG.APL.PSPT.EQ,NA,0,0,0,1,1,1,1,1
+Cape Verde,CPV,A woman can be head of household in the same way as a man (1=yes; 0=no),SG.HLD.HEAD.EQ,NA,0,0,0,1,1,1,1,1
+Cape Verde,CPV,A woman can choose where to live in the same way as a man (1=yes; 0=no),SG.LOC.LIVE.EQ,NA,1,1,1,1,1,1,1,1
+Cape Verde,CPV,A woman can get a job in the same way as a man (1=yes; 0=no),SG.GET.JOBS.EQ,NA,0,0,0,1,1,1,1,1
+Cape Verde,CPV,A woman can obtain a judgment of divorce in the same way as a man (1=yes; 0=no),SG.OBT.DVRC.EQ,NA,1,1,1,1,1,1,1,1
+Cape Verde,CPV,A woman can open a bank account in the same way as a man (1=yes; 0=no),SG.OPN.BANK.EQ,NA,0,0,0,1,1,1,1,1
+Cape Verde,CPV,A woman can register a business in the same way as a man (1=yes; 0=no),SG.BUS.REGT.EQ,NA,0,0,0,1,1,1,1,1
+Cape Verde,CPV,A woman can sign a contract in the same way as a man (1=yes; 0=no),SG.CNT.SIGN.EQ,NA,0,0,0,0,0,1,1,1
+Cape Verde,CPV,A woman can travel outside her home in the same way as a man (1=yes; 0=no),SG.HME.TRVL.EQ,NA,1,1,1,1,1,1,1,1
+Cape Verde,CPV,A woman can travel outside the country in the same way as a man (1=yes; 0=no),SG.CTR.TRVL.EQ,NA,1,1,1,1,1,1,1,1
+Cape Verde,CPV,A woman can work at night in the same way as a man (1=yes; 0=no),SG.NGT.WORK.EQ,NA,1,1,1,1,1,1,1,1
+Cape Verde,CPV,A woman can work in a job deemed dangerous in the same way as a man (1=yes; 0=no),SG.DNG.WORK.DN.EQ,NA,1,1,1,1,1,1,1,1
+Cape Verde,CPV,A woman can work in an industrial job in the same way as a man (1=yes; 0=no),SG.IND.WORK.EQ,NA,1,1,1,1,1,1,1,1
+Cape Verde,CPV,A woman has the same rights to remarry as a man (1=yes; 0=no),SG.REM.RIGT.EQ,NA,0,0,0,0,1,1,1,1
+Cape Verde,CPV,Decision maker about a woman's own health care: mainly husband (% of women age 15-49),SG.DMK.HLTH.HB.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cape Verde,CPV,Decision maker about a woman's own health care: mainly wife (% of women age 15-49),SG.DMK.HLTH.WF.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cape Verde,CPV,Decision maker about a woman's own health care: other (% of women age 15-49),SG.DMK.HLTH.OT.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cape Verde,CPV,Decision maker about a woman's own health care: someone else (% of women age 15-49),SG.DMK.HLTH.SE.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cape Verde,CPV,Decision maker about a woman's own health care: wife and husband jointly (% of women age 15-49),SG.DMK.HLTH.WH.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cape Verde,CPV,Decision maker about a woman's visits to her family or relatives: mainly husband (% of women age 15-49),SG.DMK.VISI.HB.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cape Verde,CPV,Decision maker about a woman's visits to her family or relatives: mainly wife (% of women age 15-49),SG.DMK.VISI.WF.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cape Verde,CPV,Decision maker about a woman's visits to her family or relatives: other (% of women age 15-49),SG.DMK.VISI.OT.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cape Verde,CPV,Decision maker about a woman's visits to her family or relatives: someone else (% of women age 15-49),SG.DMK.VISI.SE.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cape Verde,CPV,Decision maker about major household purchases: mainly husband (% of women age 15-49),SG.DMK.PRCH.HB.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cape Verde,CPV,Decision maker about major household purchases: mainly wife (% of women age 15-49),SG.DMK.PRCH.WF.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cape Verde,CPV,Decision maker about major household purchases: other (% of women age 15-49),SG.DMK.PRCH.OT.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cape Verde,CPV,Decision maker about major household purchases: someone else (% of women age 15-49),SG.DMK.PRCH.SE.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cape Verde,CPV,Decision maker about major household purchases: wife and husband jointly (% of women age 15-49),SG.DMK.PRCH.WH.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cape Verde,CPV,Decision maker about Visits to her family or relatives: wife and husband jointly (% of women age 15-49),SG.DMK.VISI.WH.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cape Verde,CPV,"Women making their own informed decisions regarding sexual relations, contraceptive use and reproductive health care  (% of women age 15-49)",SG.DMK.SRCR.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cape Verde,CPV,"Women participating in decision of visits to family, relatives, friends (% of women age 15-49)",SG.DMK.VISI.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cape Verde,CPV,Women participating in decision of what food to cook daily (% of women age 15-49),SG.DMK.FOOD.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cape Verde,CPV,Women participating in making daily purchase decisions (% of women age 15-49),SG.DMK.DPCH.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cape Verde,CPV,Women participating in making major household purchase decisions (% of women age 15-49),SG.DMK.PRCH.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cape Verde,CPV,"Women participating in none of the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.NONE.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cape Verde,CPV,Women participating in own health care decisions (% of women age 15-49),SG.DMK.HLTH.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Cape Verde,CPV,"Women participating in the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.ALLD.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Cameroon,CMR,A woman can apply for a passport in the same way as a man (1=yes; 0=no),SG.APL.PSPT.EQ,NA,0,0,0,0,0,0,0,0
 Cameroon,CMR,A woman can be head of household in the same way as a man (1=yes; 0=no),SG.HLD.HEAD.EQ,NA,0,0,0,0,0,0,0,0
 Cameroon,CMR,A woman can choose where to live in the same way as a man (1=yes; 0=no),SG.LOC.LIVE.EQ,NA,1,1,1,1,1,1,1,1
@@ -332,80 +332,80 @@ Comoros,COM,Women participating in making major household purchase decisions (% 
 Comoros,COM,"Women participating in none of the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.NONE.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Comoros,COM,Women participating in own health care decisions (% of women age 15-49),SG.DMK.HLTH.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Comoros,COM,"Women participating in the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.ALLD.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Rep.",COG,A woman can apply for a passport in the same way as a man (1=yes; 0=no),SG.APL.PSPT.EQ,NA,0,0,0,0,0,0,0,0
-"Congo, Rep.",COG,A woman can be head of household in the same way as a man (1=yes; 0=no),SG.HLD.HEAD.EQ,NA,0,0,0,0,0,0,0,0
-"Congo, Rep.",COG,A woman can choose where to live in the same way as a man (1=yes; 0=no),SG.LOC.LIVE.EQ,NA,1,1,1,1,1,1,1,1
-"Congo, Rep.",COG,A woman can get a job in the same way as a man (1=yes; 0=no),SG.GET.JOBS.EQ,NA,0,0,0,1,1,1,1,1
-"Congo, Rep.",COG,A woman can obtain a judgment of divorce in the same way as a man (1=yes; 0=no),SG.OBT.DVRC.EQ,NA,1,1,1,1,1,1,1,1
-"Congo, Rep.",COG,A woman can open a bank account in the same way as a man (1=yes; 0=no),SG.OPN.BANK.EQ,NA,1,1,1,1,1,1,1,1
-"Congo, Rep.",COG,A woman can register a business in the same way as a man (1=yes; 0=no),SG.BUS.REGT.EQ,NA,1,1,1,1,1,1,1,1
-"Congo, Rep.",COG,A woman can sign a contract in the same way as a man (1=yes; 0=no),SG.CNT.SIGN.EQ,NA,0,0,0,0,0,0,0,0
-"Congo, Rep.",COG,A woman can travel outside her home in the same way as a man (1=yes; 0=no),SG.HME.TRVL.EQ,NA,0,0,0,0,0,0,0,0
-"Congo, Rep.",COG,A woman can travel outside the country in the same way as a man (1=yes; 0=no),SG.CTR.TRVL.EQ,NA,1,1,1,1,1,1,1,1
-"Congo, Rep.",COG,A woman can work at night in the same way as a man (1=yes; 0=no),SG.NGT.WORK.EQ,NA,1,1,1,1,1,1,1,1
-"Congo, Rep.",COG,A woman can work in a job deemed dangerous in the same way as a man (1=yes; 0=no),SG.DNG.WORK.DN.EQ,NA,0,0,0,0,0,0,0,0
-"Congo, Rep.",COG,A woman can work in an industrial job in the same way as a man (1=yes; 0=no),SG.IND.WORK.EQ,NA,0,0,0,0,0,0,0,0
-"Congo, Rep.",COG,A woman has the same rights to remarry as a man (1=yes; 0=no),SG.REM.RIGT.EQ,NA,0,0,0,0,0,0,0,0
-"Congo, Rep.",COG,Decision maker about a woman's own health care: mainly husband (% of women age 15-49),SG.DMK.HLTH.HB.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Rep.",COG,Decision maker about a woman's own health care: mainly wife (% of women age 15-49),SG.DMK.HLTH.WF.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Rep.",COG,Decision maker about a woman's own health care: other (% of women age 15-49),SG.DMK.HLTH.OT.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Rep.",COG,Decision maker about a woman's own health care: someone else (% of women age 15-49),SG.DMK.HLTH.SE.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Rep.",COG,Decision maker about a woman's own health care: wife and husband jointly (% of women age 15-49),SG.DMK.HLTH.WH.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Rep.",COG,Decision maker about a woman's visits to her family or relatives: mainly husband (% of women age 15-49),SG.DMK.VISI.HB.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Rep.",COG,Decision maker about a woman's visits to her family or relatives: mainly wife (% of women age 15-49),SG.DMK.VISI.WF.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Rep.",COG,Decision maker about a woman's visits to her family or relatives: other (% of women age 15-49),SG.DMK.VISI.OT.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Rep.",COG,Decision maker about a woman's visits to her family or relatives: someone else (% of women age 15-49),SG.DMK.VISI.SE.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Rep.",COG,Decision maker about major household purchases: mainly husband (% of women age 15-49),SG.DMK.PRCH.HB.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Rep.",COG,Decision maker about major household purchases: mainly wife (% of women age 15-49),SG.DMK.PRCH.WF.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Rep.",COG,Decision maker about major household purchases: other (% of women age 15-49),SG.DMK.PRCH.OT.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Rep.",COG,Decision maker about major household purchases: someone else (% of women age 15-49),SG.DMK.PRCH.SE.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Rep.",COG,Decision maker about major household purchases: wife and husband jointly (% of women age 15-49),SG.DMK.PRCH.WH.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Rep.",COG,Decision maker about Visits to her family or relatives: wife and husband jointly (% of women age 15-49),SG.DMK.VISI.WH.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Rep.",COG,"Women making their own informed decisions regarding sexual relations, contraceptive use and reproductive health care  (% of women age 15-49)",SG.DMK.SRCR.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Rep.",COG,"Women participating in decision of visits to family, relatives, friends (% of women age 15-49)",SG.DMK.VISI.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Rep.",COG,Women participating in decision of what food to cook daily (% of women age 15-49),SG.DMK.FOOD.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Rep.",COG,Women participating in making daily purchase decisions (% of women age 15-49),SG.DMK.DPCH.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Rep.",COG,Women participating in making major household purchase decisions (% of women age 15-49),SG.DMK.PRCH.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Rep.",COG,"Women participating in none of the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.NONE.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Rep.",COG,Women participating in own health care decisions (% of women age 15-49),SG.DMK.HLTH.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Rep.",COG,"Women participating in the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.ALLD.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Dem. Rep.",COD,A woman can apply for a passport in the same way as a man (1=yes; 0=no),SG.APL.PSPT.EQ,NA,0,0,0,0,0,0,1,1
-"Congo, Dem. Rep.",COD,A woman can be head of household in the same way as a man (1=yes; 0=no),SG.HLD.HEAD.EQ,NA,0,0,0,0,0,0,0,0
-"Congo, Dem. Rep.",COD,A woman can choose where to live in the same way as a man (1=yes; 0=no),SG.LOC.LIVE.EQ,NA,1,1,1,1,1,1,1,1
-"Congo, Dem. Rep.",COD,A woman can get a job in the same way as a man (1=yes; 0=no),SG.GET.JOBS.EQ,NA,0,0,0,0,0,0,1,1
-"Congo, Dem. Rep.",COD,A woman can obtain a judgment of divorce in the same way as a man (1=yes; 0=no),SG.OBT.DVRC.EQ,NA,1,1,1,1,1,1,1,1
-"Congo, Dem. Rep.",COD,A woman can open a bank account in the same way as a man (1=yes; 0=no),SG.OPN.BANK.EQ,NA,0,0,0,0,0,0,1,1
-"Congo, Dem. Rep.",COD,A woman can register a business in the same way as a man (1=yes; 0=no),SG.BUS.REGT.EQ,NA,0,0,0,0,0,0,1,1
-"Congo, Dem. Rep.",COD,A woman can sign a contract in the same way as a man (1=yes; 0=no),SG.CNT.SIGN.EQ,NA,0,0,0,0,0,0,1,1
-"Congo, Dem. Rep.",COD,A woman can travel outside her home in the same way as a man (1=yes; 0=no),SG.HME.TRVL.EQ,NA,1,1,1,1,1,1,1,1
-"Congo, Dem. Rep.",COD,A woman can travel outside the country in the same way as a man (1=yes; 0=no),SG.CTR.TRVL.EQ,NA,1,1,1,1,1,1,1,1
-"Congo, Dem. Rep.",COD,A woman can work at night in the same way as a man (1=yes; 0=no),SG.NGT.WORK.EQ,NA,0,0,0,0,0,1,1,1
-"Congo, Dem. Rep.",COD,A woman can work in a job deemed dangerous in the same way as a man (1=yes; 0=no),SG.DNG.WORK.DN.EQ,NA,0,0,0,0,0,0,0,0
-"Congo, Dem. Rep.",COD,A woman can work in an industrial job in the same way as a man (1=yes; 0=no),SG.IND.WORK.EQ,NA,0,0,0,0,0,0,1,1
-"Congo, Dem. Rep.",COD,A woman has the same rights to remarry as a man (1=yes; 0=no),SG.REM.RIGT.EQ,NA,0,0,0,0,0,0,0,0
-"Congo, Dem. Rep.",COD,Decision maker about a woman's own health care: mainly husband (% of women age 15-49),SG.DMK.HLTH.HB.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Dem. Rep.",COD,Decision maker about a woman's own health care: mainly wife (% of women age 15-49),SG.DMK.HLTH.WF.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Dem. Rep.",COD,Decision maker about a woman's own health care: other (% of women age 15-49),SG.DMK.HLTH.OT.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Dem. Rep.",COD,Decision maker about a woman's own health care: someone else (% of women age 15-49),SG.DMK.HLTH.SE.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Dem. Rep.",COD,Decision maker about a woman's own health care: wife and husband jointly (% of women age 15-49),SG.DMK.HLTH.WH.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Dem. Rep.",COD,Decision maker about a woman's visits to her family or relatives: mainly husband (% of women age 15-49),SG.DMK.VISI.HB.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Dem. Rep.",COD,Decision maker about a woman's visits to her family or relatives: mainly wife (% of women age 15-49),SG.DMK.VISI.WF.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Dem. Rep.",COD,Decision maker about a woman's visits to her family or relatives: other (% of women age 15-49),SG.DMK.VISI.OT.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Dem. Rep.",COD,Decision maker about a woman's visits to her family or relatives: someone else (% of women age 15-49),SG.DMK.VISI.SE.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Dem. Rep.",COD,Decision maker about major household purchases: mainly husband (% of women age 15-49),SG.DMK.PRCH.HB.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Dem. Rep.",COD,Decision maker about major household purchases: mainly wife (% of women age 15-49),SG.DMK.PRCH.WF.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Dem. Rep.",COD,Decision maker about major household purchases: other (% of women age 15-49),SG.DMK.PRCH.OT.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Dem. Rep.",COD,Decision maker about major household purchases: someone else (% of women age 15-49),SG.DMK.PRCH.SE.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Dem. Rep.",COD,Decision maker about major household purchases: wife and husband jointly (% of women age 15-49),SG.DMK.PRCH.WH.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Dem. Rep.",COD,Decision maker about Visits to her family or relatives: wife and husband jointly (% of women age 15-49),SG.DMK.VISI.WH.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Dem. Rep.",COD,"Women making their own informed decisions regarding sexual relations, contraceptive use and reproductive health care  (% of women age 15-49)",SG.DMK.SRCR.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Dem. Rep.",COD,"Women participating in decision of visits to family, relatives, friends (% of women age 15-49)",SG.DMK.VISI.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Dem. Rep.",COD,Women participating in decision of what food to cook daily (% of women age 15-49),SG.DMK.FOOD.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Dem. Rep.",COD,Women participating in making daily purchase decisions (% of women age 15-49),SG.DMK.DPCH.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Dem. Rep.",COD,Women participating in making major household purchase decisions (% of women age 15-49),SG.DMK.PRCH.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Dem. Rep.",COD,"Women participating in none of the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.NONE.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Dem. Rep.",COD,Women participating in own health care decisions (% of women age 15-49),SG.DMK.HLTH.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Congo, Dem. Rep.",COD,"Women participating in the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.ALLD.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Republic of Congo,COG,A woman can apply for a passport in the same way as a man (1=yes; 0=no),SG.APL.PSPT.EQ,NA,0,0,0,0,0,0,0,0
+Republic of Congo,COG,A woman can be head of household in the same way as a man (1=yes; 0=no),SG.HLD.HEAD.EQ,NA,0,0,0,0,0,0,0,0
+Republic of Congo,COG,A woman can choose where to live in the same way as a man (1=yes; 0=no),SG.LOC.LIVE.EQ,NA,1,1,1,1,1,1,1,1
+Republic of Congo,COG,A woman can get a job in the same way as a man (1=yes; 0=no),SG.GET.JOBS.EQ,NA,0,0,0,1,1,1,1,1
+Republic of Congo,COG,A woman can obtain a judgment of divorce in the same way as a man (1=yes; 0=no),SG.OBT.DVRC.EQ,NA,1,1,1,1,1,1,1,1
+Republic of Congo,COG,A woman can open a bank account in the same way as a man (1=yes; 0=no),SG.OPN.BANK.EQ,NA,1,1,1,1,1,1,1,1
+Republic of Congo,COG,A woman can register a business in the same way as a man (1=yes; 0=no),SG.BUS.REGT.EQ,NA,1,1,1,1,1,1,1,1
+Republic of Congo,COG,A woman can sign a contract in the same way as a man (1=yes; 0=no),SG.CNT.SIGN.EQ,NA,0,0,0,0,0,0,0,0
+Republic of Congo,COG,A woman can travel outside her home in the same way as a man (1=yes; 0=no),SG.HME.TRVL.EQ,NA,0,0,0,0,0,0,0,0
+Republic of Congo,COG,A woman can travel outside the country in the same way as a man (1=yes; 0=no),SG.CTR.TRVL.EQ,NA,1,1,1,1,1,1,1,1
+Republic of Congo,COG,A woman can work at night in the same way as a man (1=yes; 0=no),SG.NGT.WORK.EQ,NA,1,1,1,1,1,1,1,1
+Republic of Congo,COG,A woman can work in a job deemed dangerous in the same way as a man (1=yes; 0=no),SG.DNG.WORK.DN.EQ,NA,0,0,0,0,0,0,0,0
+Republic of Congo,COG,A woman can work in an industrial job in the same way as a man (1=yes; 0=no),SG.IND.WORK.EQ,NA,0,0,0,0,0,0,0,0
+Republic of Congo,COG,A woman has the same rights to remarry as a man (1=yes; 0=no),SG.REM.RIGT.EQ,NA,0,0,0,0,0,0,0,0
+Republic of Congo,COG,Decision maker about a woman's own health care: mainly husband (% of women age 15-49),SG.DMK.HLTH.HB.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Republic of Congo,COG,Decision maker about a woman's own health care: mainly wife (% of women age 15-49),SG.DMK.HLTH.WF.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Republic of Congo,COG,Decision maker about a woman's own health care: other (% of women age 15-49),SG.DMK.HLTH.OT.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Republic of Congo,COG,Decision maker about a woman's own health care: someone else (% of women age 15-49),SG.DMK.HLTH.SE.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Republic of Congo,COG,Decision maker about a woman's own health care: wife and husband jointly (% of women age 15-49),SG.DMK.HLTH.WH.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Republic of Congo,COG,Decision maker about a woman's visits to her family or relatives: mainly husband (% of women age 15-49),SG.DMK.VISI.HB.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Republic of Congo,COG,Decision maker about a woman's visits to her family or relatives: mainly wife (% of women age 15-49),SG.DMK.VISI.WF.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Republic of Congo,COG,Decision maker about a woman's visits to her family or relatives: other (% of women age 15-49),SG.DMK.VISI.OT.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Republic of Congo,COG,Decision maker about a woman's visits to her family or relatives: someone else (% of women age 15-49),SG.DMK.VISI.SE.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Republic of Congo,COG,Decision maker about major household purchases: mainly husband (% of women age 15-49),SG.DMK.PRCH.HB.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Republic of Congo,COG,Decision maker about major household purchases: mainly wife (% of women age 15-49),SG.DMK.PRCH.WF.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Republic of Congo,COG,Decision maker about major household purchases: other (% of women age 15-49),SG.DMK.PRCH.OT.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Republic of Congo,COG,Decision maker about major household purchases: someone else (% of women age 15-49),SG.DMK.PRCH.SE.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Republic of Congo,COG,Decision maker about major household purchases: wife and husband jointly (% of women age 15-49),SG.DMK.PRCH.WH.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Republic of Congo,COG,Decision maker about Visits to her family or relatives: wife and husband jointly (% of women age 15-49),SG.DMK.VISI.WH.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Republic of Congo,COG,"Women making their own informed decisions regarding sexual relations, contraceptive use and reproductive health care  (% of women age 15-49)",SG.DMK.SRCR.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Republic of Congo,COG,"Women participating in decision of visits to family, relatives, friends (% of women age 15-49)",SG.DMK.VISI.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Republic of Congo,COG,Women participating in decision of what food to cook daily (% of women age 15-49),SG.DMK.FOOD.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Republic of Congo,COG,Women participating in making daily purchase decisions (% of women age 15-49),SG.DMK.DPCH.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Republic of Congo,COG,Women participating in making major household purchase decisions (% of women age 15-49),SG.DMK.PRCH.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Republic of Congo,COG,"Women participating in none of the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.NONE.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Republic of Congo,COG,Women participating in own health care decisions (% of women age 15-49),SG.DMK.HLTH.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Republic of Congo,COG,"Women participating in the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.ALLD.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Democratic Republic of the Congo,COD,A woman can apply for a passport in the same way as a man (1=yes; 0=no),SG.APL.PSPT.EQ,NA,0,0,0,0,0,0,1,1
+Democratic Republic of the Congo,COD,A woman can be head of household in the same way as a man (1=yes; 0=no),SG.HLD.HEAD.EQ,NA,0,0,0,0,0,0,0,0
+Democratic Republic of the Congo,COD,A woman can choose where to live in the same way as a man (1=yes; 0=no),SG.LOC.LIVE.EQ,NA,1,1,1,1,1,1,1,1
+Democratic Republic of the Congo,COD,A woman can get a job in the same way as a man (1=yes; 0=no),SG.GET.JOBS.EQ,NA,0,0,0,0,0,0,1,1
+Democratic Republic of the Congo,COD,A woman can obtain a judgment of divorce in the same way as a man (1=yes; 0=no),SG.OBT.DVRC.EQ,NA,1,1,1,1,1,1,1,1
+Democratic Republic of the Congo,COD,A woman can open a bank account in the same way as a man (1=yes; 0=no),SG.OPN.BANK.EQ,NA,0,0,0,0,0,0,1,1
+Democratic Republic of the Congo,COD,A woman can register a business in the same way as a man (1=yes; 0=no),SG.BUS.REGT.EQ,NA,0,0,0,0,0,0,1,1
+Democratic Republic of the Congo,COD,A woman can sign a contract in the same way as a man (1=yes; 0=no),SG.CNT.SIGN.EQ,NA,0,0,0,0,0,0,1,1
+Democratic Republic of the Congo,COD,A woman can travel outside her home in the same way as a man (1=yes; 0=no),SG.HME.TRVL.EQ,NA,1,1,1,1,1,1,1,1
+Democratic Republic of the Congo,COD,A woman can travel outside the country in the same way as a man (1=yes; 0=no),SG.CTR.TRVL.EQ,NA,1,1,1,1,1,1,1,1
+Democratic Republic of the Congo,COD,A woman can work at night in the same way as a man (1=yes; 0=no),SG.NGT.WORK.EQ,NA,0,0,0,0,0,1,1,1
+Democratic Republic of the Congo,COD,A woman can work in a job deemed dangerous in the same way as a man (1=yes; 0=no),SG.DNG.WORK.DN.EQ,NA,0,0,0,0,0,0,0,0
+Democratic Republic of the Congo,COD,A woman can work in an industrial job in the same way as a man (1=yes; 0=no),SG.IND.WORK.EQ,NA,0,0,0,0,0,0,1,1
+Democratic Republic of the Congo,COD,A woman has the same rights to remarry as a man (1=yes; 0=no),SG.REM.RIGT.EQ,NA,0,0,0,0,0,0,0,0
+Democratic Republic of the Congo,COD,Decision maker about a woman's own health care: mainly husband (% of women age 15-49),SG.DMK.HLTH.HB.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Democratic Republic of the Congo,COD,Decision maker about a woman's own health care: mainly wife (% of women age 15-49),SG.DMK.HLTH.WF.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Democratic Republic of the Congo,COD,Decision maker about a woman's own health care: other (% of women age 15-49),SG.DMK.HLTH.OT.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Democratic Republic of the Congo,COD,Decision maker about a woman's own health care: someone else (% of women age 15-49),SG.DMK.HLTH.SE.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Democratic Republic of the Congo,COD,Decision maker about a woman's own health care: wife and husband jointly (% of women age 15-49),SG.DMK.HLTH.WH.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Democratic Republic of the Congo,COD,Decision maker about a woman's visits to her family or relatives: mainly husband (% of women age 15-49),SG.DMK.VISI.HB.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Democratic Republic of the Congo,COD,Decision maker about a woman's visits to her family or relatives: mainly wife (% of women age 15-49),SG.DMK.VISI.WF.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Democratic Republic of the Congo,COD,Decision maker about a woman's visits to her family or relatives: other (% of women age 15-49),SG.DMK.VISI.OT.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Democratic Republic of the Congo,COD,Decision maker about a woman's visits to her family or relatives: someone else (% of women age 15-49),SG.DMK.VISI.SE.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Democratic Republic of the Congo,COD,Decision maker about major household purchases: mainly husband (% of women age 15-49),SG.DMK.PRCH.HB.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Democratic Republic of the Congo,COD,Decision maker about major household purchases: mainly wife (% of women age 15-49),SG.DMK.PRCH.WF.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Democratic Republic of the Congo,COD,Decision maker about major household purchases: other (% of women age 15-49),SG.DMK.PRCH.OT.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Democratic Republic of the Congo,COD,Decision maker about major household purchases: someone else (% of women age 15-49),SG.DMK.PRCH.SE.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Democratic Republic of the Congo,COD,Decision maker about major household purchases: wife and husband jointly (% of women age 15-49),SG.DMK.PRCH.WH.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Democratic Republic of the Congo,COD,Decision maker about Visits to her family or relatives: wife and husband jointly (% of women age 15-49),SG.DMK.VISI.WH.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Democratic Republic of the Congo,COD,"Women making their own informed decisions regarding sexual relations, contraceptive use and reproductive health care  (% of women age 15-49)",SG.DMK.SRCR.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Democratic Republic of the Congo,COD,"Women participating in decision of visits to family, relatives, friends (% of women age 15-49)",SG.DMK.VISI.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Democratic Republic of the Congo,COD,Women participating in decision of what food to cook daily (% of women age 15-49),SG.DMK.FOOD.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Democratic Republic of the Congo,COD,Women participating in making daily purchase decisions (% of women age 15-49),SG.DMK.DPCH.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Democratic Republic of the Congo,COD,Women participating in making major household purchase decisions (% of women age 15-49),SG.DMK.PRCH.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Democratic Republic of the Congo,COD,"Women participating in none of the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.NONE.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Democratic Republic of the Congo,COD,Women participating in own health care decisions (% of women age 15-49),SG.DMK.HLTH.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Democratic Republic of the Congo,COD,"Women participating in the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.ALLD.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Cote d'Ivoire,CIV,A woman can apply for a passport in the same way as a man (1=yes; 0=no),SG.APL.PSPT.EQ,NA,0,0,0,0,0,0,1,1
 Cote d'Ivoire,CIV,A woman can be head of household in the same way as a man (1=yes; 0=no),SG.HLD.HEAD.EQ,NA,0,0,0,0,0,0,1,1
 Cote d'Ivoire,CIV,A woman can choose where to live in the same way as a man (1=yes; 0=no),SG.LOC.LIVE.EQ,NA,1,1,1,1,1,1,1,1
@@ -480,43 +480,43 @@ Djibouti,DJI,Women participating in making major household purchase decisions (%
 Djibouti,DJI,"Women participating in none of the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.NONE.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Djibouti,DJI,Women participating in own health care decisions (% of women age 15-49),SG.DMK.HLTH.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Djibouti,DJI,"Women participating in the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.ALLD.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Egypt, Arab Rep.",EGY,A woman can apply for a passport in the same way as a man (1=yes; 0=no),SG.APL.PSPT.EQ,NA,1,1,1,1,1,1,1,1
-"Egypt, Arab Rep.",EGY,A woman can be head of household in the same way as a man (1=yes; 0=no),SG.HLD.HEAD.EQ,NA,0,0,0,0,0,0,0,0
-"Egypt, Arab Rep.",EGY,A woman can choose where to live in the same way as a man (1=yes; 0=no),SG.LOC.LIVE.EQ,NA,0,0,0,0,0,1,1,1
-"Egypt, Arab Rep.",EGY,A woman can get a job in the same way as a man (1=yes; 0=no),SG.GET.JOBS.EQ,NA,0,0,0,0,0,0,0,0
-"Egypt, Arab Rep.",EGY,A woman can obtain a judgment of divorce in the same way as a man (1=yes; 0=no),SG.OBT.DVRC.EQ,NA,0,0,0,0,0,0,0,0
-"Egypt, Arab Rep.",EGY,A woman can open a bank account in the same way as a man (1=yes; 0=no),SG.OPN.BANK.EQ,NA,1,1,1,1,1,1,1,1
-"Egypt, Arab Rep.",EGY,A woman can register a business in the same way as a man (1=yes; 0=no),SG.BUS.REGT.EQ,NA,1,1,1,1,1,1,1,1
-"Egypt, Arab Rep.",EGY,A woman can sign a contract in the same way as a man (1=yes; 0=no),SG.CNT.SIGN.EQ,NA,0,0,0,0,0,0,0,1
-"Egypt, Arab Rep.",EGY,A woman can travel outside her home in the same way as a man (1=yes; 0=no),SG.HME.TRVL.EQ,NA,0,0,0,0,0,0,0,0
-"Egypt, Arab Rep.",EGY,A woman can travel outside the country in the same way as a man (1=yes; 0=no),SG.CTR.TRVL.EQ,NA,0,0,0,0,0,0,0,0
-"Egypt, Arab Rep.",EGY,A woman can work at night in the same way as a man (1=yes; 0=no),SG.NGT.WORK.EQ,NA,0,0,0,0,0,0,0,0
-"Egypt, Arab Rep.",EGY,A woman can work in a job deemed dangerous in the same way as a man (1=yes; 0=no),SG.DNG.WORK.DN.EQ,NA,0,0,0,0,0,0,0,0
-"Egypt, Arab Rep.",EGY,A woman can work in an industrial job in the same way as a man (1=yes; 0=no),SG.IND.WORK.EQ,NA,0,0,0,0,0,0,0,0
-"Egypt, Arab Rep.",EGY,A woman has the same rights to remarry as a man (1=yes; 0=no),SG.REM.RIGT.EQ,NA,0,0,0,0,0,0,0,0
-"Egypt, Arab Rep.",EGY,Decision maker about a woman's own health care: mainly husband (% of women age 15-49),SG.DMK.HLTH.HB.ZS,NA,NA,NA,NA,NA,41.1,NA,NA,NA
-"Egypt, Arab Rep.",EGY,Decision maker about a woman's own health care: mainly wife (% of women age 15-49),SG.DMK.HLTH.WF.ZS,NA,NA,NA,NA,NA,32.7,NA,NA,NA
-"Egypt, Arab Rep.",EGY,Decision maker about a woman's own health care: other (% of women age 15-49),SG.DMK.HLTH.OT.ZS,NA,NA,NA,NA,NA,0.4,NA,NA,NA
-"Egypt, Arab Rep.",EGY,Decision maker about a woman's own health care: someone else (% of women age 15-49),SG.DMK.HLTH.SE.ZS,NA,NA,NA,NA,NA,1.1,NA,NA,NA
-"Egypt, Arab Rep.",EGY,Decision maker about a woman's own health care: wife and husband jointly (% of women age 15-49),SG.DMK.HLTH.WH.ZS,NA,NA,NA,NA,NA,24.8,NA,NA,NA
-"Egypt, Arab Rep.",EGY,Decision maker about a woman's visits to her family or relatives: mainly husband (% of women age 15-49),SG.DMK.VISI.HB.ZS,NA,NA,NA,NA,NA,25.8,NA,NA,NA
-"Egypt, Arab Rep.",EGY,Decision maker about a woman's visits to her family or relatives: mainly wife (% of women age 15-49),SG.DMK.VISI.WF.ZS,NA,NA,NA,NA,NA,12.3,NA,NA,NA
-"Egypt, Arab Rep.",EGY,Decision maker about a woman's visits to her family or relatives: other (% of women age 15-49),SG.DMK.VISI.OT.ZS,NA,NA,NA,NA,NA,2.2,NA,NA,NA
-"Egypt, Arab Rep.",EGY,Decision maker about a woman's visits to her family or relatives: someone else (% of women age 15-49),SG.DMK.VISI.SE.ZS,NA,NA,NA,NA,NA,1.7,NA,NA,NA
-"Egypt, Arab Rep.",EGY,Decision maker about major household purchases: mainly husband (% of women age 15-49),SG.DMK.PRCH.HB.ZS,NA,NA,NA,NA,NA,57.9,NA,NA,NA
-"Egypt, Arab Rep.",EGY,Decision maker about major household purchases: mainly wife (% of women age 15-49),SG.DMK.PRCH.WF.ZS,NA,NA,NA,NA,NA,5.2,NA,NA,NA
-"Egypt, Arab Rep.",EGY,Decision maker about major household purchases: other (% of women age 15-49),SG.DMK.PRCH.OT.ZS,NA,NA,NA,NA,NA,0.4,NA,NA,NA
-"Egypt, Arab Rep.",EGY,Decision maker about major household purchases: someone else (% of women age 15-49),SG.DMK.PRCH.SE.ZS,NA,NA,NA,NA,NA,3,NA,NA,NA
-"Egypt, Arab Rep.",EGY,Decision maker about major household purchases: wife and husband jointly (% of women age 15-49),SG.DMK.PRCH.WH.ZS,NA,NA,NA,NA,NA,33.5,NA,NA,NA
-"Egypt, Arab Rep.",EGY,Decision maker about Visits to her family or relatives: wife and husband jointly (% of women age 15-49),SG.DMK.VISI.WH.ZS,NA,NA,NA,NA,NA,57.9,NA,NA,NA
-"Egypt, Arab Rep.",EGY,"Women making their own informed decisions regarding sexual relations, contraceptive use and reproductive health care  (% of women age 15-49)",SG.DMK.SRCR.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Egypt, Arab Rep.",EGY,"Women participating in decision of visits to family, relatives, friends (% of women age 15-49)",SG.DMK.VISI.FN.ZS,NA,NA,NA,NA,NA,70.3,NA,NA,NA
-"Egypt, Arab Rep.",EGY,Women participating in decision of what food to cook daily (% of women age 15-49),SG.DMK.FOOD.FN.ZS,NA,NA,NA,NA,NA,80.6,NA,NA,NA
-"Egypt, Arab Rep.",EGY,Women participating in making daily purchase decisions (% of women age 15-49),SG.DMK.DPCH.FN.ZS,NA,NA,NA,NA,NA,65.5,NA,NA,NA
-"Egypt, Arab Rep.",EGY,Women participating in making major household purchase decisions (% of women age 15-49),SG.DMK.PRCH.FN.ZS,NA,NA,NA,NA,NA,38.7,NA,NA,NA
-"Egypt, Arab Rep.",EGY,"Women participating in none of the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.NONE.FN.ZS,NA,NA,NA,NA,NA,17.9,NA,NA,NA
-"Egypt, Arab Rep.",EGY,Women participating in own health care decisions (% of women age 15-49),SG.DMK.HLTH.FN.ZS,NA,NA,NA,NA,NA,57.5,NA,NA,NA
-"Egypt, Arab Rep.",EGY,"Women participating in the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.ALLD.FN.ZS,NA,NA,NA,NA,NA,29.7,NA,NA,NA
+Egypt,EGY,A woman can apply for a passport in the same way as a man (1=yes; 0=no),SG.APL.PSPT.EQ,NA,1,1,1,1,1,1,1,1
+Egypt,EGY,A woman can be head of household in the same way as a man (1=yes; 0=no),SG.HLD.HEAD.EQ,NA,0,0,0,0,0,0,0,0
+Egypt,EGY,A woman can choose where to live in the same way as a man (1=yes; 0=no),SG.LOC.LIVE.EQ,NA,0,0,0,0,0,1,1,1
+Egypt,EGY,A woman can get a job in the same way as a man (1=yes; 0=no),SG.GET.JOBS.EQ,NA,0,0,0,0,0,0,0,0
+Egypt,EGY,A woman can obtain a judgment of divorce in the same way as a man (1=yes; 0=no),SG.OBT.DVRC.EQ,NA,0,0,0,0,0,0,0,0
+Egypt,EGY,A woman can open a bank account in the same way as a man (1=yes; 0=no),SG.OPN.BANK.EQ,NA,1,1,1,1,1,1,1,1
+Egypt,EGY,A woman can register a business in the same way as a man (1=yes; 0=no),SG.BUS.REGT.EQ,NA,1,1,1,1,1,1,1,1
+Egypt,EGY,A woman can sign a contract in the same way as a man (1=yes; 0=no),SG.CNT.SIGN.EQ,NA,0,0,0,0,0,0,0,1
+Egypt,EGY,A woman can travel outside her home in the same way as a man (1=yes; 0=no),SG.HME.TRVL.EQ,NA,0,0,0,0,0,0,0,0
+Egypt,EGY,A woman can travel outside the country in the same way as a man (1=yes; 0=no),SG.CTR.TRVL.EQ,NA,0,0,0,0,0,0,0,0
+Egypt,EGY,A woman can work at night in the same way as a man (1=yes; 0=no),SG.NGT.WORK.EQ,NA,0,0,0,0,0,0,0,0
+Egypt,EGY,A woman can work in a job deemed dangerous in the same way as a man (1=yes; 0=no),SG.DNG.WORK.DN.EQ,NA,0,0,0,0,0,0,0,0
+Egypt,EGY,A woman can work in an industrial job in the same way as a man (1=yes; 0=no),SG.IND.WORK.EQ,NA,0,0,0,0,0,0,0,0
+Egypt,EGY,A woman has the same rights to remarry as a man (1=yes; 0=no),SG.REM.RIGT.EQ,NA,0,0,0,0,0,0,0,0
+Egypt,EGY,Decision maker about a woman's own health care: mainly husband (% of women age 15-49),SG.DMK.HLTH.HB.ZS,NA,NA,NA,NA,NA,41.1,NA,NA,NA
+Egypt,EGY,Decision maker about a woman's own health care: mainly wife (% of women age 15-49),SG.DMK.HLTH.WF.ZS,NA,NA,NA,NA,NA,32.7,NA,NA,NA
+Egypt,EGY,Decision maker about a woman's own health care: other (% of women age 15-49),SG.DMK.HLTH.OT.ZS,NA,NA,NA,NA,NA,0.4,NA,NA,NA
+Egypt,EGY,Decision maker about a woman's own health care: someone else (% of women age 15-49),SG.DMK.HLTH.SE.ZS,NA,NA,NA,NA,NA,1.1,NA,NA,NA
+Egypt,EGY,Decision maker about a woman's own health care: wife and husband jointly (% of women age 15-49),SG.DMK.HLTH.WH.ZS,NA,NA,NA,NA,NA,24.8,NA,NA,NA
+Egypt,EGY,Decision maker about a woman's visits to her family or relatives: mainly husband (% of women age 15-49),SG.DMK.VISI.HB.ZS,NA,NA,NA,NA,NA,25.8,NA,NA,NA
+Egypt,EGY,Decision maker about a woman's visits to her family or relatives: mainly wife (% of women age 15-49),SG.DMK.VISI.WF.ZS,NA,NA,NA,NA,NA,12.3,NA,NA,NA
+Egypt,EGY,Decision maker about a woman's visits to her family or relatives: other (% of women age 15-49),SG.DMK.VISI.OT.ZS,NA,NA,NA,NA,NA,2.2,NA,NA,NA
+Egypt,EGY,Decision maker about a woman's visits to her family or relatives: someone else (% of women age 15-49),SG.DMK.VISI.SE.ZS,NA,NA,NA,NA,NA,1.7,NA,NA,NA
+Egypt,EGY,Decision maker about major household purchases: mainly husband (% of women age 15-49),SG.DMK.PRCH.HB.ZS,NA,NA,NA,NA,NA,57.9,NA,NA,NA
+Egypt,EGY,Decision maker about major household purchases: mainly wife (% of women age 15-49),SG.DMK.PRCH.WF.ZS,NA,NA,NA,NA,NA,5.2,NA,NA,NA
+Egypt,EGY,Decision maker about major household purchases: other (% of women age 15-49),SG.DMK.PRCH.OT.ZS,NA,NA,NA,NA,NA,0.4,NA,NA,NA
+Egypt,EGY,Decision maker about major household purchases: someone else (% of women age 15-49),SG.DMK.PRCH.SE.ZS,NA,NA,NA,NA,NA,3,NA,NA,NA
+Egypt,EGY,Decision maker about major household purchases: wife and husband jointly (% of women age 15-49),SG.DMK.PRCH.WH.ZS,NA,NA,NA,NA,NA,33.5,NA,NA,NA
+Egypt,EGY,Decision maker about Visits to her family or relatives: wife and husband jointly (% of women age 15-49),SG.DMK.VISI.WH.ZS,NA,NA,NA,NA,NA,57.9,NA,NA,NA
+Egypt,EGY,"Women making their own informed decisions regarding sexual relations, contraceptive use and reproductive health care  (% of women age 15-49)",SG.DMK.SRCR.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Egypt,EGY,"Women participating in decision of visits to family, relatives, friends (% of women age 15-49)",SG.DMK.VISI.FN.ZS,NA,NA,NA,NA,NA,70.3,NA,NA,NA
+Egypt,EGY,Women participating in decision of what food to cook daily (% of women age 15-49),SG.DMK.FOOD.FN.ZS,NA,NA,NA,NA,NA,80.6,NA,NA,NA
+Egypt,EGY,Women participating in making daily purchase decisions (% of women age 15-49),SG.DMK.DPCH.FN.ZS,NA,NA,NA,NA,NA,65.5,NA,NA,NA
+Egypt,EGY,Women participating in making major household purchase decisions (% of women age 15-49),SG.DMK.PRCH.FN.ZS,NA,NA,NA,NA,NA,38.7,NA,NA,NA
+Egypt,EGY,"Women participating in none of the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.NONE.FN.ZS,NA,NA,NA,NA,NA,17.9,NA,NA,NA
+Egypt,EGY,Women participating in own health care decisions (% of women age 15-49),SG.DMK.HLTH.FN.ZS,NA,NA,NA,NA,NA,57.5,NA,NA,NA
+Egypt,EGY,"Women participating in the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.ALLD.FN.ZS,NA,NA,NA,NA,NA,29.7,NA,NA,NA
 Equatorial Guinea,GNQ,A woman can apply for a passport in the same way as a man (1=yes; 0=no),SG.APL.PSPT.EQ,NA,0,0,0,0,0,0,0,0
 Equatorial Guinea,GNQ,A woman can be head of household in the same way as a man (1=yes; 0=no),SG.HLD.HEAD.EQ,NA,1,1,1,1,1,1,1,1
 Equatorial Guinea,GNQ,A woman can choose where to live in the same way as a man (1=yes; 0=no),SG.LOC.LIVE.EQ,NA,1,1,1,1,1,1,1,1
@@ -665,43 +665,43 @@ Gabon,GAB,Women participating in making major household purchase decisions (% of
 Gabon,GAB,"Women participating in none of the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.NONE.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Gabon,GAB,Women participating in own health care decisions (% of women age 15-49),SG.DMK.HLTH.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
 Gabon,GAB,"Women participating in the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.ALLD.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Gambia, The",GMB,A woman can apply for a passport in the same way as a man (1=yes; 0=no),SG.APL.PSPT.EQ,NA,0,0,0,1,1,1,1,1
-"Gambia, The",GMB,A woman can be head of household in the same way as a man (1=yes; 0=no),SG.HLD.HEAD.EQ,NA,1,1,1,1,1,1,1,1
-"Gambia, The",GMB,A woman can choose where to live in the same way as a man (1=yes; 0=no),SG.LOC.LIVE.EQ,NA,1,1,1,1,1,1,1,1
-"Gambia, The",GMB,A woman can get a job in the same way as a man (1=yes; 0=no),SG.GET.JOBS.EQ,NA,1,1,1,1,1,1,1,1
-"Gambia, The",GMB,A woman can obtain a judgment of divorce in the same way as a man (1=yes; 0=no),SG.OBT.DVRC.EQ,NA,0,0,0,0,0,0,0,0
-"Gambia, The",GMB,A woman can open a bank account in the same way as a man (1=yes; 0=no),SG.OPN.BANK.EQ,NA,1,1,1,1,1,1,1,1
-"Gambia, The",GMB,A woman can register a business in the same way as a man (1=yes; 0=no),SG.BUS.REGT.EQ,NA,1,1,1,1,1,1,1,1
-"Gambia, The",GMB,A woman can sign a contract in the same way as a man (1=yes; 0=no),SG.CNT.SIGN.EQ,NA,0,0,0,0,0,0,0,0
-"Gambia, The",GMB,A woman can travel outside her home in the same way as a man (1=yes; 0=no),SG.HME.TRVL.EQ,NA,1,1,1,1,1,1,1,1
-"Gambia, The",GMB,A woman can travel outside the country in the same way as a man (1=yes; 0=no),SG.CTR.TRVL.EQ,NA,1,1,1,1,1,1,1,1
-"Gambia, The",GMB,A woman can work at night in the same way as a man (1=yes; 0=no),SG.NGT.WORK.EQ,NA,1,1,1,1,1,1,1,1
-"Gambia, The",GMB,A woman can work in a job deemed dangerous in the same way as a man (1=yes; 0=no),SG.DNG.WORK.DN.EQ,NA,1,1,1,1,1,1,1,1
-"Gambia, The",GMB,A woman can work in an industrial job in the same way as a man (1=yes; 0=no),SG.IND.WORK.EQ,NA,1,1,1,1,1,1,1,1
-"Gambia, The",GMB,A woman has the same rights to remarry as a man (1=yes; 0=no),SG.REM.RIGT.EQ,NA,0,0,0,0,0,0,0,0
-"Gambia, The",GMB,Decision maker about a woman's own health care: mainly husband (% of women age 15-49),SG.DMK.HLTH.HB.ZS,NA,NA,NA,NA,NA,NA,NA,50.4,NA
-"Gambia, The",GMB,Decision maker about a woman's own health care: mainly wife (% of women age 15-49),SG.DMK.HLTH.WF.ZS,NA,NA,NA,NA,NA,NA,NA,17.3,NA
-"Gambia, The",GMB,Decision maker about a woman's own health care: other (% of women age 15-49),SG.DMK.HLTH.OT.ZS,NA,NA,NA,NA,NA,NA,NA,0.1,NA
-"Gambia, The",GMB,Decision maker about a woman's own health care: someone else (% of women age 15-49),SG.DMK.HLTH.SE.ZS,NA,NA,NA,NA,NA,NA,NA,1.7,NA
-"Gambia, The",GMB,Decision maker about a woman's own health care: wife and husband jointly (% of women age 15-49),SG.DMK.HLTH.WH.ZS,NA,NA,NA,NA,NA,NA,NA,30.4,NA
-"Gambia, The",GMB,Decision maker about a woman's visits to her family or relatives: mainly husband (% of women age 15-49),SG.DMK.VISI.HB.ZS,NA,NA,NA,NA,NA,NA,NA,45.1,NA
-"Gambia, The",GMB,Decision maker about a woman's visits to her family or relatives: mainly wife (% of women age 15-49),SG.DMK.VISI.WF.ZS,NA,NA,NA,NA,NA,NA,NA,14.8,NA
-"Gambia, The",GMB,Decision maker about a woman's visits to her family or relatives: other (% of women age 15-49),SG.DMK.VISI.OT.ZS,NA,NA,NA,NA,NA,NA,NA,0.4,NA
-"Gambia, The",GMB,Decision maker about a woman's visits to her family or relatives: someone else (% of women age 15-49),SG.DMK.VISI.SE.ZS,NA,NA,NA,NA,NA,NA,NA,1.1,NA
-"Gambia, The",GMB,Decision maker about major household purchases: mainly husband (% of women age 15-49),SG.DMK.PRCH.HB.ZS,NA,NA,NA,NA,NA,NA,NA,55.2,NA
-"Gambia, The",GMB,Decision maker about major household purchases: mainly wife (% of women age 15-49),SG.DMK.PRCH.WF.ZS,NA,NA,NA,NA,NA,NA,NA,10.3,NA
-"Gambia, The",GMB,Decision maker about major household purchases: other (% of women age 15-49),SG.DMK.PRCH.OT.ZS,NA,NA,NA,NA,NA,NA,NA,0.4,NA
-"Gambia, The",GMB,Decision maker about major household purchases: someone else (% of women age 15-49),SG.DMK.PRCH.SE.ZS,NA,NA,NA,NA,NA,NA,NA,4.3,NA
-"Gambia, The",GMB,Decision maker about major household purchases: wife and husband jointly (% of women age 15-49),SG.DMK.PRCH.WH.ZS,NA,NA,NA,NA,NA,NA,NA,29.7,NA
-"Gambia, The",GMB,Decision maker about Visits to her family or relatives: wife and husband jointly (% of women age 15-49),SG.DMK.VISI.WH.ZS,NA,NA,NA,NA,NA,NA,NA,38.7,NA
-"Gambia, The",GMB,"Women making their own informed decisions regarding sexual relations, contraceptive use and reproductive health care  (% of women age 15-49)",SG.DMK.SRCR.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Gambia, The",GMB,"Women participating in decision of visits to family, relatives, friends (% of women age 15-49)",SG.DMK.VISI.FN.ZS,NA,NA,NA,NA,NA,NA,NA,53.4,NA
-"Gambia, The",GMB,Women participating in decision of what food to cook daily (% of women age 15-49),SG.DMK.FOOD.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Gambia, The",GMB,Women participating in making daily purchase decisions (% of women age 15-49),SG.DMK.DPCH.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
-"Gambia, The",GMB,Women participating in making major household purchase decisions (% of women age 15-49),SG.DMK.PRCH.FN.ZS,NA,NA,NA,NA,NA,NA,NA,40,NA
-"Gambia, The",GMB,"Women participating in none of the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.NONE.FN.ZS,NA,NA,NA,NA,NA,NA,NA,31.4,NA
-"Gambia, The",GMB,Women participating in own health care decisions (% of women age 15-49),SG.DMK.HLTH.FN.ZS,NA,NA,NA,NA,NA,NA,NA,47.8,NA
-"Gambia, The",GMB,"Women participating in the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.ALLD.FN.ZS,NA,NA,NA,NA,NA,NA,NA,26.6,NA
+Gambia,GMB,A woman can apply for a passport in the same way as a man (1=yes; 0=no),SG.APL.PSPT.EQ,NA,0,0,0,1,1,1,1,1
+Gambia,GMB,A woman can be head of household in the same way as a man (1=yes; 0=no),SG.HLD.HEAD.EQ,NA,1,1,1,1,1,1,1,1
+Gambia,GMB,A woman can choose where to live in the same way as a man (1=yes; 0=no),SG.LOC.LIVE.EQ,NA,1,1,1,1,1,1,1,1
+Gambia,GMB,A woman can get a job in the same way as a man (1=yes; 0=no),SG.GET.JOBS.EQ,NA,1,1,1,1,1,1,1,1
+Gambia,GMB,A woman can obtain a judgment of divorce in the same way as a man (1=yes; 0=no),SG.OBT.DVRC.EQ,NA,0,0,0,0,0,0,0,0
+Gambia,GMB,A woman can open a bank account in the same way as a man (1=yes; 0=no),SG.OPN.BANK.EQ,NA,1,1,1,1,1,1,1,1
+Gambia,GMB,A woman can register a business in the same way as a man (1=yes; 0=no),SG.BUS.REGT.EQ,NA,1,1,1,1,1,1,1,1
+Gambia,GMB,A woman can sign a contract in the same way as a man (1=yes; 0=no),SG.CNT.SIGN.EQ,NA,0,0,0,0,0,0,0,0
+Gambia,GMB,A woman can travel outside her home in the same way as a man (1=yes; 0=no),SG.HME.TRVL.EQ,NA,1,1,1,1,1,1,1,1
+Gambia,GMB,A woman can travel outside the country in the same way as a man (1=yes; 0=no),SG.CTR.TRVL.EQ,NA,1,1,1,1,1,1,1,1
+Gambia,GMB,A woman can work at night in the same way as a man (1=yes; 0=no),SG.NGT.WORK.EQ,NA,1,1,1,1,1,1,1,1
+Gambia,GMB,A woman can work in a job deemed dangerous in the same way as a man (1=yes; 0=no),SG.DNG.WORK.DN.EQ,NA,1,1,1,1,1,1,1,1
+Gambia,GMB,A woman can work in an industrial job in the same way as a man (1=yes; 0=no),SG.IND.WORK.EQ,NA,1,1,1,1,1,1,1,1
+Gambia,GMB,A woman has the same rights to remarry as a man (1=yes; 0=no),SG.REM.RIGT.EQ,NA,0,0,0,0,0,0,0,0
+Gambia,GMB,Decision maker about a woman's own health care: mainly husband (% of women age 15-49),SG.DMK.HLTH.HB.ZS,NA,NA,NA,NA,NA,NA,NA,50.4,NA
+Gambia,GMB,Decision maker about a woman's own health care: mainly wife (% of women age 15-49),SG.DMK.HLTH.WF.ZS,NA,NA,NA,NA,NA,NA,NA,17.3,NA
+Gambia,GMB,Decision maker about a woman's own health care: other (% of women age 15-49),SG.DMK.HLTH.OT.ZS,NA,NA,NA,NA,NA,NA,NA,0.1,NA
+Gambia,GMB,Decision maker about a woman's own health care: someone else (% of women age 15-49),SG.DMK.HLTH.SE.ZS,NA,NA,NA,NA,NA,NA,NA,1.7,NA
+Gambia,GMB,Decision maker about a woman's own health care: wife and husband jointly (% of women age 15-49),SG.DMK.HLTH.WH.ZS,NA,NA,NA,NA,NA,NA,NA,30.4,NA
+Gambia,GMB,Decision maker about a woman's visits to her family or relatives: mainly husband (% of women age 15-49),SG.DMK.VISI.HB.ZS,NA,NA,NA,NA,NA,NA,NA,45.1,NA
+Gambia,GMB,Decision maker about a woman's visits to her family or relatives: mainly wife (% of women age 15-49),SG.DMK.VISI.WF.ZS,NA,NA,NA,NA,NA,NA,NA,14.8,NA
+Gambia,GMB,Decision maker about a woman's visits to her family or relatives: other (% of women age 15-49),SG.DMK.VISI.OT.ZS,NA,NA,NA,NA,NA,NA,NA,0.4,NA
+Gambia,GMB,Decision maker about a woman's visits to her family or relatives: someone else (% of women age 15-49),SG.DMK.VISI.SE.ZS,NA,NA,NA,NA,NA,NA,NA,1.1,NA
+Gambia,GMB,Decision maker about major household purchases: mainly husband (% of women age 15-49),SG.DMK.PRCH.HB.ZS,NA,NA,NA,NA,NA,NA,NA,55.2,NA
+Gambia,GMB,Decision maker about major household purchases: mainly wife (% of women age 15-49),SG.DMK.PRCH.WF.ZS,NA,NA,NA,NA,NA,NA,NA,10.3,NA
+Gambia,GMB,Decision maker about major household purchases: other (% of women age 15-49),SG.DMK.PRCH.OT.ZS,NA,NA,NA,NA,NA,NA,NA,0.4,NA
+Gambia,GMB,Decision maker about major household purchases: someone else (% of women age 15-49),SG.DMK.PRCH.SE.ZS,NA,NA,NA,NA,NA,NA,NA,4.3,NA
+Gambia,GMB,Decision maker about major household purchases: wife and husband jointly (% of women age 15-49),SG.DMK.PRCH.WH.ZS,NA,NA,NA,NA,NA,NA,NA,29.7,NA
+Gambia,GMB,Decision maker about Visits to her family or relatives: wife and husband jointly (% of women age 15-49),SG.DMK.VISI.WH.ZS,NA,NA,NA,NA,NA,NA,NA,38.7,NA
+Gambia,GMB,"Women making their own informed decisions regarding sexual relations, contraceptive use and reproductive health care  (% of women age 15-49)",SG.DMK.SRCR.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Gambia,GMB,"Women participating in decision of visits to family, relatives, friends (% of women age 15-49)",SG.DMK.VISI.FN.ZS,NA,NA,NA,NA,NA,NA,NA,53.4,NA
+Gambia,GMB,Women participating in decision of what food to cook daily (% of women age 15-49),SG.DMK.FOOD.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Gambia,GMB,Women participating in making daily purchase decisions (% of women age 15-49),SG.DMK.DPCH.FN.ZS,NA,NA,NA,NA,NA,NA,NA,NA,NA
+Gambia,GMB,Women participating in making major household purchase decisions (% of women age 15-49),SG.DMK.PRCH.FN.ZS,NA,NA,NA,NA,NA,NA,NA,40,NA
+Gambia,GMB,"Women participating in none of the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.NONE.FN.ZS,NA,NA,NA,NA,NA,NA,NA,31.4,NA
+Gambia,GMB,Women participating in own health care decisions (% of women age 15-49),SG.DMK.HLTH.FN.ZS,NA,NA,NA,NA,NA,NA,NA,47.8,NA
+Gambia,GMB,"Women participating in the three decisions (own health care, major household purchases, and visiting family) (% of women age 15-49)",SG.DMK.ALLD.FN.ZS,NA,NA,NA,NA,NA,NA,NA,26.6,NA
 Ghana,GHA,A woman can apply for a passport in the same way as a man (1=yes; 0=no),SG.APL.PSPT.EQ,NA,0,1,1,1,1,1,1,1
 Ghana,GHA,A woman can be head of household in the same way as a man (1=yes; 0=no),SG.HLD.HEAD.EQ,NA,1,1,1,1,1,1,1,1
 Ghana,GHA,A woman can choose where to live in the same way as a man (1=yes; 0=no),SG.LOC.LIVE.EQ,NA,1,1,1,1,1,1,1,1

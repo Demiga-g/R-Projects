@@ -7,6 +7,8 @@ editor: visual
 
 ## Data Cleaning, Manipulation, and Selection
 
+Cape verde, Congos, Egypt, Gambia
+
 ```{r}
 library(tidyverse, quietly=TRUE)
 library(scales)
@@ -49,18 +51,62 @@ unique(equality$Region)
 ```
 
 ```{r}
-library(maps)
+continents <- read.csv("africa_clean_coords.csv")
+africa_countries <- continents %>%
+  filter(Continent == "Africa")
 
-world <- map_data("world", region=equality$Region)
-coords <- read.csv("countries_coordinates.csv")
-labels <- left_join(world, coords, by=c("region"="country"))[, -c(1, 2)]
-labels <- left_join(equality, labels, by=c("Region"="region"))
+africa_map <- map_data("world", region=africa_countries$Country)
 
-labels <- labels %>%
-  rename(lat=latitude, long=longitude) %>%
-  group_by(`Region code`, group) %>%
-  distinct(`Region code`, group, .keep_all=TRUE)
 
-names(labels)
+
+
+continents %>%
+  filter(Continent == "Africa") %>%
+  left_join(world, by=c("Country"="region")) %>%
+  distinct(Country, .keep_all=TRUE)
+  
+  
+unique_av <- world %>%
+  group_by(region) %>%
+  distinct(region, .keep_all=TRUE)
+
+africa_countries
+
+#coords <- read.csv("countries_coordinates.csv")
+#labels <- left_join(world, coords, by=c("region"="country"))[, -c(1, 2)]
+#labels <- left_join(equality, labels, by=c("Region"="region"))
+
+#labels <- labels %>%
+ # rename(lat=latitude, long=longitude) %>%
+  # group_by(`Region code`, group) %>%
+  # distinct(`Region code`, group, .keep_all=TRUE)
+```
+
+
+
+
+
+
+
+```{r}
+ggplot(east_data, aes(x=long, y=lat, group=group))+
+  coord_fixed(1.5)+
+  geom_polygon(aes(fill=Q_1), color="#ffefdb")+
+  scale_fill_manual(values=c("#0b84a5", "#f17853"), labels=(c("No", "Yes")), 
+                    name="Equality in Passport Application")+
+  ggrepel::geom_label_repel(aes(label= code), data= labels, 
+                            size=2.5, max.overlaps = 50, label.size=0, 
+                            arrow=arrow(length=unit(0.1, 'cm'))) +
+  labs(caption=paste0("Data Source: World Bank\n", "Author: Midega George Last Update 2023/01/31"))+
+  theme(axis.text=element_blank(),
+        axis.ticks=element_blank(),
+        axis.title=element_blank(),
+        rect=element_blank(),
+        axis.line = element_blank(),
+        panel.border = element_blank(),
+        panel.grid = element_blank(),
+        panel.background = element_rect(fill = "antiquewhite2"),
+        legend.position="bottom", legend.title=element_text(size=10))
+
 ```
 
