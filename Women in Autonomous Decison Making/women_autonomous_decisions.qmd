@@ -132,7 +132,7 @@ participation %>%
   filter(year==1990, decisions=="what food to cook daily")
 ```
 
-```{r}
+```{r, fig.width=15}
 "Decision maker about a woman's own health care: "
 recode.health <- c("region", "region code", "year", "mainly husband", 
                    "mainly wife", "wife and husband jointly", "someone else", 
@@ -144,8 +144,49 @@ health <- health1 %>%
   pivot_longer(cols=recode.health[4:8], names_to="decisions", 
                values_to="percentage")
 
-health %>%
-  filter(year==2020, decisions=="mainly wife")
+all_decisions <- health %>%
+  filter(year==2020, decisions=="wife and husband jointly")
+
+
+# Data to Plot
+plot_decisions <- africa_map %>%
+  left_join(all_decisions, by=c("region"))
+
+# Labels to use
+
+country_labels <- africa_countries %>%
+  left_join(plot_decisions, by=c("Country"="region")) %>%
+  distinct(Country, .keep_all=TRUE) %>%
+  select(-c("long", "lat")) %>%
+  rename(lat=latitude, long=longitude)
+
+# Map Plot
+
+ggplot(plot_decisions, aes(x=long, y=lat, group=group))+
+  coord_fixed(1)+
+  geom_polygon(aes(fill=percentage), color="#ffefdb")+
+  #scale_fill_manual(values=c("#0b84a5", "#f17853", "#ffb600"), 
+  #                  labels=(c("No", "Yes", "No Data")), 
+  #                  name=unique(all_response$opinion)) +
+  labs(title=paste0("A woman can ", {unique(all_decisions$decisions)}, 
+                    " the same way as a man, ", {unique(all_decisions$year)}), 
+       caption=paste0("Data Source: World Bank\n", "Last Update 2023/01/31\n", 
+                      "Author: Midega George")) +
+  ggrepel::geom_label_repel(aes(label= country_code), data= country_labels, 
+                            size=2.5, max.overlaps = 25, label.size=0, 
+                            arrow=arrow(length=unit(0.1, 'cm'))) +
+  theme(axis.text=element_blank(),
+        axis.ticks=element_blank(),
+        axis.title=element_blank(),
+        rect=element_blank(),
+        axis.line = element_blank(),
+        panel.border = element_blank(),
+        panel.grid = element_blank(),
+        panel.background = element_rect(fill = "#b1d3bc"),
+        plot.title = element_text(hjust = 0.5),
+        legend.position="right", legend.title=element_text(size=10), 
+        legend.text=element_text(size=10))
+
 ```
 
 
