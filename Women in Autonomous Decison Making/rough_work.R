@@ -84,6 +84,7 @@ unique_av <- world %>%
   group_by(region) %>%
   distinct(region, .keep_all=TRUE)
 
+map(database = "world", region=africa_countries$Country)
 
 
 #coords <- read.csv("countries_coordinates.csv")
