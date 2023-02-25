@@ -2,7 +2,6 @@
 title: "Women Making Autonomous Decisons"
 author: "Midega George"
 format: pdf
-editor: visual
 ---
 
 ## Data Cleaning, Manipulation, and Selection
@@ -14,27 +13,24 @@ library(tidyverse, quietly=TRUE)
 library(scales)
 
 
-raw_data <- read.csv("yearly_progression.csv")[, -c(4)]
+raw_data <- read.csv("equality_business_law.csv", na="..")[, -c(2, 4)]
 clean_1 <- raw_data %>%
   pivot_longer(cols=contains("..YR", ignore.case=FALSE), names_to="year", 
                values_to="values") %>%
-  rename(region=Country.Name, `region code`=Country.Code, 
-         variables=Series.Name)%>%
+  rename(region=Country.Name, variables=Series.Name)%>%
   pivot_wider(., names_from=variables, values_from=values) %>%
   mutate(year=str_sub(year, 2, 5))%>%
   mutate_at(c('year'), as.numeric)
 
-equality1 <- clean_1[, 1:17]
-health1 <- clean_1[, c(1:3, 18, 19, 22, 21, 20)]
-visits1 <- clean_1[, c(1:3, 23:26, 32)]
-purchases1 <- clean_1[, c(1:3, 27:31)]
-participation1 <- clean_1[, c(1:3, 35, 36, 34, 37, 39, 40, 38)]
+biz_law_1 <- clean_1[, 1:8]
+equality_1 <- clean_1[, c(1:2, 9:22)]
+
 ```
 
 ## Exploring Equality
 
 ```{r}
-recode.equality <- c("region", "region code", "year",  "apply for passport",
+recode.equality <- c("region", "year",  "apply for passport",
                      "be head of household", "choose where to live",
                      "get a job", "obtain a judgment of divorce",
                      "open a bank account", "register a business",
@@ -43,10 +39,12 @@ recode.equality <- c("region", "region code", "year",  "apply for passport",
                      "work in job deemed dangerous",
                      "work in an industrial job", "remarry")
 
-colnames(equality1) <- recode.equality
-equality1[is.na(equality1)] = 3
+colnames(equality_1) <- recode.equality
+equality_1[is.na(equality_1)] = 3
 
-equality <- equality1 %>%
+unique(equality_1$region)
+
+equality <- equality_1 %>%
   pivot_longer(cols=recode.equality[4:17], names_to="opinion", 
                values_to="response") %>%
   mutate(across(c(response), factor))
@@ -108,89 +106,6 @@ ggplot(plot_response, aes(x=long, y=lat, group=group))+
 
 #ggsave("plots/live.png", bg="white", width=8)
 ```
-
-## Participation
-
-```{r}
-"Percentage of women participating in decisions regarding "
-recode.participation <- c("region", "region code", "year", 
-                          "what food to cook daily", 
-                          "daily purchases",
-                          "visits to family, relative, and friends",
-                          "major household purchases", 
-                          "their own health care", 
-                          "all the three decisions", 
-                          "none of the three decisions")
-
-colnames(participation1) <- recode.participation
-
-participation <- participation1 %>%
-  pivot_longer(cols=recode.participation[4:10], names_to="decisions", 
-               values_to="percentage")
-
-participation %>%
-  filter(year==1990, decisions=="what food to cook daily")
-```
-
-```{r, fig.width=15}
-"Decision maker about a woman's own health care: "
-recode.health <- c("region", "region code", "year", "mainly husband", 
-                   "mainly wife", "wife and husband jointly", "someone else", 
-                   "other")
-                           
-colnames(health1) <- recode.health
-
-health <- health1 %>%
-  pivot_longer(cols=recode.health[4:8], names_to="decisions", 
-               values_to="percentage")
-
-all_decisions <- health %>%
-  filter(year==2020, decisions=="wife and husband jointly")
-
-
-# Data to Plot
-plot_decisions <- africa_map %>%
-  left_join(all_decisions, by=c("region"))
-
-# Labels to use
-
-country_labels <- africa_countries %>%
-  left_join(plot_decisions, by=c("Country"="region")) %>%
-  distinct(Country, .keep_all=TRUE) %>%
-  select(-c("long", "lat")) %>%
-  rename(lat=latitude, long=longitude)
-
-# Map Plot
-
-ggplot(plot_decisions, aes(x=long, y=lat, group=group))+
-  coord_fixed(1)+
-  geom_polygon(aes(fill=percentage), color="#ffefdb")+
-  #scale_fill_manual(values=c("#0b84a5", "#f17853", "#ffb600"), 
-  #                  labels=(c("No", "Yes", "No Data")), 
-  #                  name=unique(all_response$opinion)) +
-  labs(title=paste0("A woman can ", {unique(all_decisions$decisions)}, 
-                    " the same way as a man, ", {unique(all_decisions$year)}), 
-       caption=paste0("Data Source: World Bank\n", "Last Update 2023/01/31\n", 
-                      "Author: Midega George")) +
-  ggrepel::geom_label_repel(aes(label= country_code), data= country_labels, 
-                            size=2.5, max.overlaps = 25, label.size=0, 
-                            arrow=arrow(length=unit(0.1, 'cm'))) +
-  theme(axis.text=element_blank(),
-        axis.ticks=element_blank(),
-        axis.title=element_blank(),
-        rect=element_blank(),
-        axis.line = element_blank(),
-        panel.border = element_blank(),
-        panel.grid = element_blank(),
-        panel.background = element_rect(fill = "#b1d3bc"),
-        plot.title = element_text(hjust = 0.5),
-        legend.position="right", legend.title=element_text(size=10), 
-        legend.text=element_text(size=10))
-
-```
-
-
-
 
 
 
