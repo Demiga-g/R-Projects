@@ -19,12 +19,19 @@ clean_1 <- raw_data %>%
                values_to="values") %>%
   rename(region=Country.Name, variables=Series.Name)%>%
   pivot_wider(., names_from=variables, values_from=values) %>%
-  mutate(year=str_sub(year, 2, 5))%>%
-  mutate_at(c('year'), as.numeric)
+  mutate(year=str_sub(year, 2, 5), 
+         across(year, as.numeric),
+         region=recode(region, "Cabo Verde" = "Cape Verde", 
+                       "Congo, Dem. Rep." = "", 
+                       "Congo, Rep." = "", 
+                       "Cote d'Ivoire" = "",
+                       "Egypt, Arab Rep." = "", 
+                       "Gambia, The" = ""))
+
+unique(raw_data$Country.Name)
 
 biz_law_1 <- clean_1[, 1:8]
 equality_1 <- clean_1[, c(1:2, 9:22)]
-
 ```
 
 ## Exploring Equality
@@ -40,13 +47,10 @@ recode.equality <- c("region", "year",  "apply for passport",
                      "work in an industrial job", "remarry")
 
 colnames(equality_1) <- recode.equality
-equality_1[is.na(equality_1)] = 3
-
-unique(equality_1$region)
-
 equality <- equality_1 %>%
-  pivot_longer(cols=recode.equality[4:17], names_to="opinion", 
+  pivot_longer(cols=recode.equality[3:16], names_to="opinion", 
                values_to="response") %>%
+  mutate(across(response, ~replace_na(., 3))) %>%
   mutate(across(c(response), factor))
 ```
 
