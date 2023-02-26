@@ -121,8 +121,6 @@ library(tidyverse, quietly=TRUE)
 library(scales)
 
 
-# Cape verde, Congos, Egypt, Gambia, Cote'dvore, Eswatini
-
 
 raw_data <- read.csv("yearly_progression.csv")[, -c(4)]
 clean_1 <- raw_data %>%
@@ -191,6 +189,15 @@ country_labels <- africa_countries %>%
   distinct(Country, .keep_all=TRUE) %>%
   select(-c("long", "lat")) %>%
   rename(lat=latitude, long=longitude)
+
+
+# Cape verde, Congos, Egypt, Gambia, Cote'dvore, Eswatini
+
+count_a <- unique(raw_data$Country.Name)
+count_b <- unique(africa_countries$Country)
+setdiff(count_a, count_b)
+
+
 
 # Map Plot
 
