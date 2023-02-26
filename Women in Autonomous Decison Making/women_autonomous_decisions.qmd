@@ -37,11 +37,39 @@ equality_1 <- clean_1[, c(1:2, 12:25)]
 
 
 ```{r}
-biz_law_1
+"Women, Business and the Law: ----- Indicator Score (scale 1-100)"
 
-recode.biz_law <- c("region", "year")
+recode.biz_law <- c("region", "year", "Assets", "Entrepreneurship", 
+                    "Marriage", "Mobility", "Parenthood", "Pay", "Pension", 
+                    "Workplace", "Overall")
+
+colnames(biz_law_1) <- recode.biz_law
+biz_law <- biz_law_1 %>%
+  pivot_longer(cols=recode.biz_law[3:11], names_to="indicator", 
+               values_to="score")
 ```
 
+## Visualizing Women, Business, and the Law Indicators
+
+
+```{r}
+# Selecting only African Continents
+continents <- read.csv("africa_clean_coords.csv")
+africa_countries <- continents %>%
+  filter(Continent == "Africa")
+
+africa_map <- map_data("world", region=africa_countries$Country)
+
+# Filter data to plot
+indicators <- biz_law %>%
+  filter(year==2021, indicator == "Assets")
+
+# Data to plot
+plot_indicators <- africa_map %>%
+  left_join(indicators, by=c("region"))
+
+plot_indicators
+```
 
 
 
@@ -93,13 +121,6 @@ equality <- equality_1 %>%
 ## Visualizing Equality
 
 ```{r, fig.width=15}
-# Selecting only African Continents
-continents <- read.csv("africa_clean_coords.csv")
-africa_countries <- continents %>%
-  filter(Continent == "Africa")
-
-africa_map <- map_data("world", region=africa_countries$Country)
-
 
 # Filter Data to Plot
 all_response <- equality %>%
