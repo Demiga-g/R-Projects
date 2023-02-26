@@ -28,17 +28,13 @@ clean_1 <- raw_data %>%
                        "Gambia, The" = "Gambia", 
                        "Eswatini" = "Swaziland"))
 
-
 biz_law_1 <- clean_1[, 1:11]
 equality_1 <- clean_1[, c(1:2, 12:25)]
 ```
 
 ## Exploring Women, Business and the Law
 
-
 ```{r}
-"Women, Business and the Law: ----- Indicator Score (scale 1-100)"
-
 recode.biz_law <- c("region", "year", "Assets", "Entrepreneurship", 
                     "Marriage", "Mobility", "Parenthood", "Pay", "Pension", 
                     "Workplace", "Overall")
@@ -50,7 +46,6 @@ biz_law <- biz_law_1 %>%
 ```
 
 ## Visualizing Women, Business, and the Law Indicators
-
 
 ```{r, fig.width=15}
 # Selecting only African Continents
@@ -77,13 +72,35 @@ country_labels <- africa_countries %>%
 
 # Visualization
 
-#scale_fill_manual(values=c("#0b84a5", "#f17853", "#ffb600"), 
-#                    labels=(c("No", "Yes", "No Data")), 
-#                    name=unique(all_response$opinion))
- 
+theme_map <- function(...){
+  theme(
+    axis.text=element_blank(),
+    axis.ticks=element_blank(),
+    axis.title=element_blank(),
+    rect=element_blank(),
+    axis.line = element_blank(),
+    panel.border = element_blank(),
+    panel.grid = element_blank(),
+    panel.background = element_rect(fill = "#fffdfd"),
+    plot.background = element_rect(fill="#fffdfd"),
+    plot.title = element_text(hjust = 0.5),
+    legend.title=element_text(size=10), 
+    legend.text=element_text(size=10),
+    ...)
+}
+
 ggplot(plot_indicators, aes(x=long, y=lat, group=group))+
-  coord_fixed(1)+
+  coord_equal()+
   geom_polygon(aes(fill=score), color="#ffefdb")+
+  scale_fill_continuous(name=unique(indicators$indicator), 
+                        type="gradient", 
+                        high="green", 
+                        low="purple", 
+                        guide=guide_legend(
+                          direction = "horizontal",  title.position = 'top',
+                          keyheight = unit(2, units = "mm"),
+                          title.hjust=0.5, label.hjust=0.5, nrow = 1,
+                          byrow=T, reverse=F, label.position="bottom"))+
   labs(
     title=paste0("Women, Business and the Law: ", 
                     {unique(indicators$indicator)}, 
@@ -93,46 +110,9 @@ ggplot(plot_indicators, aes(x=long, y=lat, group=group))+
                    "Author: Midega George")) +
   ggrepel::geom_label_repel(aes(label= country_code), data=country_labels, 
                             size=2.5, max.overlaps = 25, label.size=0, 
-                            arrow=arrow(length=unit(0.1, 'cm'))) +
-  theme(axis.text=element_blank(),
-        axis.ticks=element_blank(),
-        axis.title=element_blank(),
-        rect=element_blank(),
-        axis.line = element_blank(),
-        panel.border = element_blank(),
-        panel.grid = element_blank(),
-        panel.background = element_rect(fill = "#b1d3bc"),
-        plot.title = element_text(hjust = 0.5),
-        legend.position="right", legend.title=element_text(size=10), 
-        legend.text=element_text(size=10))
+                            arrow=arrow(length=unit(0.006, 'cm'))) + 
+  theme_map()
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Exploring Equality
 
@@ -189,21 +169,7 @@ ggplot(plot_response, aes(x=long, y=lat, group=group))+
   ggrepel::geom_label_repel(aes(label= country_code), data= country_labels, 
                             size=2.5, max.overlaps = 25, label.size=0, 
                             arrow=arrow(length=unit(0.1, 'cm'))) +
-  theme(axis.text=element_blank(),
-        axis.ticks=element_blank(),
-        axis.title=element_blank(),
-        rect=element_blank(),
-        axis.line = element_blank(),
-        panel.border = element_blank(),
-        panel.grid = element_blank(),
-        panel.background = element_rect(fill = "#b1d3bc"),
-        plot.title = element_text(hjust = 0.5),
-        legend.position="right", legend.title=element_text(size=10), 
-        legend.text=element_text(size=10))
+  theme_map()
 
 #ggsave("plots/live.png", bg="white", width=8)
 ```
-
-
-
-
