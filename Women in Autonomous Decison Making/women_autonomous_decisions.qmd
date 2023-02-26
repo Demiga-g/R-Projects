@@ -2,13 +2,17 @@
 title: "Women Making Autonomous Decisons"
 author: "Midega George"
 format: pdf
+execute: 
+  echo: false
+fig-width: 12
+fig-height: 8
+fig-asp: 1.5
 ---
 
 ## Data Cleaning, Manipulation, and Selection
 
 ```{r, message=FALSE}
 library(tidyverse, quietly=TRUE)
-library(scales)
 
 
 raw_data <- read.csv("equality_business_law.csv", na="..")[, -c(2, 4)]
@@ -47,7 +51,7 @@ biz_law <- biz_law_1 %>%
 
 ## Visualizing Women, Business, and the Law Indicators
 
-```{r, fig.width=15}
+```{r}
 # Selecting only African Continents
 continents <- read.csv("africa_clean_coords.csv")
 africa_countries <- continents %>%
@@ -84,6 +88,7 @@ theme_map <- function(...){
     panel.background = element_rect(fill = "#fffdfd"),
     plot.background = element_rect(fill="#fffdfd"),
     plot.title = element_text(hjust = 0.5),
+    legend.position = "right",
     legend.title=element_text(size=10), 
     legend.text=element_text(size=10),
     ...)
@@ -93,14 +98,12 @@ ggplot(plot_indicators, aes(x=long, y=lat, group=group))+
   coord_equal()+
   geom_polygon(aes(fill=score), color="#ffefdb")+
   scale_fill_continuous(name=unique(indicators$indicator), 
-                        type="gradient", 
-                        high="green", 
-                        low="purple", 
+                        type="gradient", high="green", low="red", 
                         guide=guide_legend(
                           direction = "horizontal",  title.position = 'top',
                           keyheight = unit(2, units = "mm"),
-                          title.hjust=0.5, label.hjust=0.5, nrow = 1,
-                          byrow=T, reverse=F, label.position="bottom"))+
+                          title.hjust=0.5, nrow = 1, byrow=T, reverse=F, 
+                          label.position="bottom"))+
   labs(
     title=paste0("Women, Business and the Law: ", 
                     {unique(indicators$indicator)}, 
@@ -136,7 +139,7 @@ equality <- equality_1 %>%
 
 ## Visualizing Equality
 
-```{r, fig.width=15}
+```{r}
 
 # Filter Data to Plot
 all_response <- equality %>%
