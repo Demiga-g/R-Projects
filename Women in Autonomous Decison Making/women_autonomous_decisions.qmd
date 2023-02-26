@@ -6,8 +6,6 @@ format: pdf
 
 ## Data Cleaning, Manipulation, and Selection
 
-Cape verde, Congos, Egypt, Gambia, Cote'dvore, Eswatini
-
 ```{r, message=FALSE}
 library(tidyverse, quietly=TRUE)
 library(scales)
@@ -34,6 +32,43 @@ clean_1 <- raw_data %>%
 biz_law_1 <- clean_1[, 1:11]
 equality_1 <- clean_1[, c(1:2, 12:25)]
 ```
+
+## Exploring Women, Business and the Law
+
+
+```{r}
+biz_law_1
+
+recode.biz_law <- c("region", "year")
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Exploring Equality
 
