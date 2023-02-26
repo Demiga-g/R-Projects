@@ -52,7 +52,7 @@ biz_law <- biz_law_1 %>%
 ## Visualizing Women, Business, and the Law Indicators
 
 
-```{r}
+```{r, fig.width=15}
 # Selecting only African Continents
 continents <- read.csv("africa_clean_coords.csv")
 africa_countries <- continents %>%
@@ -68,7 +68,43 @@ indicators <- biz_law %>%
 plot_indicators <- africa_map %>%
   left_join(indicators, by=c("region"))
 
-plot_indicators
+# Labels to use
+country_labels <- africa_countries %>%
+  left_join(plot_indicators, by=c("Country"="region")) %>%
+  distinct(Country, .keep_all=TRUE) %>%
+  select(-c("long", "lat", "year", "indicator", "score", "Continent")) %>%
+  rename(lat=latitude, long=longitude)
+
+# Visualization
+
+#scale_fill_manual(values=c("#0b84a5", "#f17853", "#ffb600"), 
+#                    labels=(c("No", "Yes", "No Data")), 
+#                    name=unique(all_response$opinion))
+ 
+ggplot(plot_indicators, aes(x=long, y=lat, group=group))+
+  coord_fixed(1)+
+  geom_polygon(aes(fill=score), color="#ffefdb")+
+  labs(
+    title=paste0("Women, Business and the Law: ", 
+                    {unique(indicators$indicator)}, 
+                    " Indicator Score, ", {unique(indicators$year)}),
+    caption=paste0("Data Source: World Bank\n",
+                   "Last Update 2023/01/31\n", 
+                   "Author: Midega George")) +
+  ggrepel::geom_label_repel(aes(label= country_code), data=country_labels, 
+                            size=2.5, max.overlaps = 25, label.size=0, 
+                            arrow=arrow(length=unit(0.1, 'cm'))) +
+  theme(axis.text=element_blank(),
+        axis.ticks=element_blank(),
+        axis.title=element_blank(),
+        rect=element_blank(),
+        axis.line = element_blank(),
+        panel.border = element_blank(),
+        panel.grid = element_blank(),
+        panel.background = element_rect(fill = "#b1d3bc"),
+        plot.title = element_text(hjust = 0.5),
+        legend.position="right", legend.title=element_text(size=10), 
+        legend.text=element_text(size=10))
 ```
 
 
@@ -135,7 +171,7 @@ plot_response <- africa_map %>%
 country_labels <- africa_countries %>%
   left_join(plot_response, by=c("Country"="region")) %>%
   distinct(Country, .keep_all=TRUE) %>%
-  select(-c("long", "lat")) %>%
+  select(-c("long", "lat", "Continent", "year", "opinion", "response")) %>%
   rename(lat=latitude, long=longitude)
 
 # Map Plot
