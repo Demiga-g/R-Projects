@@ -24,8 +24,14 @@ dashboardPage(
         tabName="WBL", 
         tabBox(
           id="t1", width=12,
-          tabPanel(title="About", icon=icon("info-circle"), h4("Placeholder tab1")),
-          tabPanel(title="Visualization", icon=icon("globe"),h4("Placeholder tab2"))
+          tabPanel(title="About", icon=icon("info-circle"), 
+                   h4("Placeholder tab1"), 
+                   p("eionewqroen")),
+          tabPanel(title="Visualization", icon=icon("globe"), 
+                   fluidRow(
+                     column(8, selectInput("indicators", label="Indicator", choices=wbl_inds)),
+                     column(4, selectInput("wbl_years", label="Year", choices=wbl_yrs))
+                   ))
         )
       ),
       
@@ -34,7 +40,11 @@ dashboardPage(
         tabBox(
           id="t1", width=12,
           tabPanel(title="About", icon=icon("info-circle"), h4("Placeholder tab1")),
-          tabPanel(title="Visualization", icon=icon("globe"), h4("Placeholder tab2"))
+          tabPanel(title="Visualization", icon=icon("globe"), 
+                   fluidRow(
+                     column(8, selectInput("opinions", label="Opinion", choices=ge_ops)),
+                     column(4, selectInput("ge_years", label="Year", choices=ge_yrs))
+                   ))
         )
       )
     )

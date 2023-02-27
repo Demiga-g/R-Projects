@@ -39,6 +39,12 @@ biz_law <- biz_law_1 %>%
 
 
 
+# ----- Women, Business, and the Law variables to select from when plotting ---
+
+wbl_inds <- unique(biz_law$indicator)
+wbl_yrs <- rev(unique(biz_law$year))
+
+
 # -------- Cleaning and Manipulating the Gender Equality Data --------
 
 recode.equality <- c("region", "year",  "apply for passport",
@@ -56,6 +62,13 @@ equality <- equality_1 %>%
                values_to="response") %>%
   mutate(across(response, ~replace_na(., 3)), 
          across(c(response), factor))
+
+
+
+# ----- Gender Equality variables to select from when plotting --------
+
+ge_ops <- unique(equality$opinion)
+ge_yrs <- rev(unique(equality$year))
 
 
 
