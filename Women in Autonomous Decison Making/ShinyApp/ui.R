@@ -11,7 +11,6 @@ dashboardPage(
   ),
   
   dashboardSidebar(
-    
     sidebarMenu(
       id = "sidebar",
       menuItem(text="Women, Business, and Law", tabName="WBL", icon=icon("female")),
@@ -20,9 +19,7 @@ dashboardPage(
   ),
   
   dashboardBody(
-    
     tabItems(
-      
       tabItem(
         tabName="WBL", 
         tabBox(
@@ -40,7 +37,6 @@ dashboardPage(
           tabPanel(title="Visualization", icon=icon("globe"), h4("Placeholder tab2"))
         )
       )
-    
-    
+    )
   )
 )
