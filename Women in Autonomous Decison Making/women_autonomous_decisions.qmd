@@ -88,7 +88,6 @@ theme_map <- function(...){
     panel.background = element_rect(fill = "#fffdfd"),
     plot.background = element_rect(fill="#fffdfd"),
     plot.title = element_text(hjust = 0.5),
-    legend.position = "right",
     legend.title=element_text(size=10), 
     legend.text=element_text(size=10),
     ...)
@@ -97,13 +96,14 @@ theme_map <- function(...){
 ggplot(plot_indicators, aes(x=long, y=lat, group=group))+
   coord_equal()+
   geom_polygon(aes(fill=score), color="#ffefdb")+
-  scale_fill_continuous(name=unique(indicators$indicator), 
-                        type="gradient", high="red", low="orange", 
-                        guide=guide_legend(
-                          direction = "vertical",  title.position = 'top',
-                          keyheight = unit(2, units = "mm"),
-                          title.hjust=0.5, ncol = 1, reverse=F, 
-                          label.position="right"))+
+  scale_fill_continuous(name=paste0(unique(indicators$indicator), 
+                                    " Indicator Score (%)"), 
+                        type="viridis", guide=guide_colorbar(
+                          direction = "horizontal", label.position = "bottom",
+                          barheight = unit(2, units = "mm"), 
+                          barwidth = unit(50, units = "mm"), 
+                          draw.ulim = F, title.position = 'top',
+                          title.hjust = 0.5, label.hjust = 0.5))+
   labs(
     title=paste0("Women, Business and the Law: ", 
                     {unique(indicators$indicator)}, 
@@ -114,7 +114,9 @@ ggplot(plot_indicators, aes(x=long, y=lat, group=group))+
   ggrepel::geom_label_repel(aes(label= country_code), data=country_labels, 
                             size=2.5, max.overlaps = 25, label.size=0, 
                             arrow=arrow(length=unit(0.006, 'cm'))) + 
-  theme_map()
+  theme_map()+
+  theme(legend.position = "bottom")
+
 ```
 
 ## Exploring Equality
@@ -163,7 +165,10 @@ ggplot(plot_response, aes(x=long, y=lat, group=group))+
   coord_fixed(1)+
   geom_polygon(aes(fill=response), color="#ffefdb")+
   scale_fill_manual(values=c("#0b84a5", "#f17853", "#ffb600"), 
-                    labels=(c("No", "Yes", "No Data")), 
+                    labels=(c("No", "Yes", "No Data")),
+                    guide=guide_legend(title.position="top", 
+                                       label.hjust=0.5, title.hjust=0.5,
+                                       keywidth=unit(2, units="mm")),
                     name=unique(all_response$opinion)) +
   labs(title=paste0("A woman can ", {unique(all_response$opinion)}, 
                     " the same way as a man, ", {unique(all_response$year)}), 
