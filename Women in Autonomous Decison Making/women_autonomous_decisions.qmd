@@ -93,7 +93,8 @@ theme_map <- function(...){
     ...)
 }
 
-ggplot(plot_indicators, aes(x=long, y=lat, group=group))+
+plot_indicators %>%
+  ggplot(aes(x=long, y=lat, group=group))+
   coord_equal()+
   geom_polygon(aes(fill=score), color="#ffefdb")+
   scale_fill_continuous(name=paste0(unique(indicators$indicator), 

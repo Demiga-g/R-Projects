@@ -31,7 +31,11 @@ dashboardPage(
                    fluidRow(
                      column(8, selectInput("indicators", label="Indicator", choices=wbl_inds)),
                      column(4, selectInput("wbl_years", label="Year", choices=wbl_yrs))
-                   ))
+                   ),
+                   hr(),
+                   fluidRow(column(12, plotOutput("wbl_map", height=700, width=1000))
+                   )
+          )
         )
       ),
       
@@ -44,7 +48,10 @@ dashboardPage(
                    fluidRow(
                      column(8, selectInput("opinions", label="Opinion", choices=ge_ops)),
                      column(4, selectInput("ge_years", label="Year", choices=ge_yrs))
-                   ))
+                   ),
+                   fluidRow(column(12, plotOutput("ge_map"))
+                  )
+          )
         )
       )
     )
