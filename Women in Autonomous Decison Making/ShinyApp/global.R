@@ -88,5 +88,23 @@ country_labels <- africa_countries %>%
   rename(lat=latitude, long=longitude)
 
 
+# ---------- A Universal Theme Function for the Maps -----------
+
+theme_map <- function(...){
+  theme(
+    axis.text=element_blank(),
+    axis.ticks=element_blank(),
+    axis.title=element_blank(),
+    rect=element_blank(),
+    axis.line = element_blank(),
+    panel.border = element_blank(),
+    panel.grid = element_blank(),
+    panel.background = element_rect(fill = "#fffdfd"),
+    plot.background = element_rect(fill="#fffdfd"),
+    plot.title = element_text(hjust = 0.5),
+    legend.title=element_text(size=10), 
+    legend.text=element_text(size=10),
+    ...)
+}
 
 
