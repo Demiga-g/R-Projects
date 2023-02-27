@@ -14,7 +14,11 @@ dashboardPage(
     sidebarMenu(
       id = "sidebar",
       menuItem(text="Women, Business, and Law", tabName="WBL", icon=icon("female")),
-      menuItem(text="Gender Equality", tabName="GE", icon=icon("balance-scale"))
+      conditionalPanel("input.sidebar == 'WBL' && input.tab_1 == 'map_1'", selectInput("indicators", label="Indicator", choices=wbl_inds)),
+      conditionalPanel("input.sidebar == 'WBL' && input.tab_1 == 'map_1'", selectInput("wbl_years", label="Year", choices=wbl_yrs)),
+      menuItem(text="Gender Equality", tabName="GE", icon=icon("balance-scale")),
+      conditionalPanel("input.sidebar == 'GE' && input.tab_2 == 'map_2'", selectInput("opinions", label="Opinion", choices=ge_ops)),
+      conditionalPanel("input.sidebar == 'GE' && input.tab_2 == 'map_2'", selectInput("ge_years", label="Year", choices=ge_yrs))
     )
   ),
   
@@ -23,18 +27,14 @@ dashboardPage(
       tabItem(
         tabName="WBL", 
         tabBox(
-          id="t1", width=12,
+          id="tab_1", width=12,
           tabPanel(title="About", icon=icon("info-circle"), 
                    h4("Placeholder tab1"), 
                    p("eionewqroen")),
-          tabPanel(title="Visualization", icon=icon("globe"), 
-                   fluidRow(
-                     column(8, selectInput("indicators", label="Indicator", choices=wbl_inds)),
-                     column(4, selectInput("wbl_years", label="Year", choices=wbl_yrs))
-                   ),
-                   hr(),
-                   fluidRow(column(12, plotOutput("wbl_map", height=700, width=1000))
+          tabPanel(title="Visualization", icon=icon("globe"), value="map_1",
+                   fluidRow(column(12, plotOutput("wbl_map", height=590, width=1000))
                    )
+                   
           )
         )
       ),
@@ -42,14 +42,10 @@ dashboardPage(
       tabItem(
         tabName="GE", 
         tabBox(
-          id="t1", width=12,
+          id="tab_2", width=12,
           tabPanel(title="About", icon=icon("info-circle"), h4("Placeholder tab1")),
-          tabPanel(title="Visualization", icon=icon("globe"), 
-                   fluidRow(
-                     column(8, selectInput("opinions", label="Opinion", choices=ge_ops)),
-                     column(4, selectInput("ge_years", label="Year", choices=ge_yrs))
-                   ),
-                   fluidRow(column(12, plotOutput("ge_map"))
+          tabPanel(title="Visualization", icon=icon("globe"), value="map_2",
+                   fluidRow(column(12, plotOutput("ge_map", height=590, width=1000))
                   )
           )
         )
