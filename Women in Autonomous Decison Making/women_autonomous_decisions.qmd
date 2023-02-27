@@ -98,12 +98,12 @@ ggplot(plot_indicators, aes(x=long, y=lat, group=group))+
   coord_equal()+
   geom_polygon(aes(fill=score), color="#ffefdb")+
   scale_fill_continuous(name=unique(indicators$indicator), 
-                        type="gradient", high="green", low="red", 
+                        type="gradient", high="red", low="orange", 
                         guide=guide_legend(
-                          direction = "horizontal",  title.position = 'top',
+                          direction = "vertical",  title.position = 'top',
                           keyheight = unit(2, units = "mm"),
-                          title.hjust=0.5, nrow = 1, byrow=T, reverse=F, 
-                          label.position="bottom"))+
+                          title.hjust=0.5, ncol = 1, reverse=F, 
+                          label.position="right"))+
   labs(
     title=paste0("Women, Business and the Law: ", 
                     {unique(indicators$indicator)}, 
