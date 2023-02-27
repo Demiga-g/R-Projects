@@ -1,0 +1,195 @@
+Continent,Country,country_code,latitude,longitude
+Africa,Algeria,DZ,28.033886,1.659626
+Africa,Angola,AO,-11.202692,17.873887
+Africa,Benin,BJ,9.30769,2.315834
+Africa,Botswana,BW,-22.328474,24.684866
+Africa,Burkina Faso,BF,12.238333,-1.561593
+Africa,Burundi,BI,-3.373056,29.918886
+Africa,Cameroon,CM,7.369722,12.354722
+Africa,Cape Verde,CV,16.002082,-24.013197
+Africa,Central African Republic,CF,6.611111,20.939444
+Africa,Chad,TD,15.454166,18.732207
+Africa,Comoros,KM,-11.875001,43.872219
+Africa,Republic of Congo,CG,-0.228021,15.827659
+Africa,Democratic Republic of the Congo,CD,-4.038333,21.758664
+Africa,Djibouti,DJ,11.825138,42.590275
+Africa,Egypt,EG,26.820553,30.802498
+Africa,Equatorial Guinea,GQ,1.650801,10.267895
+Africa,Eritrea,ER,15.179384,39.782334
+Africa,Ethiopia,ET,9.145,40.489673
+Africa,Gabon,GA,-0.803689,11.609444
+Africa,Gambia,GM,13.443182,-15.310139
+Africa,Ghana,GH,7.946527,-1.023194
+Africa,Guinea,GN,9.945587,-9.696645
+Africa,Guinea-Bissau,GW,11.803749,-15.180413
+Africa,Ivory Coast,CI,7.539989,-5.54708
+Africa,Kenya,KE,-0.023559,37.906193
+Africa,Lesotho,LS,-29.609988,28.233608
+Africa,Liberia,LR,6.428055,-9.429499
+Africa,Libya,LY,26.3351,17.228331
+Africa,Madagascar,MG,-18.766947,46.869107
+Africa,Malawi,MW,-13.254308,34.301525
+Africa,Mali,ML,17.570692,-3.996166
+Africa,Mauritania,MR,21.00789,-10.940835
+Africa,Mauritius,MU,-20.348404,57.552152
+Africa,Morocco,MA,31.791702,-7.09262
+Africa,Mozambique,MZ,-18.665695,35.529562
+Africa,Namibia,NAM,-22.95764,18.49041
+Africa,Niger,NE,17.607789,8.081666
+Africa,Nigeria,NG,9.081999,8.675277
+Africa,Rwanda,RW,-1.940278,29.873888
+Africa,Sao Tome and Principe,ST,0.18636,6.613081
+Africa,Senegal,SN,14.497401,-14.452362
+Africa,Seychelles,SC,-4.679574,55.491977
+Africa,Sierra Leone,SL,8.460555,-11.779889
+Africa,Somalia,SO,5.152149,46.199616
+Africa,South Africa,ZA,-30.559482,22.937506
+Africa,South Sudan,SS,6.877,31.307
+Africa,Sudan,SD,12.862807,30.217636
+Africa,Swaziland,SZ,-26.522503,31.465866
+Africa,Tanzania,TZ,-6.369028,34.888822
+Africa,Togo,TG,8.619543,0.824782
+Africa,Tunisia,TN,33.886917,9.537499
+Africa,Uganda,UG,1.373333,32.290275
+Africa,Zambia,ZM,-13.133897,27.849332
+Africa,Zimbabwe,ZW,-19.015438,29.154857
+Asia,Afghanistan,AF,33.93911,67.709953
+Asia,Bahrain,BH,25.930414,50.637772
+Asia,Bangladesh,BD,23.684994,90.356331
+Asia,Bhutan,BT,27.514162,90.433601
+Asia,Brunei,BN,4.535277,114.727669
+Asia,Burma (Myanmar),NA,NA,NA
+Asia,Cambodia,KH,12.565679,104.990963
+Asia,China,CN,35.86166,104.195397
+Asia,East Timor,NA,NA,NA
+Asia,India,IN,20.593684,78.96288
+Asia,Indonesia,ID,-0.789275,113.921327
+Asia,Iran,IR,32.427908,53.688046
+Asia,Iraq,IQ,33.223191,43.679291
+Asia,Israel,IL,31.046051,34.851612
+Asia,Japan,JP,36.204824,138.252924
+Asia,Jordan,JO,30.585164,36.238414
+Asia,Kazakhstan,KZ,48.019573,66.923684
+Asia,"Korea, North",NA,NA,NA
+Asia,"Korea, South",NA,NA,NA
+Asia,Kuwait,KW,29.31166,47.481766
+Asia,Kyrgyzstan,KG,41.20438,74.766098
+Asia,Laos,LA,19.85627,102.495496
+Asia,Lebanon,LB,33.854721,35.862285
+Asia,Malaysia,MY,4.210484,101.975766
+Asia,Maldives,MV,3.202778,73.22068
+Asia,Mongolia,MN,46.862496,103.846656
+Asia,Nepal,NP,28.394857,84.124008
+Asia,Oman,OM,21.512583,55.923255
+Asia,Pakistan,PK,30.375321,69.345116
+Asia,Philippines,PH,12.879721,121.774017
+Asia,Qatar,QA,25.354826,51.183884
+Asia,Russian Federation,NA,NA,NA
+Asia,Saudi Arabia,SA,23.885942,45.079162
+Asia,Singapore,SG,1.352083,103.819836
+Asia,Sri Lanka,LK,7.873054,80.771797
+Asia,Syria,SY,34.802075,38.996815
+Asia,Tajikistan,TJ,38.861034,71.276093
+Asia,Thailand,TH,15.870032,100.992541
+Asia,Turkey,TR,38.963745,35.243322
+Asia,Turkmenistan,TM,38.969719,59.556278
+Asia,United Arab Emirates,AE,23.424076,53.847818
+Asia,Uzbekistan,UZ,41.377491,64.585262
+Asia,Vietnam,VN,14.058324,108.277199
+Asia,Yemen,YE,15.552727,48.516388
+Europe,Albania,AL,41.153332,20.168331
+Europe,Andorra,AD,42.546245,1.601554
+Europe,Armenia,AM,40.069099,45.038189
+Europe,Austria,AT,47.516231,14.550072
+Europe,Azerbaijan,AZ,40.143105,47.576927
+Europe,Belarus,BY,53.709807,27.953389
+Europe,Belgium,BE,50.503887,4.469936
+Europe,Bosnia and Herzegovina,BA,43.915886,17.679076
+Europe,Bulgaria,BG,42.733883,25.48583
+Europe,Croatia,HR,45.1,15.2
+Europe,Cyprus,CY,35.126413,33.429859
+Europe,CZ,NA,NA,NA
+Europe,Denmark,DK,56.26392,9.501785
+Europe,Estonia,EE,58.595272,25.013607
+Europe,Finland,FI,61.92411,25.748151
+Europe,France,FR,46.227638,2.213749
+Europe,Georgia,GE,42.315407,43.356892
+Europe,Germany,DE,51.165691,10.451526
+Europe,Greece,GR,39.074208,21.824312
+Europe,Hungary,HU,47.162494,19.503304
+Europe,Iceland,IS,64.963051,-19.020835
+Europe,Ireland,IE,53.41291,-8.24389
+Europe,Italy,IT,41.87194,12.56738
+Europe,Latvia,LV,56.879635,24.603189
+Europe,Liechtenstein,LI,47.166,9.555373
+Europe,Lithuania,LT,55.169438,23.881275
+Europe,Luxembourg,LU,49.815273,6.129583
+Europe,Macedonia,NA,NA,NA
+Europe,Malta,MT,35.937496,14.375416
+Europe,Moldova,MD,47.411631,28.369885
+Europe,Monaco,MC,43.750298,7.412841
+Europe,Montenegro,ME,42.708678,19.37439
+Europe,Netherlands,NL,52.132633,5.291266
+Europe,Norway,NO,60.472024,8.468946
+Europe,Poland,PL,51.919438,19.145136
+Europe,Portugal,PT,39.399872,-8.224454
+Europe,Romania,RO,45.943161,24.96676
+Europe,San Marino,SM,43.94236,12.457777
+Europe,Serbia,RS,44.016521,21.005859
+Europe,Slovakia,SK,48.669026,19.699024
+Europe,Slovenia,SI,46.151241,14.995463
+Europe,Spain,ES,40.463667,-3.74922
+Europe,Sweden,SE,60.128161,18.643501
+Europe,Switzerland,CH,46.818188,8.227512
+Europe,Ukraine,UA,48.379433,31.16558
+Europe,United Kingdom,GB,55.378051,-3.435973
+Europe,Vatican City,VA,41.902916,12.453389
+North America,Antigua and Barbuda,AG,17.060816,-61.796428
+North America,Bahamas,BS,25.03428,-77.39628
+North America,Barbados,BB,13.193887,-59.543198
+North America,Belize,BZ,17.189877,-88.49765
+North America,Canada,CA,56.130366,-106.346771
+North America,Costa Rica,CR,9.748917,-83.753428
+North America,Cuba,CU,21.521757,-77.781167
+North America,Dominica,DM,15.414999,-61.370976
+North America,Dominican Republic,DO,18.735693,-70.162651
+North America,El Salvador,SV,13.794185,-88.89653
+North America,Grenada,GD,12.262776,-61.604171
+North America,Guatemala,GT,15.783471,-90.230759
+North America,Haiti,HT,18.971187,-72.285215
+North America,Honduras,HN,15.199999,-86.241905
+North America,Jamaica,JM,18.109581,-77.297508
+North America,Mexico,MX,23.634501,-102.552784
+North America,Nicaragua,NI,12.865416,-85.207229
+North America,Panama,PA,8.537981,-80.782127
+North America,Saint Kitts and Nevis,KN,17.357822,-62.782998
+North America,Saint Lucia,LC,13.909444,-60.978893
+North America,Saint Vincent and the Grenadines,VC,12.984305,-61.287228
+North America,Trinidad and Tobago,TT,10.691803,-61.222503
+North America,US,NA,NA,NA
+Oceania,Australia,AU,-25.274398,133.775136
+Oceania,Fiji,FJ,-16.578193,179.414413
+Oceania,Kiribati,KI,-3.370417,-168.734039
+Oceania,Marshall Islands,MH,7.131474,171.184478
+Oceania,Micronesia,FM,7.425554,150.550812
+Oceania,Nauru,NR,-0.522778,166.931503
+Oceania,New Zealand,NZ,-40.900557,174.885971
+Oceania,Palau,PW,7.51498,134.58252
+Oceania,Papua New Guinea,PG,-6.314993,143.95555
+Oceania,Samoa,WS,-13.759029,-172.104629
+Oceania,Solomon Islands,SB,-9.64571,160.156194
+Oceania,Tonga,TO,-21.178986,-175.198242
+Oceania,Tuvalu,TV,-7.109535,177.64933
+Oceania,Vanuatu,VU,-15.376706,166.959158
+South America,Argentina,AR,-38.416097,-63.616672
+South America,Bolivia,BO,-16.290154,-63.588653
+South America,Brazil,BR,-14.235004,-51.92528
+South America,Chile,CL,-35.675147,-71.542969
+South America,Colombia,CO,4.570868,-74.297333
+South America,Ecuador,EC,-1.831239,-78.183406
+South America,Guyana,GY,4.860416,-58.93018
+South America,Paraguay,PY,-23.442503,-58.443832
+South America,Peru,PE,-9.189967,-75.015152
+South America,Suriname,SR,3.919305,-56.027783
+South America,Uruguay,UY,-32.522779,-55.765835
+South America,Venezuela,VE,6.42375,-66.58973
