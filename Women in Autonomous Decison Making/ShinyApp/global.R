@@ -1,5 +1,5 @@
 library(tidyverse, quietly=TRUE)
-
+library(maps)
 
     #  ----- Data Importation, Cleaning, Manipulation, and Selection -----
 
@@ -85,9 +85,8 @@ africa_map <- map_data("world", region=africa_countries$Country)
 # --------- Defining Labels to use for Women, Business, and Law Map -------
 
 country_labels <- africa_countries %>%
-  left_join(plot_indicators, by=c("Country"="region")) %>%
+  left_join(africa_map, by=c("Country"="region"))%>%
   distinct(Country, .keep_all=TRUE) %>%
-  select(-c("long", "lat", "year", "indicator", "score", "Continent")) %>%
+  select(-c("long", "lat", "Continent")) %>%
   mutate(across(c(country_code), factor)) %>%
-  rename(lat=latitude, long=longitude)
-
+  rename(lat=latitude, long=longitude, region=Country)
