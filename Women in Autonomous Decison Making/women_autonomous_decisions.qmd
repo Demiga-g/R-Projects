@@ -184,10 +184,8 @@ ggplot(plot_response, aes(x=long, y=lat, group=group))+
 ```
 
 ```{r}
-country_labels <- africa_countries %>%
-  left_join(africa_map, by=c("Country"="region"))%>%
-  distinct(Country, .keep_all=TRUE) %>%
-  select(-c("long", "lat", "Continent")) %>%
-  mutate(across(c(country_code), factor)) %>%
-  rename(lat=latitude, long=longitude, region=Country)
+(country_labels %>%
+  filter(country_code == "DZ") %>%
+  select(region))[[1]]
 ```
+
