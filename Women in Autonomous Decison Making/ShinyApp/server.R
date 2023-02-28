@@ -71,7 +71,7 @@ function(input, output, session) {
     region_name()
   })
   
-  output$region_name1 <- renderText({
+  output$region_name2 <- renderText({
     region_name()
   })
 }
