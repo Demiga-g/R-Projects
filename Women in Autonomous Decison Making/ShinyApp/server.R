@@ -33,13 +33,16 @@ function(input, output, session) {
                      {unique(input$indicators)}, 
                      " Indicator Score, ", {unique(input$wbl_years)}))+
       country_labs()
-  }, res=90) %>% bindCache(plot_wbl())
+  }, res=94) %>% bindCache(plot_wbl())
     
   
   
   # Gender Equality Plot
-  select_ge <- reactive({equality %>% filter(year==input$ge_years, 
-                                             opinion==input$opinions)})
+  select_ge <- reactive({
+    equality %>% filter(year==input$ge_years,
+                        opinion==input$opinions)}) %>%
+    bindCache(input$ge_years, input$opinions)
+  
   plot_ge <- reactive({africa_map %>% left_join(select_ge(), by=c("region"))})
   output$ge_map <- renderPlot({
     ggplot(plot_ge(), aes(x=long, y=lat, group=group))+
@@ -56,5 +59,19 @@ function(input, output, session) {
                         " the same way as a man, ",
                         {unique(input$ge_years)}))+
       country_labs()
-  }, res=90) %>% bindCache(plot_ge())
+  }, res=94) %>% bindCache(plot_ge())
+  
+  region_name <- reactive({
+    reg_name <- (country_labels %>%
+       filter(country_code == input$region_code) %>%
+       select(region))[[1]]
+  })
+  
+  output$region_name1 <- renderText({
+    region_name()
+  })
+  
+  output$region_name1 <- renderText({
+    region_name()
+  })
 }
