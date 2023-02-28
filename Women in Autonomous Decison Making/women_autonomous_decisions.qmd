@@ -182,3 +182,7 @@ ggplot(plot_response, aes(x=long, y=lat, group=group))+
 
 #ggsave("plots/live.png", bg="white", width=8)
 ```
+
+```{r}
+country_labels
+```

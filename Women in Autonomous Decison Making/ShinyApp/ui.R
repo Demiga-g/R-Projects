@@ -1,6 +1,6 @@
 library(shiny)
 library(shinydashboard)
-
+library(shinycssloaders)
 
 dashboardPage(
   dashboardHeader(
@@ -32,7 +32,7 @@ dashboardPage(
                    h4("Placeholder tab1"), 
                    p("eionewqroen")),
           tabPanel(title="Visualization", icon=icon("globe"), value="map_1",
-                   fluidRow(column(12, plotOutput("wbl_map", height=590, width=1000))
+                   fluidRow(column(12, withSpinner(plotOutput("wbl_map", height=590, width=1000)))
                    )
                    
           )
@@ -45,7 +45,7 @@ dashboardPage(
           id="tab_2", width=12,
           tabPanel(title="About", icon=icon("info-circle"), h4("Placeholder tab1")),
           tabPanel(title="Visualization", icon=icon("globe"), value="map_2",
-                   fluidRow(column(12, plotOutput("ge_map", height=590, width=1000))
+                   fluidRow(column(12, withSpinner(plotOutput("ge_map", height=590, width=1000)))
                   )
           )
         )

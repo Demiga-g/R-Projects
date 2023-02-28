@@ -4,7 +4,7 @@ function(input, output, session) {
   # Women, Business, and Law Plot
   select_wbl <- reactive({biz_law %>% filter(year==input$wbl_years, indicator == input$indicators)})
   plot_wbl <- reactive({africa_map %>% left_join(select_wbl(), by=c("region"))})
-  wbl_labels <- reactive({ggrepel::geom_label_repel(aes(label= country_code), data=country_labels, 
+  country_labs <- reactive({ggrepel::geom_label_repel(aes(label= country_code), data=country_labels, 
                                                     size=2.5, max.overlaps = 35, label.size=0, 
                                                     arrow=arrow(length=unit(0.006, 'cm')))})
   output$wbl_map <- renderPlot({
@@ -25,7 +25,7 @@ function(input, output, session) {
         title=paste0("Women, Business and the Law: ", 
                      {unique(input$indicators)}, 
                      " Indicator Score, ", {unique(input$wbl_years)}))+
-      wbl_labels()
+      country_labs()
   }, res=90)
   
   
@@ -48,8 +48,6 @@ function(input, output, session) {
       labs(title=paste0("A woman can ", {unique(input$opinions)}, 
                         " the same way as a man, ",
                         {unique(input$ge_years)}))+
-      ggrepel::geom_label_repel(aes(label= country_code), data=country_labels, 
-                                size=2.5, max.overlaps = 35, label.size=0, 
-                                arrow=arrow(length=unit(0.006, 'cm')))
+      country_labs()
   }, res=90)
 }

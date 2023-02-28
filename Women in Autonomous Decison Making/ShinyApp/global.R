@@ -88,16 +88,7 @@ country_labels <- africa_countries %>%
   left_join(plot_indicators, by=c("Country"="region")) %>%
   distinct(Country, .keep_all=TRUE) %>%
   select(-c("long", "lat", "year", "indicator", "score", "Continent")) %>%
-  rename(lat=latitude, long=longitude)
-
-
-
-# --------- Defining Labels to use for the Gender Equality Map --------- 
-
-country_labels <- africa_countries %>%
-  left_join(plot_response, by=c("Country"="region")) %>%
-  distinct(Country, .keep_all=TRUE) %>%
-  select(-c("long", "lat", "Continent", "year", "opinion", "response")) %>%
+  mutate(across(c(country_code), factor)) %>%
   rename(lat=latitude, long=longitude)
 
 
