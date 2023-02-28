@@ -2,12 +2,19 @@
 function(input, output, session) {
   
   # Women, Business, and Law Plot
-  select_wbl <- reactive({biz_law %>% filter(year==input$wbl_years, 
-                                             indicator == input$indicators)}) 
-  plot_wbl <- reactive({africa_map %>% left_join(select_wbl(), by=c("region"))}) 
-  country_labs <- reactive({ggrepel::geom_label_repel(aes(label= country_code), data=country_labels, 
-                                                    size=2.5, max.overlaps = 35, label.size=0, 
-                                                    arrow=arrow(length=unit(0.006, 'cm')))}) 
+  select_wbl <- reactive({
+    biz_law %>% filter(year==input$wbl_years,
+                       indicator == input$indicators)}) %>%
+    bindCache(input$wbl_years, input$indicators)
+  
+  plot_wbl <- reactive({
+    africa_map %>% left_join(select_wbl(), by=c("region"))}) 
+  
+  country_labs <- reactive({
+    ggrepel::geom_label_repel(aes(label=country_code), data=country_labels,
+                              size=2.5, max.overlaps = 35, label.size=0,
+                              arrow=arrow(length=unit(0.006, 'cm')))})
+  
   output$wbl_map <- renderPlot({
     ggplot(plot_wbl(), aes(x=long, y=lat, group=group))+
       coord_equal()+
@@ -26,7 +33,7 @@ function(input, output, session) {
                      {unique(input$indicators)}, 
                      " Indicator Score, ", {unique(input$wbl_years)}))+
       country_labs()
-  }, res=90) %>% bindCache(plot_wbl(), Sys.Date())
+  }, res=90) %>% bindCache(plot_wbl())
     
   
   
