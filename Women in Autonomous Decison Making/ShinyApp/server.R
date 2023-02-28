@@ -8,8 +8,7 @@ function(input, output, session) {
                                                     size=2.5, max.overlaps = 35, label.size=0, 
                                                     arrow=arrow(length=unit(0.006, 'cm')))})
   output$wbl_map <- renderPlot({
-    plot_wbl() %>%
-      ggplot(aes(x=long, y=lat, group=group))+
+    ggplot(plot_wbl(), aes(x=long, y=lat, group=group))+
       coord_equal()+
       geom_polygon(aes(fill=score), color="#ffefdb")+
       scale_fill_continuous(name=paste0(unique(input$indicators), 
@@ -34,8 +33,7 @@ function(input, output, session) {
                                              opinion==input$opinions)})
   plot_ge <- reactive({africa_map %>% left_join(select_ge(), by=c("region"))})
   output$ge_map <- renderPlot({
-    plot_ge() %>%
-      ggplot(aes(x=long, y=lat, group=group))+
+    ggplot(plot_ge(), aes(x=long, y=lat, group=group))+
       coord_equal()+
       geom_polygon(aes(fill=response), color="#ffefdb")+
       theme_map()+
