@@ -28,9 +28,18 @@ dashboardPage(
         tabName="WBL", 
         tabBox(
           id="tab_1", width=12,
-          tabPanel(title="About", icon=icon("info-circle"), 
-                   h4("Placeholder tab1"), 
-                   p("eionewqroen")),
+          tabPanel(title="About", icon=icon("info-circle"),
+                   fluidRow(
+                     column(10, infoBoxOutput("dev_rel1", width = 12)),
+                     column(2)
+                   ),
+                   fluidRow(
+                     column(2),
+                     column(10, infoBoxOutput("con_meth1", width = 12)),
+                   ),
+                   infoBoxOutput("lim_exc1", width=12)
+                   
+          ),
           tabPanel(title="Visualization", icon=icon("globe"), value="map_1",
                    fluidRow(column(10, withSpinner(plotOutput("wbl_map", height=520, width=1000))),
                             column(2, textInput("region_code", label="Region Code", placeholder="DZ"),
