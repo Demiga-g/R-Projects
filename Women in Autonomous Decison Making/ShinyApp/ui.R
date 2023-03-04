@@ -69,11 +69,32 @@ dashboardPage(
           ),
           tabPanel(title="Limitations and Exceptions", icon=icon("exclamation-circle"),
                    fluidRow(
-                     column(12, p("The Women, Business and the Law methodology has limitations that should be considered when interpreting the data. All eight indicators are based on standardized assumptions to ensure comparability across economies. Comparability is one of the strengths of the data, but the assumptions can also be limitations as they may not capture all restrictions or represent all particularities in a country."))
+                     column(12, p("The Women, Business and the Law methodology has limitations that should be considered when interpreting the data. All eight indicators are based on standardized assumptions to ensure comparability across economies. Comparability is one of the strengths of the data, but the assumptions can also be limitations as they may not capture all restrictions or represent all particularities in a country.",
+                                  style="background-color:papayawhip;border-left:8px solid coral;border-top:1px solid black;border-bottom:1px solid black;border-right: 1px solid black"))
                    ),
-                   fluidRow(
-                     
-                   )
+                   tags$style(
+                     HTML(".tabbable > .nav > li[class=active]    > a {background-color: #BFF7BB; color:black}")
+                   ),
+                   tabsetPanel(
+                     tabPanel(title="Assumptions Regarding Females",
+                              fluidRow(
+                                column(12, infoBoxOutput("lim_exp1", width=12))
+                              ),
+                     ),
+                     tabPanel(title="Assumptions Regarding Countries Law",
+                              fluidRow(
+                                column(12, infoBoxOutput("lim_exp2",  width=12))
+                              ),
+                     ),
+                     tags$style(
+                       HTML(".tabbable > li[class=active]    > a {background-color: #ff6341; color:black}")
+                     ),
+                     tabPanel(title="Verdict", 
+                              fluidRow(
+                                column(12, infoBoxOutput("lim_exp3", width=12))
+                              )
+                     )
+                   ),
           )
         )
       ),

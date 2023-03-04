@@ -39,7 +39,7 @@ function(input, output, session) {
   
   output$con_meth3 <- renderInfoBox({
     infoBox(title=h4("Data Validation"), icon=icon("check"),
-            subtitle = "The Women, Business and the Law team collects the texts of these codified sources of national law - constitutions, codes, laws, statutes, rules, regulations, and procedures - and checks questionnaire responses for accuracy.", 
+            subtitle = p("The Women, Business and the Law team collects the texts of these codified sources of national law - constitutions, codes, laws, statutes, rules, regulations, and procedures - and checks questionnaire responses for accuracy."), 
             fill=TRUE, color="light-blue")
   })
   
@@ -51,9 +51,32 @@ function(input, output, session) {
             fill=TRUE, color="olive")
   })
   
+  output$lim_exp1 <- renderInfoBox({
+    infoBox(title="Assumptions Regarding Females", icon=icon("gavel"), fill=TRUE, color="olive",
+            subtitle=HTML("<ul><li>It is assumed that the woman resides in the economy's main business city of the economy. In federal economies, laws affecting women can vary by state or province. Even in nonfederal economies, women in rural areas and small towns could face more restrictive local legislation. Such restrictions are not captured by Women, Business and the Law unless they are also found in the main business city.</li> 
+                   <li>The woman has reached the legal age of majority and is capable of making decisions as an adult, is in good health and has no criminal record.</li>
+                   <li>She is a lawful citizen of the economy being examined, and she works as a cashier in the food retail sector in a supermarket or grocery store that has 60 employees.</li> 
+                   <li>She is a cisgender, heterosexual woman in a monogamous first marriage registered with the appropriate authorities (de facto marriages and customary unions are not measured).</li>
+                   <li>She is of the same religion as her husband, and is in a marriage under the rules of the default marital property regime, or the most common regime for that jurisdiction, which will not change during the course of the marriage.</li> 
+                   <li>She is not a member of a union, unless membership is mandatory.Membership is considered mandatory when collective bargaining agreements cover more than 50 percent of the workforce in the food retail sector and when they apply to individuals who were not party to the original collective bargaining agreement.</li>
+                   </ul>"))
+  })
   
+  output$lim_exp2 <- renderInfoBox({
+    infoBox(title="Assumptions Regarding Countries Law", icon=icon("gavel"), fill=TRUE, color="green",
+            subtitle=HTML("<ul>
+                   <li>Where personal law prescribes different rights and obligations for different groups of women, the data focus on the most populous group, which may mean that restrictions that apply only to minority populations are missed.</li>
+                   <li>Women, Business and the Law focuses solely on the ways in which the formal legal and regulatory environment determines whether women can work or open their own businesses.</li>
+                   <li>The data set is constructed using laws and regulations that are codified (de jure) and currently in force, therefore implementation of laws (de facto) is not measured.</li>
+                   <li>The data looks only at laws that apply to the private sector. These assumptions can limit the representativeness of the data for the entire population in each country.</li> 
+                   <li>Finally, Women, Business and the Law recognizes that the laws it measures do not apply to all women in the same way. Women face intersectional forms of discrimination based on gender, sex, sexuality, race, gender identity, religion, family status, ethnicity, nationality, disability, and a myriad of other grounds.</li>
+                   </ul>"))
+  })
   
-  
+  output$lim_exp3 <- renderInfoBox({
+    infoBox(title=h4("Verdict"), icon=icon("gavel"), fill=TRUE, color="red",
+            subtitle=p("Women, Business and the Law therefore encourages readers to interpret the data in conjunction with other available research."))
+  })
   
   # Women, Business, and Law Plot
   select_wbl <- reactive({
