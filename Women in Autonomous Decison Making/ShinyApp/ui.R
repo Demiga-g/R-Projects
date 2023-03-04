@@ -36,8 +36,7 @@ dashboardPage(
                    fluidRow(
                      column(1),
                      column(11, infoBoxOutput("con_meth1", width = 12)),
-                   ),
-                   infoBoxOutput("lim_exc1", width=12)
+                   )
                    
           ),
           tabPanel(title="Visualization", icon=icon("globe"), value="map_1",
@@ -50,7 +49,7 @@ dashboardPage(
           tabPanel(title="Limitations and Exceptions", icon=icon("exclamation-circle"),
                    fluidRow(
                      box(
-                       width = 12, title="Limitations and Exceptions", collapsible=TRUE, collapsed = TRUE,
+                       width = 12, title="Limitations and Exceptions", collapsible=TRUE, status="primary", collapsed = TRUE,
                        HTML("<p>The Women, Business and the Law methodology has limitations that should be considered when interpreting the data.</p>
                    <ul> 
                    <li>All eight indicators are based on standardized assumptions to ensure comparability across economies. Comparability is one of the strengths of the data, but the assumptions can also be limitations as they may not capture all restrictions or represent all particularities in a country.</li>
@@ -70,14 +69,7 @@ dashboardPage(
                    </ul>
                   <p>Women, Business and the Law therefore encourages readers to interpret the data in conjunction with other available research.</p>")
                      )
-                   ),
-                   fluidRow(
-                     box(title="Source", collapsible=TRUE, collapsed=TRUE, 
-                         HTML("<p>World Bank: Women, Business and the Law.</p> <a href=https://wbl.worldbank.org/>")
-                       
-                     )
                    )
-            
           )
         )
       ),
