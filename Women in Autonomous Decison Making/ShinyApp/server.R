@@ -52,7 +52,7 @@ function(input, output, session) {
   })
   
   output$lim_exp1 <- renderInfoBox({
-    infoBox(title="Assumptions Regarding Females", icon=icon("gavel"), fill=TRUE, color="olive",
+    infoBox(title=h4("Assumptions Regarding Females"), icon=icon("quote-left"), fill=TRUE, color="olive",
             subtitle=HTML("<ul><li>It is assumed that the woman resides in the economy's main business city of the economy. In federal economies, laws affecting women can vary by state or province. Even in nonfederal economies, women in rural areas and small towns could face more restrictive local legislation. Such restrictions are not captured by Women, Business and the Law unless they are also found in the main business city.</li> 
                    <li>The woman has reached the legal age of majority and is capable of making decisions as an adult, is in good health and has no criminal record.</li>
                    <li>She is a lawful citizen of the economy being examined, and she works as a cashier in the food retail sector in a supermarket or grocery store that has 60 employees.</li> 
@@ -63,7 +63,7 @@ function(input, output, session) {
   })
   
   output$lim_exp2 <- renderInfoBox({
-    infoBox(title="Assumptions Regarding Countries Law", icon=icon("gavel"), fill=TRUE, color="green",
+    infoBox(title=h4("Assumptions Regarding the Law"), icon=icon("quote-left"), fill=TRUE, color="green",
             subtitle=HTML("<ul>
                    <li>Where personal law prescribes different rights and obligations for different groups of women, the data focus on the most populous group, which may mean that restrictions that apply only to minority populations are missed.</li>
                    <li>Women, Business and the Law focuses solely on the ways in which the formal legal and regulatory environment determines whether women can work or open their own businesses.</li>
@@ -74,7 +74,7 @@ function(input, output, session) {
   })
   
   output$lim_exp3 <- renderInfoBox({
-    infoBox(title=h4("Verdict"), icon=icon("gavel"), fill=TRUE, color="red",
+    infoBox(title=h4("Verdict"), icon=icon("gavel"), fill=TRUE, color="orange",
             subtitle=p("Women, Business and the Law therefore encourages readers to interpret the data in conjunction with other available research."))
   })
   

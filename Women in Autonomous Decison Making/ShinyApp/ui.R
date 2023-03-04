@@ -81,13 +81,10 @@ dashboardPage(
                                 column(12, infoBoxOutput("lim_exp1", width=12))
                               ),
                      ),
-                     tabPanel(title="Assumptions Regarding Countries Law",
+                     tabPanel(title="Assumptions Regarding the Law",
                               fluidRow(
                                 column(12, infoBoxOutput("lim_exp2",  width=12))
                               ),
-                     ),
-                     tags$style(
-                       HTML(".tabbable > li[class=active]    > a {background-color: #ff6341; color:black}")
                      ),
                      tabPanel(title="Verdict", 
                               fluidRow(
