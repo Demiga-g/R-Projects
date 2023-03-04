@@ -40,8 +40,8 @@ dashboardPage(
                    
           ),
           tabPanel(title="Visualization", icon=icon("globe"), value="map_1",
-                   fluidRow(column(10, withSpinner(plotOutput("wbl_map", height=520, width=1000))),
-                            column(2, textInput("region_code", label="Region Code", placeholder="DZ"),
+                   fluidRow(column(8, withSpinner(plotOutput("wbl_map", height=520, width=800))),
+                            column(4, textInput("region_code", label="Region Code", placeholder="DZ"),
                                    textOutput("region_name1"))
                    )
                    
