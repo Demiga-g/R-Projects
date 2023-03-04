@@ -27,10 +27,12 @@ dashboardPage(
         tabBox(
           id="tab_1", width=12,
           tabPanel(title="About", icon=icon("info-circle"),
+                   br(),
                    fluidRow(
                      column(6, infoBoxOutput("dev_rel1", width = 12)),
                      column(6, infoBoxOutput("dev_rel2", width = 12))
                    ),
+                   br(),
                    fluidRow(
                      column(6, infoBoxOutput("dev_rel3", width=12)),
                      column(6, infoBoxOutput("dev_rel4", width = 12)),
@@ -50,7 +52,20 @@ dashboardPage(
           ),
           tabPanel(
             title="Statistical Concept and Methodology", icon=icon("lightbulb"),
-            column(6, infoBoxOutput("con_meth1"))
+            fluidRow(
+              br(),
+              column(6, infoBoxOutput("con_meth1", width=12)),
+              column(6, infoBoxOutput("con_meth2", width=12))
+            ),
+            fluidRow(
+              column(2),
+              column(8, infoBoxOutput("con_meth3", width=12)),
+            ),
+            fluidRow(
+              column(1),
+              column(11, infoBoxOutput("con_meth4", width=12))
+            )
+            
           ),
           tabPanel(title="Limitations and Exceptions", icon=icon("exclamation-circle"),
                    fluidRow(

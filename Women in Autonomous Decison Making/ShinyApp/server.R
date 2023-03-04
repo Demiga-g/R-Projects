@@ -2,34 +2,56 @@
 function(input, output, session) {
   
   output$dev_rel1 <- renderInfoBox({
-    infoBox(title="Relevance of Analysis", icon=icon("line-chart"),
-            subtitle = "The knowledge and analysis provided by Women, Business and the Law make a strong economic case for laws that empower women.",
-            fill=FALSE)
+    infoBox(title=h4("Relevance of Analysis"), icon=icon("line-chart"),
+            subtitle = "Women, Business and the Law tracks progress toward legal equality between men and women in the 54 African economies. The knowledge and analysis provided by this data make a strong economic case for laws that empower women.",
+            fill=TRUE, color="light-blue")
   })
   
   output$dev_rel2 <- renderInfoBox({
-    infoBox(title="Performance Outcome", icon=icon("level-up"),
+    infoBox(title=h4("Performance Outcome"), icon=icon("level-up"),
             subtitle = "Better performance in the areas measured by the Women, Business and the Law index is associated with more women in the labor force and with higher income and improved development outcomes.",
-            fill=FALSE)
+            fill=TRUE, color="fuchsia")
   })
   
   output$dev_rel3 <- renderInfoBox({
-    infoBox(title="Importance of Equality",  icon=icon("balance-scale"),
+    infoBox(title=h4("Importance of Equality"),  icon=icon("venus-mars"),
             subtitle = "Equality before the law and of economic opportunity are not only wise social policy but also good economic policy. The equal participation of women and men will give every economy a chance to achieve its potential.",
-            fill=FALSE)
+            fill=TRUE, color="orange")
   })
   
   output$dev_rel4 <- renderInfoBox({
-    infoBox(title="Ultimate Goal", icon=icon("bullseye"),
+    infoBox(title=h4("Ultimate Goal"), icon=icon("bullseye"),
             subtitle = "Given the economic significance of women's empowerment, the ultimate goal of Women, Business and the Law is to encourage governments to reform laws that hold women back from working and doing business.",
-            fill=FALSE)
+            fill=TRUE, color="green")
   })
   
   output$con_meth1 <- renderInfoBox({
-    infoBox(title="Statistical Concept and Methodology",
-            subtitle = "Women, Business and the Law tracks progress toward legal equality between men and women in 190 economies. Data are collected with standardized questionnaires to ensure comparability across economies. Questionnaires are administered to over 2,000 respondents with expertise in family, labor, and criminal law, including lawyers, judges, academics, and members of civil society organizations working on gender issues. Respondents provide responses to the questionnaires and references to relevant laws and regulations. The Women, Business and the Law team collects the texts of these codified sources of national law - constitutions, codes, laws, statutes, rules, regulations, and procedures - and checks questionnaire responses for accuracy. Thirty-five data points are scored across eight indicators of four or five binary questions, with each indicator representing a different phase of a woman’s career. Indicator-level scores are obtained by calculating the unweighted average of the questions within that indicator and scaling the result to 100. Overall scores are then calculated by taking the average of each indicator, with 100 representing the highest possible score.", 
-            fill=FALSE)
+    infoBox(title="Data Collection", icon=icon("pencil-square"),
+            subtitle = "Data are collected with standardized questionnaires to ensure comparability across economies. Respondents provide responses to the questionnaires and references to relevant laws and regulations.", 
+            fill=TRUE, color="green")
   })
+  
+  output$con_meth2 <- renderInfoBox({
+    infoBox(title="Respondents", icon=icon("users"),
+            subtitle = "Questionnaires are administered to over 2,000 respondents with expertise in family, labor, and criminal law, including lawyers, judges, academics, and members of civil society organizations working on gender issues.", 
+            fill=TRUE, color="orange")
+  })
+  
+  output$con_meth3 <- renderInfoBox({
+    infoBox(title="Data Validation", icon=icon("check"),
+            subtitle = "The Women, Business and the Law team collects the texts of these codified sources of national law - constitutions, codes, laws, statutes, rules, regulations, and procedures - and checks questionnaire responses for accuracy.", 
+            fill=TRUE, color="light-blue")
+  })
+  
+  output$con_meth4 <- renderInfoBox({
+    infoBox(title="Metrics", icon=icon("balance-scale"),
+            subtitle = HTML("<ul><li>Thirty-five data points are scored across eight indicators of four or five binary questions, with each indicator representing a different phase of a woman’s career.</li>
+                            <li>Indicator-level scores are obtained by calculating the unweighted average of the questions within that indicator and scaling the result to 100.</li>
+                            <li>Overall scores are then calculated by taking the average of each indicator, with 100 representing the highest possible score.</li></ul>"), 
+            fill=TRUE, color="olive")
+  })
+  
+  
   
   
   
