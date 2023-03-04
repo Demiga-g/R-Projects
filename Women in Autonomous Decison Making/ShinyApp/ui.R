@@ -30,12 +30,12 @@ dashboardPage(
           id="tab_1", width=12,
           tabPanel(title="About", icon=icon("info-circle"),
                    fluidRow(
-                     column(10, infoBoxOutput("dev_rel1", width = 12)),
-                     column(2)
+                     column(11, infoBoxOutput("dev_rel1", width = 12)),
+                     column(1)
                    ),
                    fluidRow(
-                     column(2),
-                     column(10, infoBoxOutput("con_meth1", width = 12)),
+                     column(1),
+                     column(11, infoBoxOutput("con_meth1", width = 12)),
                    ),
                    infoBoxOutput("lim_exc1", width=12)
                    
