@@ -49,7 +49,7 @@ dashboardPage(
                    
           ),
           tabPanel(
-            title="Statistical Concept and Methodology", icon=icon("lightbulb-o"),
+            title="Statistical Concept and Methodology", icon=icon("lightbulb"),
             column(6, infoBoxOutput("con_meth1"))
           ),
           tabPanel(title="Limitations and Exceptions", icon=icon("exclamation-circle"),

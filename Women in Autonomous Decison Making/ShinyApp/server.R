@@ -2,8 +2,26 @@
 function(input, output, session) {
   
   output$dev_rel1 <- renderInfoBox({
-    infoBox(title="Development Relevance", 
-            subtitle = "The knowledge and analysis provided by Women, Business and the Law make a strong economic case for laws that empower women. Better performance in the areas measured by the Women, Business and the Law index is associated with more women in the labor force and with higher income and improved development outcomes. Equality before the law and of economic opportunity are not only wise social policy but also good economic policy. The equal participation of women and men will give every economy a chance to achieve its potential. Given the economic significance of women's empowerment, the ultimate goal of Women, Business and the Law is to encourage governments to reform laws that hold women back from working and doing business.",
+    infoBox(title="Relevance of Analysis", icon=icon("line-chart"),
+            subtitle = "The knowledge and analysis provided by Women, Business and the Law make a strong economic case for laws that empower women.",
+            fill=FALSE)
+  })
+  
+  output$dev_rel2 <- renderInfoBox({
+    infoBox(title="Performance Outcome", icon=icon("level-up"),
+            subtitle = "Better performance in the areas measured by the Women, Business and the Law index is associated with more women in the labor force and with higher income and improved development outcomes.",
+            fill=FALSE)
+  })
+  
+  output$dev_rel3 <- renderInfoBox({
+    infoBox(title="Importance of Equality",  icon=icon("balance-scale"),
+            subtitle = "Equality before the law and of economic opportunity are not only wise social policy but also good economic policy. The equal participation of women and men will give every economy a chance to achieve its potential.",
+            fill=FALSE)
+  })
+  
+  output$dev_rel4 <- renderInfoBox({
+    infoBox(title="Ultimate Goal", icon=icon("bullseye"),
+            subtitle = "Given the economic significance of women's empowerment, the ultimate goal of Women, Business and the Law is to encourage governments to reform laws that hold women back from working and doing business.",
             fill=FALSE)
   })
   
