@@ -8,7 +8,7 @@ function(input, output, session) {
   })
   
   output$dev_rel2 <- renderInfoBox({
-    infoBox(title=h4("Performance Outcome"), icon=icon("level-up"),
+    infoBox(title=h4("Performance Outcome"), icon=icon("thumbs-up", lib = "glyphicon"),
             subtitle = "Better performance in the areas measured by the Women, Business and the Law index is associated with more women in the labor force and with higher income and improved development outcomes.",
             fill=TRUE, color="fuchsia")
   })
@@ -44,7 +44,7 @@ function(input, output, session) {
   })
   
   output$con_meth4 <- renderInfoBox({
-    infoBox(title=h4("Metrics"), icon=icon("balance-scale"),
+    infoBox(title=h4("Metrics"), icon=icon("ruler"),
             subtitle = HTML("<ul><li>Thirty-five data points are scored across eight indicators of four or five binary questions, with each indicator representing a different phase of a woman’s career.</li>
                             <li>Indicator-level scores are obtained by calculating the unweighted average of the questions within that indicator and scaling the result to 100.</li>
                             <li>Overall scores are then calculated by taking the average of each indicator, with 100 representing the highest possible score.</li></ul>"), 
