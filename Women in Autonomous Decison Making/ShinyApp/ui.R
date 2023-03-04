@@ -14,8 +14,6 @@ dashboardPage(
     sidebarMenu(
       id = "sidebar",
       menuItem(text="Women, Business, and Law", tabName="WBL", icon=icon("female")),
-      conditionalPanel("input.sidebar == 'WBL' && input.tab_1 == 'map_1'", selectInput("indicators", label="Indicator", choices=wbl_inds)),
-      conditionalPanel("input.sidebar == 'WBL' && input.tab_1 == 'map_1'", selectInput("wbl_years", label="Year", choices=wbl_yrs)),
       menuItem(text="Gender Equality", tabName="GE", icon=icon("balance-scale")),
       conditionalPanel("input.sidebar == 'GE' && input.tab_2 == 'map_2'", selectInput("opinions", label="Opinion", choices=ge_ops)),
       conditionalPanel("input.sidebar == 'GE' && input.tab_2 == 'map_2'", selectInput("ge_years", label="Year", choices=ge_yrs))
@@ -30,21 +28,29 @@ dashboardPage(
           id="tab_1", width=12,
           tabPanel(title="About", icon=icon("info-circle"),
                    fluidRow(
-                     column(11, infoBoxOutput("dev_rel1", width = 12)),
-                     column(1)
+                     column(6, infoBoxOutput("dev_rel1", width = 12)),
+                     column(6, infoBoxOutput("dev_rel2", width = 12))
                    ),
                    fluidRow(
-                     column(1),
-                     column(11, infoBoxOutput("con_meth1", width = 12)),
+                     column(6, infoBoxOutput("dev_rel3", width=12)),
+                     column(6, infoBoxOutput("dev_rel4", width = 12)),
                    )
                    
           ),
           tabPanel(title="Visualization", icon=icon("globe"), value="map_1",
-                   fluidRow(column(8, withSpinner(plotOutput("wbl_map", height=520, width=800))),
+                   fluidRow(
+                     column(4, selectInput("indicators", label="Select an Indicator", choices=wbl_inds)),
+                     column(4, selectInput("wbl_years", label="Select a Year", choices=wbl_yrs)),
+                   ),
+                   fluidRow(column(8, withSpinner(plotOutput("wbl_map", height=520, width=820))),
                             column(4, textInput("region_code", label="Region Code", placeholder="DZ"),
                                    textOutput("region_name1"))
                    )
                    
+          ),
+          tabPanel(
+            title="Statistical Concept and Methodology", icon=icon("lightbulb-o"),
+            column(6, infoBoxOutput("con_meth1"))
           ),
           tabPanel(title="Limitations and Exceptions", icon=icon("exclamation-circle"),
                    fluidRow(

@@ -247,3 +247,19 @@ colnames(women_vs_men) <- c("region", "code", paste0("Q_", 1:15))
 women_vs_men[, ] <- lapply(women_vs_men[,], factor)
 
 females_wider[, c(100, 99, 94, 95)]
+
+
+
+# Shiny Rough Work
+
+#dashboardSidebar(
+#  sidebarMenu(
+#    id = "sidebar",
+#    menuItem(text="Women, Business, and Law", tabName="WBL", icon=icon("female")),
+#    conditionalPanel("input.sidebar == 'WBL' && input.tab_1 == 'map_1'", selectInput("indicators", label="Indicator", choices=wbl_inds)),
+#   conditionalPanel("input.sidebar == 'WBL' && input.tab_1 == 'map_1'", selectInput("wbl_years", label="Year", choices=wbl_yrs)),
+#    menuItem(text="Gender Equality", tabName="GE", icon=icon("balance-scale")),
+#    conditionalPanel("input.sidebar == 'GE' && input.tab_2 == 'map_2'", selectInput("opinions", label="Opinion", choices=ge_ops)),
+#    conditionalPanel("input.sidebar == 'GE' && input.tab_2 == 'map_2'", selectInput("ge_years", label="Year", choices=ge_yrs))
+#  )
+#),
