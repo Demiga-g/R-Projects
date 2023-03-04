@@ -26,25 +26,25 @@ function(input, output, session) {
   })
   
   output$con_meth1 <- renderInfoBox({
-    infoBox(title="Data Collection", icon=icon("pencil-square"),
+    infoBox(title=h4("Data Collection"), icon=icon("pencil-square"),
             subtitle = "Data are collected with standardized questionnaires to ensure comparability across economies. Respondents provide responses to the questionnaires and references to relevant laws and regulations.", 
             fill=TRUE, color="green")
   })
   
   output$con_meth2 <- renderInfoBox({
-    infoBox(title="Respondents", icon=icon("users"),
+    infoBox(title=h4("Respondents"), icon=icon("users"),
             subtitle = "Questionnaires are administered to over 2,000 respondents with expertise in family, labor, and criminal law, including lawyers, judges, academics, and members of civil society organizations working on gender issues.", 
             fill=TRUE, color="orange")
   })
   
   output$con_meth3 <- renderInfoBox({
-    infoBox(title="Data Validation", icon=icon("check"),
+    infoBox(title=h4("Data Validation"), icon=icon("check"),
             subtitle = "The Women, Business and the Law team collects the texts of these codified sources of national law - constitutions, codes, laws, statutes, rules, regulations, and procedures - and checks questionnaire responses for accuracy.", 
             fill=TRUE, color="light-blue")
   })
   
   output$con_meth4 <- renderInfoBox({
-    infoBox(title="Metrics", icon=icon("balance-scale"),
+    infoBox(title=h4("Metrics"), icon=icon("balance-scale"),
             subtitle = HTML("<ul><li>Thirty-five data points are scored across eight indicators of four or five binary questions, with each indicator representing a different phase of a woman’s career.</li>
                             <li>Indicator-level scores are obtained by calculating the unweighted average of the questions within that indicator and scaling the result to 100.</li>
                             <li>Overall scores are then calculated by taking the average of each indicator, with 100 representing the highest possible score.</li></ul>"), 
