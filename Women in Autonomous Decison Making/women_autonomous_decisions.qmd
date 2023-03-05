@@ -228,6 +228,15 @@ ggplot(plot_response, aes(x=long, y=lat, group=group))+
 ```
 
 ```{r}
-runExample("0")
+meta_info <- read.csv("Metadata - equality_business_law.csv")
+
+(meta_info %>%
+  filter(Short.Name == "Assets") %>%
+  select(Long.definition))[[1]]
+
+
+(country_labels %>%
+       filter(country_code == "DZ") %>%
+       select(region))[[1]]
 ```
 
