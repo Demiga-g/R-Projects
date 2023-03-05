@@ -26,7 +26,7 @@ dashboardPage(
         tabName="WBL", 
         tabBox(
           id="tab_1", width=12,
-          tabPanel(title="About", icon=icon("info-circle"),
+          tabPanel(title="About", icon=icon("lightbulb"),
                    br(),
                    
                    fluidRow(
@@ -52,7 +52,7 @@ dashboardPage(
                    
           ),
           
-          tabPanel(title="Visualization", icon=icon("globe"), value="map_1", 
+          tabPanel(title="Visualization", icon=icon("earth-africa"), value="map_1", 
                    tabsetPanel(header = tags$style(
                      HTML(".tabbable > .nav > li[class=active]    > a {background-color: #BFF7BB; color:black}")
                    ),
@@ -93,29 +93,39 @@ dashboardPage(
           ),
           
           tabPanel(
-            title="Statistical Concept and Methodology", icon=icon("lightbulb"),
+            title="Statistical Concept and Methodology", icon=icon("magnifying-glass-chart"),
             fluidRow(
               br(),
               column(3),
-              column(9, infoBoxOutput("con_meth1", width=12)),
+              column(9, style="background-color:lightblue;border-radius:10px",
+                     h4(p(icon("database",lib = "font-awesome"), strong(" Data Collection"),style="text-align:center")),
+                     p("Data are collected with standardized questionnaires to ensure comparability across economies. Respondents provide responses to the questionnaires and references to relevant laws and regulations.")),
             ),
             fluidRow(
               column(2),
-              column(10, infoBoxOutput("con_meth2", width=12)),
+              column(10, style="background-color:#a3ffa9;border-radius:10px",
+                     h4(p(icon("book-open-reader",lib = "font-awesome"), strong(" Respondents"),style="text-align:center")),
+                     p("Questionnaires are administered to over 2,000 respondents with expertise in family, labor, and criminal law, including lawyers, judges, academics, and members of civil society organizations working on gender issues.")),
             ),
             fluidRow(
               column(1),
-              column(11, infoBoxOutput("con_meth3", width=12))
+              column(11, style="background-color:#b2ebfe;border-radius:10px",
+                     h4(p(icon("filter",lib = "font-awesome"), strong(" Data Validation"),style="text-align:center")),
+                     p("The Women, Business and the Law team collects the texts of these codified sources of national law - constitutions, codes, laws, statutes, rules, regulations, and procedures - and checks questionnaire responses for accuracy."))
             ),
             fluidRow(
-              column(12, infoBoxOutput("con_meth4", width=12))
+              column(12, style="background-color:#f8ff25;border-radius:10px",
+                     h4(p(icon("scale-unbalanced",lib = "font-awesome"), strong(" Metric"),style="text-align:center")),
+                     HTML("<ul><li>Thirty-five data points are scored across eight indicators of four or five binary questions, with each indicator representing a different phase of a woman’s career.</li>
+                            <li>Indicator-level scores are obtained by calculating the unweighted average of the questions within that indicator and scaling the result to 100.</li>
+                            <li>Overall scores are then calculated by taking the average of each indicator, with 100 representing the highest possible score.</li></ul>"))
             )
             
           ),
-          tabPanel(title="Limitations and Exceptions", icon=icon("exclamation-circle"),
+          tabPanel(title="Limitations and Exceptions", icon=icon("handshake-slash"),
                    fluidRow(
                      column(12, p("The Women, Business and the Law methodology has limitations that should be considered when interpreting the data. All eight indicators are based on standardized assumptions to ensure comparability across economies. Comparability is one of the strengths of the data, but the assumptions can also be limitations as they may not capture all restrictions or represent all particularities in a country.",
-                                  style="background-color:papayawhip;border-left:8px solid coral;border-top:1px solid black;border-bottom:1px solid black;border-right: 1px solid black"))
+                                  style="background-color:papayawhip;border-left:8px solid coral;border-radius:8px"))
                    ),
                    
                    tabsetPanel(
