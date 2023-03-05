@@ -39,7 +39,6 @@ dashboardPage(
                             p("Better performance in the areas measured by the Women, Business and the Law index is associated with more women in the labor force and with higher income and improved development outcomes."),
                      )
                    ),
-                   br(),
                    fluidRow(
                      column(6, style="background-color:orange;border-radius:10px",
                             h4(p(icon("venus-mars", lib = "font-awesome"), strong(" Importance of Equality"),style="text-align:center")), 
@@ -48,7 +47,7 @@ dashboardPage(
                      column(5, style="background-color:#50f2e9;border-radius:10px", offset=1,
                             h4(p(icon("bullseye", lib = "font-awesome"), strong(" Ultimate Goal"),style="text-align:center")), 
                             p("Given the economic significance of women's empowerment, the ultimate goal of Women, Business and the Law is to encourage governments to reform laws that hold women back from working and doing business.")
-                    ),
+                    )
                    )
                    
           ),
@@ -67,7 +66,7 @@ dashboardPage(
                            br(),
                            fluidRow(
                              strong("Summary Info"),
-                             column(12, textOutput("wbl_explainer"), style="background-color:#fde725;border-radius: 10px;height:100px;overflow-y: scroll;")
+                             column(12, textOutput("wbl_explainer"), style="background-color:lightgreen;border-radius: 10px;height:100px;overflow-y: scroll;")
                            )
                          ),
                          mainPanel(withSpinner(plotOutput("wbl_map", height=550, width=800)), style="height:350px;overflow-y: scroll;")
@@ -84,7 +83,7 @@ dashboardPage(
                                   br(),
                                   fluidRow(
                                     strong("Summary Info"),
-                                    column(12, textOutput("ge_explainer"), style="background-color:#fde725;border-radius: 10px;height:100px;overflow-y: scroll;")
+                                    column(12, textOutput("ge_explainer"), style="background-color:#c9f0ff;border-radius: 10px;height:100px;overflow-y: scroll;")
                                   )
                                 ),
                                 mainPanel(withSpinner(plotOutput("ge_map", height=550, width=820)), style="height:490px;overflow-y: scroll;")
