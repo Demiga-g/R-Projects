@@ -11,8 +11,8 @@ dashboardPage(
     tags$li(class="dropdown", tags$a(href="https://github.com/Demiga-g/R-Projects/tree/main/Women%20in%20Autonomous%20Decison%20Making", icon("github"), "Source Code", target="_blank")),
     tags$li(class="dropdown", tags$a(href="https://www.linkedin.com/in/george-midega-44b3741ab/", icon("linkedin"), "My Profile", target="_blank"))
   ),
-  
-  dashboardSidebar(
+
+  dashboardSidebar(disable=TRUE,
     sidebarMenu(
       id = "sidebar",
       menuItem(text="Women, Business, and Law", tabName="WBL", icon=icon("female"))
@@ -20,6 +20,7 @@ dashboardPage(
   ),
   
   dashboardBody(
+    tags$script(HTML("$('body').addClass('fixed');")),
     tabItems(
       tabItem(
         tabName="WBL", 
@@ -40,7 +41,9 @@ dashboardPage(
           ),
           
           tabPanel(title="Visualization", icon=icon("globe"), value="map_1",
-                   tabsetPanel(
+                   tabsetPanel(header = tags$style(
+                     HTML(".tabbable > .nav > li[class=active]    > a {background-color: #BFF7BB; color:black}")
+                   ),
                      tabPanel(title="Women, Business, and the Law",
                        sidebarLayout(
                          sidebarPanel(
@@ -54,7 +57,7 @@ dashboardPage(
                              column(12, textOutput("wbl_explainer"), style="background-color:#fde725;border-radius: 10px")
                            )
                          ),
-                         mainPanel(withSpinner(plotOutput("wbl_map", height=490, width=850)))
+                         mainPanel(withSpinner(plotOutput("wbl_map", height=550, width=820)))
                        )
                      ),
                      
@@ -71,7 +74,7 @@ dashboardPage(
                                     column(12, textOutput("ge_explainer"), style="background-color:#fde725;border-radius: 10px")
                                   )
                                 ),
-                                mainPanel(withSpinner(plotOutput("ge_map", height=490, width=850)))
+                                mainPanel(withSpinner(plotOutput("ge_map", height=550, width=820)))
                               )
                      )
                    )
