@@ -42,7 +42,7 @@ dashboardPage(
           ),
           tabPanel(title="Visualization", icon=icon("globe"), value="map_1",
                    tabsetPanel(
-                     tabPanel(title="WBL",
+                     tabPanel(title="Women, Business, and the Law",
                        sidebarLayout(
                          sidebarPanel(
                            selectInput("indicators", label="Select an Indicator", choices=wbl_inds),
@@ -50,11 +50,11 @@ dashboardPage(
                            textInput("region_code", label="Region Code", placeholder="DZ"),
                            textOutput("region_name1")
                          ),
-                         mainPanel(withSpinner(plotOutput("wbl_map", height=550, width=820)))
+                         mainPanel(withSpinner(plotOutput("wbl_map", height=490, width=850)))
                        )
                      ),
                      
-                     tabPanel(title="GE",
+                     tabPanel(title="Gender Equality",
                               sidebarLayout(
                                 sidebarPanel(
                                   selectInput("opinions", label="Opinion", choices=ge_ops),
@@ -62,7 +62,7 @@ dashboardPage(
                                   textInput("region_code", label="Region Code", placeholder="DZ"),
                                   textOutput("region_name2")
                                 ),
-                                mainPanel(withSpinner(plotOutput("ge_map", height=550, width=820)))
+                                mainPanel(withSpinner(plotOutput("ge_map", height=490, width=850)))
                               )
                      )
                    )
