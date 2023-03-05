@@ -105,7 +105,6 @@ function(input, output, session) {
                               draw.ulim = F, title.position = 'top',
                               title.hjust = 0.5, label.hjust = 0.5))+
       theme_void()+
-      theme(legend.position='bottom')+
       labs(
         title=paste0("Women, Business and the Law: ", 
                      {unique(input$indicators)}, 
