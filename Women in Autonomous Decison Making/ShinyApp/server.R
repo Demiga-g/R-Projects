@@ -1,30 +1,6 @@
 
 function(input, output, session) {
   
-  output$dev_rel1 <- renderInfoBox({
-    infoBox(title=h4("Relevance of Analysis"), icon=icon("line-chart"),
-            subtitle = "Women, Business and the Law tracks progress toward legal equality between men and women in the 54 African economies. The knowledge and analysis provided by this data make a strong economic case for laws that empower women.",
-            fill=TRUE, color="light-blue")
-  })
-  
-  output$dev_rel2 <- renderInfoBox({
-    infoBox(title=h4("Performance Outcome"), icon=icon("thumbs-up", lib = "glyphicon"),
-            subtitle = "Better performance in the areas measured by the Women, Business and the Law index is associated with more women in the labor force and with higher income and improved development outcomes.",
-            fill=TRUE, color="fuchsia")
-  })
-  
-  output$dev_rel3 <- renderInfoBox({
-    infoBox(title=h4("Importance of Equality"),  icon=icon("venus-mars"),
-            subtitle = "Equality before the law and of economic opportunity are not only wise social policy but also good economic policy. The equal participation of women and men will give every economy a chance to achieve its potential.",
-            fill=TRUE, color="orange")
-  })
-  
-  output$dev_rel4 <- renderInfoBox({
-    infoBox(title=h4("Ultimate Goal"), icon=icon("bullseye"),
-            subtitle = "Given the economic significance of women's empowerment, the ultimate goal of Women, Business and the Law is to encourage governments to reform laws that hold women back from working and doing business.",
-            fill=TRUE, color="green")
-  })
-  
   output$con_meth1 <- renderInfoBox({
     infoBox(title=h4("Data Collection"), icon=icon("pencil-square"),
             subtitle = "Data are collected with standardized questionnaires to ensure comparability across economies. Respondents provide responses to the questionnaires and references to relevant laws and regulations.", 
