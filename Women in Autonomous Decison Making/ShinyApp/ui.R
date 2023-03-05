@@ -28,19 +28,32 @@ dashboardPage(
           id="tab_1", width=12,
           tabPanel(title="About", icon=icon("info-circle"),
                    br(),
+                   
                    fluidRow(
-                     column(6, infoBoxOutput("dev_rel1", width = 12)),
-                     column(6, infoBoxOutput("dev_rel2", width = 12))
+                     column(6, style="background-color:lightblue;border-radius:10px",
+                            h4(p(icon("line-chart",lib = "font-awesome"), strong(" Relevance of Analysis"),style="text-align:center")), 
+                            p("Women, Business and the Law tracks progress toward legal equality between men and women in the 54 African economies. The knowledge and analysis provided by this data make a strong economic case for laws that empower women.")),
+                     
+                     column(5, style="background-color:lightgreen;border-radius:10px", offset=1,
+                            h4(p(icon("thumbs-up", lib = "glyphicon"), strong(" Performance Outcome"),style="text-align:center")), 
+                            p("Better performance in the areas measured by the Women, Business and the Law index is associated with more women in the labor force and with higher income and improved development outcomes."),
+                     )
                    ),
                    br(),
                    fluidRow(
-                     column(6, infoBoxOutput("dev_rel3", width=12)),
-                     column(6, infoBoxOutput("dev_rel4", width = 12)),
+                     column(6, style="background-color:orange;border-radius:10px",
+                            h4(p(icon("venus-mars", lib = "font-awesome"), strong(" Importance of Equality"),style="text-align:center")), 
+                            p("Equality before the law and of economic opportunity are not only wise social policy but also good economic policy. The equal participation of women and men will give every economy a chance to achieve its potential.")
+                     ),
+                     column(5, style="background-color:#50f2e9;border-radius:10px", offset=1,
+                            h4(p(icon("bullseye", lib = "font-awesome"), strong(" Ultimate Goal"),style="text-align:center")), 
+                            p("Given the economic significance of women's empowerment, the ultimate goal of Women, Business and the Law is to encourage governments to reform laws that hold women back from working and doing business.")
+                    ),
                    )
                    
           ),
           
-          tabPanel(title="Visualization", icon=icon("globe"), value="map_1",
+          tabPanel(title="Visualization", icon=icon("globe"), value="map_1", 
                    tabsetPanel(header = tags$style(
                      HTML(".tabbable > .nav > li[class=active]    > a {background-color: #BFF7BB; color:black}")
                    ),
@@ -54,10 +67,10 @@ dashboardPage(
                            br(),
                            fluidRow(
                              strong("Summary Info"),
-                             column(12, textOutput("wbl_explainer"), style="background-color:#fde725;border-radius: 10px")
+                             column(12, textOutput("wbl_explainer"), style="background-color:#fde725;border-radius: 10px;height:100px;overflow-y: scroll;")
                            )
                          ),
-                         mainPanel(withSpinner(plotOutput("wbl_map", height=550, width=820)))
+                         mainPanel(withSpinner(plotOutput("wbl_map", height=550, width=800)), style="height:350px;overflow-y: scroll;")
                        )
                      ),
                      
@@ -71,10 +84,10 @@ dashboardPage(
                                   br(),
                                   fluidRow(
                                     strong("Summary Info"),
-                                    column(12, textOutput("ge_explainer"), style="background-color:#fde725;border-radius: 10px")
+                                    column(12, textOutput("ge_explainer"), style="background-color:#fde725;border-radius: 10px;height:100px;overflow-y: scroll;")
                                   )
                                 ),
-                                mainPanel(withSpinner(plotOutput("ge_map", height=550, width=820)))
+                                mainPanel(withSpinner(plotOutput("ge_map", height=550, width=820)), style="height:490px;overflow-y: scroll;")
                               )
                      )
                    )
