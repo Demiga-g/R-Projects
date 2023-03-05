@@ -38,9 +38,7 @@ dashboardPage(
                    )
                    
           ),
-          tags$style(
-            HTML(".tabbable > .nav > li[class=active]    > a {background-color: #BFF7BB; color:black}")
-          ),
+          
           tabPanel(title="Visualization", icon=icon("globe"), value="map_1",
                    tabsetPanel(
                      tabPanel(title="Women, Business, and the Law",
