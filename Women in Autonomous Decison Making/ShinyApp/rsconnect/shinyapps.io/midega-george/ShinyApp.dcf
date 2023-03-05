@@ -1,0 +1,13 @@
+name: ShinyApp
+title: ShinyApp
+username:
+account: midega-george
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 8480358
+bundleId: 6917677
+url: https://midega.shinyapps.io/ShinyApp/
+when: 1678020731.90635
+lastSyncTime: 1678020731.9064
+asMultiple: FALSE
+asStatic: FALSE
