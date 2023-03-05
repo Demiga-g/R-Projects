@@ -1,32 +1,6 @@
 
 function(input, output, session) {
   
-  output$con_meth1 <- renderInfoBox({
-    infoBox(title=h4("Data Collection"), icon=icon("pencil-square"),
-            subtitle = "Data are collected with standardized questionnaires to ensure comparability across economies. Respondents provide responses to the questionnaires and references to relevant laws and regulations.", 
-            fill=TRUE, color="green")
-  })
-  
-  output$con_meth2 <- renderInfoBox({
-    infoBox(title=h4("Respondents"), icon=icon("users"),
-            subtitle = "Questionnaires are administered to over 2,000 respondents with expertise in family, labor, and criminal law, including lawyers, judges, academics, and members of civil society organizations working on gender issues.", 
-            fill=TRUE, color="orange")
-  })
-  
-  output$con_meth3 <- renderInfoBox({
-    infoBox(title=h4("Data Validation"), icon=icon("check"),
-            subtitle = p("The Women, Business and the Law team collects the texts of these codified sources of national law - constitutions, codes, laws, statutes, rules, regulations, and procedures - and checks questionnaire responses for accuracy."), 
-            fill=TRUE, color="light-blue")
-  })
-  
-  output$con_meth4 <- renderInfoBox({
-    infoBox(title=h4("Metrics"), icon=icon("ruler"),
-            subtitle = HTML("<ul><li>Thirty-five data points are scored across eight indicators of four or five binary questions, with each indicator representing a different phase of a woman’s career.</li>
-                            <li>Indicator-level scores are obtained by calculating the unweighted average of the questions within that indicator and scaling the result to 100.</li>
-                            <li>Overall scores are then calculated by taking the average of each indicator, with 100 representing the highest possible score.</li></ul>"), 
-            fill=TRUE, color="olive")
-  })
-  
   output$lim_exp1 <- renderInfoBox({
     infoBox(title=h4("Assumptions Regarding Females"), icon=icon("quote-left"), fill=TRUE, color="olive",
             subtitle=HTML("<ul><li>It is assumed that the woman resides in the economy's main business city of the economy. In federal economies, laws affecting women can vary by state or province. Even in nonfederal economies, women in rural areas and small towns could face more restrictive local legislation. Such restrictions are not captured by Women, Business and the Law unless they are also found in the main business city.</li> 
