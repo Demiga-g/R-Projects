@@ -1,12 +1,13 @@
 library(shiny)
 library(shinydashboard)
 library(shinycssloaders)
+library(shinythemes)
+
 
 dashboardPage(
   dashboardHeader(
-    
     title = "Gender Statistics", 
-    titleWidth=700,
+    titleWidth=250,
     tags$li(class="dropdown", tags$a(href="https://github.com/Demiga-g/R-Projects/tree/main/Women%20in%20Autonomous%20Decison%20Making", icon("github"), "Source Code", target="_blank")),
     tags$li(class="dropdown", tags$a(href="https://www.linkedin.com/in/george-midega-44b3741ab/", icon("linkedin"), "My Profile", target="_blank"))
   ),
@@ -48,7 +49,12 @@ dashboardPage(
                            selectInput("indicators", label="Select an Indicator", choices=wbl_inds),
                            selectInput("wbl_years", label="Select a Year", choices=wbl_yrs),
                            textInput("region_code", label="Region Code", placeholder="DZ"),
-                           textOutput("region_name1")
+                           textOutput("region_name1"),
+                           br(),
+                           fluidRow(
+                             strong("Summary Info"),
+                             column(12, textOutput("wbl_explainer"), style="background-color:#fde725;border-radius: 10px")
+                           )
                          ),
                          mainPanel(withSpinner(plotOutput("wbl_map", height=490, width=850)))
                        )
@@ -60,7 +66,12 @@ dashboardPage(
                                   selectInput("opinions", label="Opinion", choices=ge_ops),
                                   selectInput("ge_years", label="Year", choices=ge_yrs),
                                   textInput("region_code", label="Region Code", placeholder="DZ"),
-                                  textOutput("region_name2")
+                                  textOutput("region_name2"),
+                                  br(),
+                                  fluidRow(
+                                    strong("Summary Info"),
+                                    column(12, textOutput("ge_explainer"), style="background-color:#fde725;border-radius: 10px")
+                                  )
                                 ),
                                 mainPanel(withSpinner(plotOutput("ge_map", height=490, width=850)))
                               )

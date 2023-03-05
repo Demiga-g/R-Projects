@@ -90,3 +90,8 @@ country_labels <- africa_countries %>%
   select(-c("long", "lat", "Continent")) %>%
   mutate(across(c(country_code), factor)) %>%
   rename(lat=latitude, long=longitude, region=Country)
+
+
+# ------ Loading the Metadata file -----------
+
+meta_info <- read.csv("Metadata - equality_business_law.csv")

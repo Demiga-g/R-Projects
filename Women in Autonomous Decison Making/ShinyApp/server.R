@@ -152,4 +152,24 @@ function(input, output, session) {
   output$region_name2 <- renderText({
     region_name()
   })
+  
+  ind_details <- reactive({
+    ind_means <- (meta_info %>%
+       filter(Short.Name == input$indicators) %>%
+       select(Long.definition))[[1]]
+  })
+  
+  output$wbl_explainer <- renderText({
+    ind_details()
+  })
+  
+  op_details <- reactive({
+    op_means <- (meta_info %>%
+       filter(Short.Name == input$opinions) %>%
+       select(Long.definition))[[1]]
+  })
+  
+  output$ge_explainer <- renderText({
+    op_details()
+  })
 }
