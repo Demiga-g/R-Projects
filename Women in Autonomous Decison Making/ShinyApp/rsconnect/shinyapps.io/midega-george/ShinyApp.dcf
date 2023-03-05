@@ -5,9 +5,9 @@ account: midega-george
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 8480358
-bundleId: 6917677
+bundleId: 6918463
 url: https://midega.shinyapps.io/ShinyApp/
-when: 1678020731.90635
-lastSyncTime: 1678020731.9064
+when: 1678047442.89035
+lastSyncTime: 1678047442.8904
 asMultiple: FALSE
 asStatic: FALSE
