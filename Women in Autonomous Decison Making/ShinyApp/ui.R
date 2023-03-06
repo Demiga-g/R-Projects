@@ -63,7 +63,7 @@ dashboardPage(
                    sidebarPanel(
                      selectInput("indicators", label="Select an Indicator", choices=wbl_inds),
                      selectInput("wbl_years", label="Select a Year", choices=wbl_yrs),
-                     textInput("region_code", label="Region Code", placeholder="DZ"),
+                     textInput("region_code1", label="Check the region", placeholder="Insert region code (e.g., DZ)"),
                      textOutput("region_name1"),
                      br(),
                      fluidRow(
@@ -71,7 +71,7 @@ dashboardPage(
                        column(12, textOutput("wbl_explainer"), style="background-color:lightgreen;border-radius: 10px;height:100px;overflow-y: scroll;")
                      )
                    ),
-                   mainPanel(withSpinner(plotOutput("wbl_map", height=600, width=700)), style="width:600px;overflow-x: scroll;")
+                   mainPanel(withSpinner(plotOutput("wbl_map", height=550, width=800)), style="width:600px;overflow-x: scroll;")
                  )
         ),
         
@@ -80,7 +80,7 @@ dashboardPage(
                    sidebarPanel(
                      selectInput("opinions", label="Opinion", choices=ge_ops),
                      selectInput("ge_years", label="Year", choices=ge_yrs),
-                     textInput("region_code", label="Region Code", placeholder="DZ"),
+                     textInput("region_code2", label="Check the region", placeholder="Insert region code (e.g., DZ)"),
                      textOutput("region_name2"),
                      br(),
                      fluidRow(
@@ -88,7 +88,7 @@ dashboardPage(
                        column(12, textOutput("ge_explainer"), style="background-color:#c9f0ff;border-radius: 10px;height:100px;overflow-y: scroll;")
                      )
                    ),
-                   mainPanel(withSpinner(plotOutput("ge_map", height=550, width=820)), style="height:490px;overflow-y: scroll;")
+                   mainPanel(withSpinner(plotOutput("ge_map", height=550, width=800)), style="width:600px;overflow-x: scroll;")
                  )
         )
         )
