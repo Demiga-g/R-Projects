@@ -66,19 +66,25 @@ function(input, output, session) {
       country_labs()
   }, res=94) %>% bindCache(plot_ge())
   
-  region_name <- reactive({
-    reg_name <- (country_labels %>%
-       filter(country_code == input$region_code) %>%
-       select(region))[[1]]
-  })
+  # Region code identification
   
   output$region_name1 <- renderText({
-    region_name()
-  })
+    (country_labels %>%
+       filter(country_code == str_to_lower(input$region_code1) | 
+                country_code == str_to_upper(input$region_code1) | 
+                country_code == str_to_sentence(input$region_code1) | 
+                country_code == str_to_title(input$region_code1)) %>%
+       select(region))[[1]]
+    })
   
   output$region_name2 <- renderText({
-    region_name()
-  })
+    (country_labels %>%
+       filter(country_code == str_to_lower(input$region_code2) | 
+                country_code == str_to_upper(input$region_code2) | 
+                country_code == str_to_sentence(input$region_code2) | 
+                country_code == str_to_title(input$region_code2)) %>%
+       select(region))[[1]]
+    })
   
   ind_details <- reactive({
     ind_means <- (meta_info %>%
