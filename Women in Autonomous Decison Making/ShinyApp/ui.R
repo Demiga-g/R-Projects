@@ -12,14 +12,15 @@ dashboardPage(
     tags$li(class="dropdown", tags$a(href="https://www.linkedin.com/in/george-midega-44b3741ab/", icon("linkedin"), "My Profile", target="_blank"))
   ),
 
-  dashboardSidebar(disable=TRUE,
+  dashboardSidebar(disable=FALSE, 
     sidebarMenu(
       id = "sidebar",
-      menuItem(text="Women, Business, and Law", tabName="WBL", icon=icon("female"))
+      menuItem(text=strong(" About "), tabName="about", icon=icon("lightbulb")),
     )
   ),
   
   dashboardBody(
+    style = "position:relative; overflow:invisible; overflow-y:scroll",
     tags$script(HTML("$('body').addClass('fixed');")),
     tabItems(
       tabItem(
@@ -71,7 +72,7 @@ dashboardPage(
                              column(12, textOutput("wbl_explainer"), style="background-color:lightgreen;border-radius: 10px;height:100px;overflow-y: scroll;")
                            )
                          ),
-                         mainPanel(withSpinner(plotOutput("wbl_map", height=550, width=800)), style="height:350px;overflow-y: scroll;")
+                         mainPanel(withSpinner(plotOutput("wbl_map", height=600, width=700)), style="width:600px;overflow-x: scroll;")
                        )
                      ),
                      
