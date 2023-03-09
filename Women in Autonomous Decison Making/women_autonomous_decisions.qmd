@@ -9,6 +9,14 @@ fig-height: 8
 fig-asp: 1.5
 ---
 
+Welcome. This interactive website details the African countries' perspective on gender equality in terms of business and the law. The data used to generate the visualizations was obtained from the Gender Statistic database hosted in the World Bank databank. 
+
+Considering that I hail from Kenya, I decided to get a detailed outlook on t progress of African countries regarding gender equality when it comes to doing business and the law. There are a lot of outcomes that could measure these countries' intervention. However, this website prioritizes outcomes that touch on the norms and decision-making, employment and time use, entrepreneurship, and locus of control. 
+
+There are two datasets used here. If you navigate to the visualization menu, there is the Women, Business, and Law section which uses eight indicators to track progress toward legal equality between men and women. The Gender Equality section provides information about the perception of each African country on some fourteen indicators. Both datasets have data collected from 1960 to 2021. I hope you enjoy your interaction.
+
+
+
 # Development Relevance
 
 The knowledge and analysis provided by Women, Business and the Law make a strong economic case for laws that empower women. Better performance in the areas measured by the Women, Business and the Law index is associated with more women in the labor force and with higher income and improved development outcomes. Equality before the law and of economic opportunity are not only wise social policy but also good economic policy. The equal participation of women and men will give every economy a chance to achieve its potential. Given the economic significance of women's empowerment, the ultimate goal of Women, Business and the Law is to encourage governments to reform laws that hold women back from working and doing business.
