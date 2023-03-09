@@ -18,7 +18,16 @@ dashboardPage(
       menuItem(text="About", tabName="about", icon=icon("lightbulb")),
       menuItem(text="Visualization", tabName="viz", icon=icon("earth-africa")),
       menuItem(text="Statistical Concept and Methodology", tabName="scm", icon=icon("magnifying-glass-chart")),
-      menuItem(text="Limitations and Exceptions", tabName="lim_excep", icon=icon("handshake-slash"))
+      menuItem(text="Limitations and Exceptions", tabName="lim_excep", icon=icon("handshake-slash")),
+      br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(), br(),
+      
+      HTML(paste0(
+        "<script>",
+        "var today = new Date();",
+        "var yyyy = today.getFullYear();",
+        "</script>",
+        "<p style = 'text-align: center;'><small>&copy; - <a href='https://github.com/Demiga-g/R-Projects/tree/main/Women%20in%20Autonomous%20Decison%20Making' target='_blank'>midegageorge</a> - <script>document.write(yyyy);</script></small></p>")
+      )
       
     )
   ),
@@ -29,8 +38,17 @@ dashboardPage(
     tabItems(
       tabItem(
         tabName="about",
-        br(),
-        
+        fluidRow(
+          column(1),
+          column(10, HTML("<h2 style='font-family:Charcoal, sans-serif; font-size: 3em; text-align: center; margin-bottom: 10px;'>Welcome!</h2><p>  
+                         This interactive website details the African countries' perspective on gender equality in terms of business and the law.</p>
+                         <p>Here, a detailed outlook on the progress of African countries regarding gender equality when it comes to doing business and the law is examined. 
+                         Considering that here are a lot of outcomes that could measure these countries' intervention, for this website priority is given to outcomes that touch on the norms and decision-making, employment and time use, entrepreneurship, and locus of control. </p>")),
+          column(1)
+        ),
+        fluidRow(
+          column(12, h2(style='font-family:Charcoal, sans-serif; font-size: 2.5em; text-align: center; margin-bottom: 10px;', "Development Relevance"))
+        ),
         fluidRow(
           br(),
           column(5, style="background-color:lightblue;border-radius:10px", offset=1,
@@ -52,6 +70,17 @@ dashboardPage(
                  h4(p(icon("bullseye", lib = "font-awesome"), strong(" Ultimate Goal"),style="text-align:center")), 
                  p("Given the economic significance of women's empowerment, the ultimate goal of Women, Business and the Law is to encourage governments to reform laws that hold women back from working and doing business.")
           )
+        ),
+        br(),
+        fluidRow(
+          h2(style='font-family:Charcoal, sans-serif; font-size: 2.5em; text-align: center; margin-bottom: 10px;', "Datasets"),
+          column(1),
+          column(10, HTML("The data used to generate the visualizations was obtained from the Gender Statistic database hosted in the <a href='https://wbl.worldbank.org/' target='_blank'>World Bank databank</a>. 
+                         The data from the <strong>Women, Business, and Law</strong> section uses eight indicators to track progress toward legal equality between men and women. 
+                         The data from the <strong>Gender Equality</strong> section provides information about the perception of each African country on some fourteen indicators. 
+                         Both datasets have data collected from 1960 to 2021. 
+                         I hope you enjoy your interaction.")),
+          column(1)
         )
         
       ),
