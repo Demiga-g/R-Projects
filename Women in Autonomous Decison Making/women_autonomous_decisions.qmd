@@ -9,11 +9,13 @@ fig-height: 8
 fig-asp: 1.5
 ---
 
-Welcome. This interactive website details the African countries' perspective on gender equality in terms of business and the law. The data used to generate the visualizations was obtained from the Gender Statistic database hosted in the World Bank databank. 
+Welcome. 
 
-Considering that I hail from Kenya, I decided to get a detailed outlook on t progress of African countries regarding gender equality when it comes to doing business and the law. There are a lot of outcomes that could measure these countries' intervention. However, this website prioritizes outcomes that touch on the norms and decision-making, employment and time use, entrepreneurship, and locus of control. 
+This interactive website details the African countries' perspective on gender equality in terms of business and the law. The data used to generate the visualizations was obtained from the Gender Statistic database hosted in the World Bank databank. 
 
-There are two datasets used here. If you navigate to the visualization menu, there is the Women, Business, and Law section which uses eight indicators to track progress toward legal equality between men and women. The Gender Equality section provides information about the perception of each African country on some fourteen indicators. Both datasets have data collected from 1960 to 2021. I hope you enjoy your interaction.
+This website gives a detailed outlook on the progress of African countries regarding gender equality when it comes to doing business and the law. Nonetheless, there are a lot of outcomes that could measure these countries' intervention. For this website priority is given to outcomes that touch on the norms and decision-making, employment and time use, entrepreneurship, and locus of control. 
+
+The data used to generate the visualizations was obtained from the Gender Statistic database hosted in the <a href='https://wbl.worldbank.org/' target='_blank'>World Bank databank</a>. The data from the Women, Business, and Law section uses eight indicators to track progress toward legal equality between men and women. The data from the Gender Equality section provides information about the perception of each African country on some fourteen indicators. Both datasets have data collected from 1960 to 2021. I hope you enjoy your interaction.
 
 
 
